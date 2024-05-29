@@ -187,27 +187,3 @@ create table Factura(
 );
 
 
-drop table CorreoEmpresa;
-drop table Empresa;
-drop table Direccion;
-drop table TipoVia;
-drop table Region;
-drop table Provincia;
-drop table Distrito;
-drop table TelefonoEmpresa;
-drop table CodigoTelefonoPais;
-drop table Almacen;
-drop table Producto;
-drop table Inventario;
-drop table Cliente;
-drop table Negociador;
-drop table TelefonoCliente;
-drop table CorreoCliente;
-drop table TipoMembresia;
-drop table Membresia;
-drop table Pedido;
-drop table FormaPago;
-drop table factura;
-drop table SedeCliente;
-drop table TarjetaCredito;
-drop table ResumenPedido;
