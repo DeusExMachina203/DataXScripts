@@ -1089,15 +1089,15 @@ INSERT INTO Pedido (CostoTotal, IdCliente, IdEmpresa) VALUES
 (280.00, 89, 4),
 (200.00, 90, 5),
 (190.00, 91, 1),
-(270.00, 92, 2),
-(220.00, 93, 3),
-(150.00, 94, 4),
-(230.00, 95, 5),
-(160.00, 96, 1),
-(240.00, 97, 2),
-(140.00, 98, 3),
-(250.00, 99, 4),
-(210.00, 100, 5);
+(1250.00, 92, 2),
+(800.00, 93, 3),
+(1650.00, 94, 4),
+(360.00, 95, 5),
+(4000.00, 96, 1),
+(440.00, 97, 2),
+(4500.00, 98, 3),
+(3750.00, 99, 4),
+(2640.00, 100, 5);
 
 -- Cargar datos en ResumenPedido
 INSERT INTO ResumenPedido (Cantidad, CostoUnitario, NumeroPedido, CodigoProducto) VALUES
