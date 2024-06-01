@@ -27,7 +27,7 @@ create table Distrito(
 create table Direccion(
 	NombreVia varchar(50) not null,
 	Numero varchar(10) not null,
-	Manzana char null,
+	Manzana char(1) null,
 	Unidad varchar(10) null,
 	Lote varchar(10) null,
 
