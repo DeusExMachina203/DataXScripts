@@ -691,3 +691,19 @@ INSERT INTO TarjetaCredito (Numero, FechaVencimiento, CodigoSeguridad, IdCliente
 ('3333444421756666', '2025-10-01', '375', 23),
 ('4424555428667847', '2026-09-01', '446', 24),
 ('2695666677778048', '2027-08-01', '584', 25);
+
+-- Cargar datos en TipoMembresia
+INSERT INTO TipoMembresia (NombreTipoMembresia, Descuento) VALUES
+('Estándar', 0.0),
+('Bronze', 0.03),
+('Silver', 0.05),
+('Gold', 0.1),
+('Platinum', 0.15);
+
+-- Cargar datos en Membresia
+INSERT INTO Membresia (FechaInicio, FechaFinal, IdCliente, IdTipoMembresia) VALUES
+('2024-01-01', '2024-12-31', 1, 2),
+('2024-02-01', '2024-11-30', 2, 3),
+('2024-03-01', '2024-10-31', 3, 4),
+('2024-04-01', '2024-09-30', 4, 5),
+('2024-05-01', '2024-08-31', 5, 1);
