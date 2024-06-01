@@ -93,9 +93,34 @@ INSERT INTO Direccion (NombreVia, Numero, Manzana, Unidad, Lote, IdTipoVia, IdDi
 ('de los Héroes', '6767', 'OOO', '67', '670', 17, 17),
 ('Santa Rosa', '6868', 'PPP', '68', '680', 18, 18),
 ('San Martín', '6969', 'QQQ', '69', '690', 19, 19),
-('de los Suspiros', '7070', 'RRR', '70', '700', 20, 20);
+('de los Suspiros', '7070', 'RRR', '70', '700', 20, 20),
+('de la República', '6161', 'XX', '1', '100', 3, 11),
+('San Juan', '6262', 'YY', '2', '200', 4, 12),
+('Los Próceres', '6363', 'ZZ', '3', '300', 5, 13),
+('Buenos Aires', '6464', 'AA', '4', '400', 6, 14),
+('Real', '6565', 'BB', '5', '500', 7, 15),
+('Sol', '6666', 'CC', '6', '600', 8, 16),
+('Miraflores', '6767', 'DD', '7', '700', 9, 17),
+('San Isidro', '6868', 'EE', '8', '800', 10, 18),
+('La Merced', '6969', 'FF', '9', '900', 11, 19),
+('de Armas', '7070', 'GG', '10', '1000', 12, 20),
+('Central', '7171', 'HH', '11', '1100', 13, 21),
+('Lima', '7272', 'II', '12', '1200', 14, 22),
+('Central', '7373', 'JJ', '13', '1300', 15, 23),
+('Arequipa', '7474', 'KK', '14', '1400', 16, 24),
+('Colonial', '7575', 'LL', '15', '1500', 17, 25),
+('Sur', '7676', 'MM', '16', '1600', 18, 1),
+('del Inca', '7777', 'NN', '17', '1700', 19, 2),
+('a la Costa', '7878', 'OO', '18', '1800', 20, 3),
+('Viejo', '7979', 'PP', '19', '1900', 21, 4),
+('Panamericana', '8080', 'QQ', '20', '2000', 22, 5),
+('Norte', '8181', 'RR', '21', '2100', 1, 6),
+('del Prado', '8282', 'SS', '22', '2200', 2, 7),
+('Marítimo', '8383', 'TT', '23', '2300', 3, 8),
+('Central', '8484', 'UU', '24', '2400', 4, 9),
+('Bolívar', '8585', 'VV', '25', '2500', 5, 10);
 
-
+--Cargas datos en empresa
 INSERT INTO Empresa (NombreEmpresa, IdDireccionPrincipal) VALUES
 ('Freaky Frog', 1),
 ('Dooly Doll', 2),
@@ -116,4 +141,87 @@ INSERT INTO Empresa (NombreEmpresa, IdDireccionPrincipal) VALUES
 ('Nexus Dynamics', 17),
 ('BlueWave Enterprises', 18),
 ('Apex Manufacturing', 19),
-('QuantumLeap Technologies', 20)
+('QuantumLeap Technologies', 20),
+('MegaCorp', 21),
+('TechGiant', 22),
+('Innovative Solutions', 23),
+('Global Traders', 24),
+('RetailHub', 25);
+
+-- Cargar datos en CorreoEmpresa
+INSERT INTO CorreoEmpresa (Correo, Descripcion, IdEmpresa) VALUES
+('contacto@freakyfrog.com', 'Correo principal de contacto', 1),
+('info@doolydoll.com', 'Correo principal de información', 2),
+('ventas@instaclothes.com', 'Correo principal de ventas', 3),
+('support@pantyvillage.com', 'Correo principal de soporte', 4),
+('info@exquisitepanty.com', 'Correo principal de información', 5),
+('contact@jump.com', 'Correo principal de contacto', 6),
+('support@ontarget.com', 'Correo principal de soporte', 7),
+('ventas@camisetasontarget.com', 'Correo principal de ventas', 8),
+('info@impresionarcamisetas.com', 'Correo principal de información', 9),
+('contacto@cinnamomoverdressed.com', 'Correo principal de contacto', 10),
+('ventas@gafasnewvision.com', 'Correo principal de ventas', 11),
+('info@tandem.com', 'Correo principal de información', 12),
+('contact@technova.com', 'Correo principal de contacto', 13),
+('info@ecogreenindustries.com', 'Correo principal de información', 14),
+('support@stellarinno.com', 'Correo principal de soporte', 15),
+('contacto@harmonyhealth.com', 'Correo principal de contacto', 16),
+('info@nexusdynamics.com', 'Correo principal de información', 17),
+('ventas@bluewaveenterprises.com', 'Correo principal de ventas', 18),
+('contact@apexmanufacturing.com', 'Correo principal de contacto', 19),
+('support@quantumleaptech.com', 'Correo principal de soporte', 20),
+('info@megacorp.com', 'Correo principal de información', 21),
+('ventas@techgiant.com', 'Correo principal de ventas', 22),
+('contacto@innovativesolutions.com', 'Correo principal de contacto', 23),
+('info@globaltraders.com', 'Correo principal de información', 24),
+('support@retailhub.com', 'Correo principal de soporte', 25);
+
+-- Cargar datos en CodigoTelefonoPais
+INSERT INTO CodigoTelefonoPais (Codigo, NombrePais) VALUES
+('+1', 'Estados Unidos'),
+('+44', 'Reino Unido'),
+('+34', 'España'),
+('+49', 'Alemania'),
+('+33', 'Francia'),
+('+81', 'Japón'),
+('+86', 'China'),
+('+51', 'Perú'),
+('+61', 'Australia'),
+('+55', 'Brasil');
+
+
+
+
+
+
+
+
+
+
+clientes
+
+('EcoFriendly Ltd.', 26),
+('HealthFirst', 27),
+('EduWorld', 28),
+('FastDelivery', 29),
+('Gourmet Foods', 30),
+('SportsGear', 31),
+('Fashionista', 32),
+('AutoParts', 33),
+('HomeGoods', 34),
+('BeautyBliss', 35),
+('TravelAgency', 36),
+('SmartHomes', 37),
+('PetWorld', 38),
+('GreenEnergy', 39),
+('NextGenTech', 40),
+('Foodies', 41),
+('FitnessFirst', 42),
+('BabyCare', 43),
+('Toyland', 44),
+('BookStore', 45),
+('MusicWorld', 46),
+('GardenSupply', 47),
+('OfficePro', 48),
+('ConstructionHub', 49),
+('LuxuryLiving', 50);
