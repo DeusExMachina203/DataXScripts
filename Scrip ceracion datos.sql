@@ -422,8 +422,185 @@ INSERT INTO Producto (NombreProducto, Descripcion, CodigoProducto) VALUES
 ('RetailHub Customer Relationship Management (CRM) Tool', 'Herramienta de gestión de relaciones con los clientes para mejorar la atención al cliente y aumentar las ventas', 'RH-004'),
 ('RetailHub Retail Analytics Dashboard', 'Panel de análisis de datos para visualizar métricas clave y tomar decisiones comerciales informadas', 'RH-005');
 
+-- Cargar datos en Inventario
+INSERT INTO Inventario (Cantidad, IdAlmacen, CodigoProducto) VALUES
 
+-- Freaky Frog
+(100, 1, 'FF-001'),
+(150, 1, 'FF-002'),
+(200, 1, 'FF-003'),
+(120, 1, 'FF-004'),
+(180, 1, 'FF-005'),
 
+-- Dooly Doll
+(90, 2, 'DD-001'),
+(100, 2, 'DD-002'),
+(80, 2, 'DD-003'),
+(110, 2, 'DD-004'),
+(95, 2, 'DD-005'),
+
+-- InstaClothes
+(300, 3, 'IC-001'),
+(250, 3, 'IC-002'),
+(180, 3, 'IC-003'),
+(200, 3, 'IC-004'),
+(220, 3, 'IC-005'),
+
+-- Panty Village
+(150, 4, 'PV-001'),
+(120, 4, 'PV-002'),
+(180, 4, 'PV-003'),
+(200, 4, 'PV-004'),
+(160, 4, 'PV-005'),
+
+-- Exquisite Panty
+(90, 5, 'EP-001'),
+(110, 5, 'EP-002'),
+(85, 5, 'EP-003'),
+(95, 5, 'EP-004'),
+(100, 5, 'EP-005'),
+
+-- Jump
+(400, 6, 'JU-001'),
+(180, 6, 'JU-002'),
+(220, 6, 'JU-003'),
+(300, 6, 'JU-004'),
+(250, 6, 'JU-005'),
+
+-- OnTarget
+(150, 7, 'OT-001'),
+(180, 7, 'OT-002'),
+(200, 7, 'OT-003'),
+(220, 7, 'OT-004'),
+(190, 7, 'OT-005'),
+
+-- Camisetas OnTarget
+(200, 8, 'CT-001'),
+(180, 8, 'CT-002'),
+(220, 8, 'CT-003'),
+(190, 8, 'CT-004'),
+(210, 8, 'CT-005'),
+
+-- Impresionar Camisetas
+(150, 9, 'ICam-001'),
+(170, 9, 'ICam-002'),
+(200, 9, 'ICam-003'),
+(190, 9, 'ICam-004'),
+(180, 9, 'ICam-005'),
+
+-- Cinnamom Overdressed
+(120, 10, 'CO-001'),
+(140, 10, 'CO-002'),
+(130, 10, 'CO-003'),
+(110, 10, 'CO-004'),
+(125, 10, 'CO-005'),
+
+-- Gafas New Vision
+(180, 11, 'GNV-001'),
+(200, 11, 'GNV-002'),
+(220, 11, 'GNV-003'),
+(190, 11, 'GNV-004'),
+(210, 11, 'GNV-005'),
+
+-- Tándem
+(100, 12, 'TD-001'),
+(90, 12, 'TD-002'),
+(80, 12, 'TD-003'),
+(110, 12, 'TD-004'),
+(120, 12, 'TD-005'),
+
+-- TechNova Solutions
+(150, 13, 'TNS-001'),
+(180, 13, 'TNS-002'),
+(200, 13, 'TNS-003'),
+(220, 13, 'TNS-004'),
+(190, 13, 'TNS-005'),
+
+-- EcoGreen Industries
+(120, 14, 'EGI-001'),
+(140, 14, 'EGI-002'),
+(130, 14, 'EGI-003'),
+(110, 14, 'EGI-004'),
+(125, 14, 'EGI-005'),
+
+-- Stellar Innovations
+(160, 15, 'SI-001'),
+(180, 15, 'SI-002'),
+(190, 15, 'SI-003'),
+(200, 15, 'SI-004'),
+(175, 15, 'SI-005'),
+
+-- Harmony Health Group
+(100, 16, 'HHG-001'),
+(90, 16, 'HHG-002'),
+(80, 16, 'HHG-003'),
+(110, 16, 'HHG-004'),
+(120, 16, 'HHG-005'),
+
+-- Nexus Dynamics
+(150, 17, 'ND-001'),
+(120, 17, 'ND-002'),
+(180, 17, 'ND-003'),
+(200, 17, 'ND-004'),
+(160, 17, 'ND-005'),
+
+-- BlueWave Enterprises
+(170, 18, 'BWE-001'),
+(190, 18, 'BWE-002'),
+(200, 18, 'BWE-003'),
+(220, 18, 'BWE-004'),
+(185, 18, 'BWE-005'),
+
+-- Apex Manufacturing
+(200, 19, 'AM-001'),
+(220, 19, 'AM-002'),
+(250, 19, 'AM-003'),
+(180, 19, 'AM-004'),
+(210, 19, 'AM-005'),
+
+-- QuantumLeap Technologies
+(100, 20, 'QLT-001'),
+(120, 20, 'QLT-002'),
+(90, 20, 'QLT-003'),
+(110, 20, 'QLT-004'),
+(130, 20, 'QLT-005'),
+
+-- MegaCorp
+(200, 21, 'MC-001'),
+(180, 21, 'MC-002'),
+(220, 21, 'MC-003'),
+(190, 21, 'MC-004'),
+(210, 21, 'MC-005'),
+
+-- TechGiant
+(150, 22, 'TG-001'),
+(180, 22, 'TG-002'),
+(200, 22, 'TG-003'),
+(220, 22, 'TG-004'),
+(190, 22, 'TG-005'),
+
+-- Innovative Solutions
+(120, 23, 'IS-001'),
+(140, 23, 'IS-002'),
+(130, 23, 'IS-003'),
+(110, 23, 'IS-004'),
+(125, 23, 'IS-005'),
+
+-- Global Traders
+(160, 24, 'GT-004'),
+(180, 24, 'GT-005'),
+(200, 24, 'GT-006'),
+(220, 24, 'GT-007'),
+(185, 24, 'GT-008'),
+
+-- RetailHub
+(200, 25, 'RH-001'),
+(180, 25, 'RH-002'),
+(220, 25, 'RH-003'),
+(190, 25, 'RH-004'),
+(210, 25, 'RH-005');
+
+-- Cargar datos en Cliente
 INSERT INTO Cliente (NombreCliente, RUC, IdDireccionOficial) VALUES 
 ('InnoSol LLC', '20603187233', 26),
 ('STI Ltd.', '20548198292', 27),
