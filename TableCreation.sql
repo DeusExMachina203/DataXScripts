@@ -37,7 +37,7 @@ create table Direccion(
 );
 
 create table Empresa(
-	NombreEmpresa Varchar(30)not null,
+	NombreEmpresa Varchar(100)not null,
 
 	IdEmpresa int primary key identity(1, 1),
 	IdDireccionPrincipal int not null foreign key(IdDireccionPrincipal) references Direccion(IdDireccion)
@@ -74,7 +74,7 @@ create table Almacen(
 );
 
 create table Producto(
-	NombreProducto varchar(20)not null,
+	NombreProducto varchar(100)not null,
 	Descripcion text null,
 
 	CodigoProducto varchar(16) primary key,
@@ -90,7 +90,7 @@ create table Inventario(
 
 create table Cliente(
 	NombreCliente varchar(50) not null,
-	RUC varchar(10) not null,
+	RUC varchar(11) not null,
 
 	IdCliente int primary key identity(1, 1),
 	IdDireccionOficial int not null foreign key(IdDireccionOficial) references Direccion(IdDireccion),
@@ -98,7 +98,7 @@ create table Cliente(
 
 create table Negociador(
 	Nombre varchar(40) not null,
-	Cargo varchar(40) not null,
+	Cargo varchar(100) not null,
 	Descripcion text null,
 	ApellidoPaterno varchar(20) not null,
 	ApellidoMaterno varchar(20) not null,
