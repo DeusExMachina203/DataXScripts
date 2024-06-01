@@ -219,31 +219,208 @@ INSERT INTO TelefonoEmpresa (Telefono, Descripcion, IdEmpresa, IdCodigoPais) VAL
 
 -- Cargar datos en Almacen
 INSERT INTO Almacen (IdDireccion, IdEmpresa) VALUES
-(1, 1),
-(2, 2),
-(3, 3),
-(4, 4),
-(5, 5),
-(6, 6),
-(7, 7),
-(8, 8),
-(9, 9),
-(10, 10),
-(11,11),
-(12,12),
-(13,13),
-(14,14),
-(15,15),
-(16,16),
-(17,17),
-(18,18),
-(19,19),
-(20,20),
-(21,21),
-(22,22),
-(23,23),
-(24,24),
-(25,25);
+(100, 1),
+(102, 2),
+(103, 3),
+(104, 4),
+(105, 5),
+(106, 6),
+(107, 7),
+(108, 8),
+(109, 9),
+(110, 10),
+(111,11),
+(112,12),
+(113,13),
+(114,14),
+(115,15),
+(116,16),
+(117,17),
+(118,18),
+(119,19),
+(120,20),
+(121,21),
+(122,22),
+(123,23),
+(124,24),
+(125,25);
+
+-- Cargar datos en Producto
+INSERT INTO Producto (NombreProducto, Descripcion, CodigoProducto) VALUES
+-- Freaky Frog
+('Froggy Toy', 'Juguete para niños de alta calidad', 'FF-001'),
+('Froggy Backpack', 'Mochila resistente y duradera', 'FF-002'),
+('Froggy Adventure Game', 'Juego de aventuras interactivo', 'FF-003'),
+('Froggy Plushie', 'Peluche suave y adorable de Froggy', 'FF-004'),
+('Froggy Coloring Book', 'Libro para colorear con ilustraciones de Froggy', 'FF-005'),
+
+-- Dooly Doll
+('Dooly Plushie', 'Peluche esponjoso y encantador de Dooly', 'DD-001'),
+('Dooly Storybook', 'Libro de cuentos ilustrado con las aventuras de Dooly', 'DD-002'),
+('Dooly Puzzle Set', 'Set de rompecabezas con imágenes de Dooly', 'DD-003'),
+('Dooly Stationery Kit', 'Kit de papelería con diseño de Dooly', 'DD-004'),
+('Dooly Dollhouse', 'Casa de muñecas con accesorios de Dooly', 'DD-005'),
+
+-- InstaClothes
+('InstaTee', 'Camiseta básica de algodón de alta calidad', 'IC-001'),
+('InstaJeans', 'Jeans clásicos y cómodos para uso diario', 'IC-002'),
+('InstaDress', 'Vestido elegante y versátil para cualquier ocasión', 'IC-003'),
+('InstaHoodie', 'Sudadera con capucha para un estilo casual', 'IC-004'),
+('InstaJacket', 'Chaqueta ligera y moderna para todas las estaciones', 'IC-005'),
+
+-- Panty Village
+('Lace Panties', 'Cómodos y elegantes calzones de encaje', 'PV-001'),
+('Silk Panties', 'Seductores calzones de seda para ocasiones especiales', 'PV-002'),
+('Cotton Briefs', 'Calzoncillos clásicos de algodón para uso diario', 'PV-003'),
+('Seamless Panties', 'Calzones sin costuras para una comodidad total', 'PV-004'),
+('Thong Panties', 'Tangas sexys y atrevidas para sentirse segura', 'PV-005'),
+
+-- Exquisite Panty
+('Satin Robe', 'Bata de satén lujosa y suave para momentos de relajación', 'EP-001'),
+('Silk Chemise', 'Camisón de seda con detalles elegantes y femeninos', 'EP-002'),
+('Lace Babydoll', 'Babydoll de encaje para una noche especial', 'EP-003'),
+('Sheer Teddy', 'Teddy transparente para una seducción sutil', 'EP-004'),
+('Mesh Bodysuit', 'Bodysuit de malla para un look sensual', 'EP-005'),
+
+-- Jump
+('JumpStart Energy Drink', 'Bebida energética para un impulso instantáneo', 'JU-001'),
+('JumpRope Fitness Tracker', 'Dispositivo para contar saltos y rastrear el ejercicio', 'JU-002'),
+('JumpPack Backpack', 'Mochila resistente y funcional para aventuras al aire libre', 'JU-003'),
+('JumpBox Subscription', 'Suscripción mensual para recibir productos sorpresa', 'JU-004'),
+('JumpFit Exercise Mat', 'Tapete de ejercicio acolchado para entrenamientos cómodos', 'JU-005'),
+
+-- OnTarget
+('OnTarget Smartwatch', 'Reloj inteligente con funciones avanzadas de seguimiento', 'OT-001'),
+('OnTarget Fitness Band', 'Banda de fitness para monitorizar la actividad física', 'OT-002'),
+('OnTarget Wireless Earbuds', 'Auriculares inalámbricos para una experiencia auditiva sin cables', 'OT-003'),
+('OnTarget Portable Charger', 'Cargador portátil para mantener tus dispositivos siempre cargados', 'OT-004'),
+('OnTarget Laptop Sleeve', 'Funda acolchada para proteger tu laptop mientras viajas', 'OT-005'),
+
+-- Camisetas OnTarget
+('Graphic Tee', 'Camiseta con estampado gráfico llamativo', 'CT-001'),
+('Vintage Tee', 'Camiseta de estilo vintage con un toque retro', 'CT-002'),
+('Logo Tee', 'Camiseta con el logo icónico de la marca', 'CT-003'),
+('Striped Tee', 'Camiseta a rayas para un look clásico y elegante', 'CT-004'),
+('Pocket Tee', 'Camiseta con bolsillo frontal para un estilo casual', 'CT-005'),
+
+-- Impresionar Camisetas
+('Custom Print Tee', 'Camiseta personalizada con tu diseño favorito', 'ICam-001'),
+('Typography Tee', 'Camiseta con tipografía creativa y llamativa', 'ICam-002'),
+('Artistic Tee', 'Camiseta con diseño artístico y original', 'ICam-003'),
+('Photo Print Tee', 'Camiseta con impresión fotográfica de alta calidad', 'ICam-004'),
+('Limited Edition Tee', 'Camiseta de edición limitada con diseño exclusivo', 'ICam-005'),
+
+-- Cinnamom Overdressed
+('Cinnamon Dress', 'Vestido elegante con toques de canela y glamour', 'CO-001'),
+('Spice Skirt', 'Falda picante con estampado de canela para un look único', 'CO-002'),
+('Cinnamon Blouse', 'Blusa ligera y sofisticada con aroma a canela', 'CO-003'),
+('Scented Scarf', 'Bufanda suave y perfumada con esencia de canela', 'CO-004'),
+('Cinnamon Accessories Set', 'Conjunto de accesorios coordinados con aroma a canela', 'CO-005'),
+
+-- Gafas New Vision
+('Classic Aviators', 'Gafas de sol estilo aviador con montura clásica', 'GNV-001'),
+('Retro Round Sunglasses', 'Gafas de sol redondas con un toque vintage', 'GNV-002'),
+('Sporty Wraparound Shades', 'Gafas de sol envolventes para actividades deportivas', 'GNV-003'),
+('Fashion Cat-Eye Glasses', 'Gafas de estilo gato para un look elegante y femenino', 'GNV-004'),
+('Polarized Wayfarers', 'Gafas de sol wayfarer con lentes polarizadas para una visión clara', 'GNV-005'),
+
+-- Tándem
+('Tandem Adventure Backpack', 'Mochila resistente y versátil para viajes de aventura', 'TD-001'),
+('Tandem Camping Tent', 'Tienda de campaña espaciosa y fácil de montar para acampar al aire libre', 'TD-002'),
+('Tandem Outdoor Grill', 'Parrilla portátil para asar alimentos al aire libre con amigos y familiares', 'TD-003'),
+('Tandem Hiking Boots', 'Botas de senderismo duraderas y cómodas para explorar la naturaleza', 'TD-004'),
+('Tandem Portable Hammock', 'Hamacas portátiles y ligeras para relajarse en cualquier lugar', 'TD-005'),
+
+-- TechNova Solutions
+('TechNova Smart Home System', 'Sistema de domótica avanzado para controlar tu hogar desde tu teléfono inteligente', 'TNS-001'),
+('TechNova Virtual Reality Headset', 'Visor de realidad virtual para experimentar juegos y videos inmersivos', 'TNS-002'),
+('TechNova Wireless Charging Pad', 'Almohadilla de carga inalámbrica para cargar tus dispositivos de manera conveniente', 'TNS-003'),
+('TechNova Bluetooth Speaker', 'Altavoz Bluetooth portátil con sonido de alta calidad para disfrutar de tu música favorita', 'TNS-004'),
+('TechNova Security Camera', 'Cámara de seguridad inteligente con detección de movimiento y visión nocturna', 'TNS-005'),
+
+-- EcoGreen Industries
+('EcoGreen Organic Soap', 'Jabón orgánico y biodegradable para una limpieza suave y respetuosa con el medio ambiente', 'EGI-001'),
+('EcoGreen Bamboo Toothbrush', 'Cepillo de dientes de bambú ecológico y sostenible para una higiene bucal consciente', 'EGI-002'),
+('EcoGreen Reusable Water Bottle', 'Botella de agua reutilizable y libre de BPA para reducir el uso de plástico', 'EGI-003'),
+('EcoGreen Recycled Paper Notebook', 'Cuaderno de papel reciclado ideal para tomar notas y dibujar de manera sostenible', 'EGI-004'),
+('EcoGreen Eco-Friendly Tote Bag', 'Bolso ecológico y reutilizable para llevar tus compras de manera responsable', 'EGI-005'),
+
+-- Stellar Innovations
+('Stellar Wireless Earphones', 'Auriculares inalámbricos con cancelación de ruido para una experiencia auditiva inmersiva', 'SI-001'),
+('Stellar Solar Power Bank', 'Batería portátil con panel solar para cargar tus dispositivos en cualquier lugar', 'SI-002'),
+('Stellar Fitness Tracker', 'Monitor de actividad física para llevar un seguimiento de tu salud y estado físico', 'SI-003'),
+('Stellar Smart Watch', 'Reloj inteligente con pantalla táctil y funciones avanzadas para un estilo de vida conectado', 'SI-004'),
+('Stellar Portable Speaker', 'Altavoz portátil resistente al agua y con sonido de alta fidelidad para disfrutar de la música al aire libre', 'SI-005'),
+
+-- Harmony Health Group
+('Harmony Meditation App', 'Aplicación de meditación guiada para reducir el estrés y mejorar el bienestar mental', 'HHG-001'),
+('Harmony Yoga Mat', 'Tapete de yoga antideslizante y acolchado para prácticas cómodas y seguras', 'HHG-002'),
+('Harmony Herbal Tea Set', 'Set de té de hierbas orgánicas para relajarse y rejuvenecer el cuerpo y la mente', 'HHG-003'),
+('Harmony Aromatherapy Diffuser', 'Difusor de aromaterapia con luz LED y diferentes modos de niebla para crear un ambiente tranquilo', 'HHG-004'),
+('Harmony Wellness Journal', 'Diario de bienestar para llevar un registro de tus hábitos y metas de salud', 'HHG-005'),
+
+-- Nexus Dynamics
+('Nexus Smart Glasses', 'Gafas inteligentes con realidad aumentada para mejorar la productividad y la eficiencia', 'ND-001'),
+('Nexus Drone with Camera', 'Dron equipado con cámara HD para capturar imágenes y videos desde el aire', 'ND-002'),
+('Nexus Smart Lock System', 'Sistema de bloqueo inteligente para mejorar la seguridad y la accesibilidad en el hogar', 'ND-003'),
+('Nexus Robotic Vacuum Cleaner', 'Aspiradora robótica con navegación inteligente y funciones de limpieza programables', 'ND-004'),
+('Nexus Smart Thermostat', 'Termostato inteligente para controlar la temperatura de tu hogar desde cualquier lugar', 'ND-005'),
+
+-- BlueWave Enterprises
+('BlueWave Wireless Router', 'Router inalámbrico de alta velocidad para una conectividad confiable en el hogar u oficina', 'BWE-001'),
+('BlueWave Portable Speaker', 'Altavoz portátil con sonido estéreo de calidad para disfrutar de la música en cualquier lugar', 'BWE-002'),
+('BlueWave External Hard Drive', 'Disco duro externo de gran capacidad para almacenar y respaldar tus datos importantes', 'BWE-003'),
+('BlueWave Gaming Mouse', 'Mouse ergonómico y preciso diseñado para jugadores exigentes', 'BWE-004'),
+('BlueWave Bluetooth Headphones', 'Auriculares inalámbricos con cancelación de ruido para una experiencia auditiva inmersiva', 'BWE-005'),
+
+-- Apex Manufacturing
+('Apex Power Drill', 'Taladro eléctrico de alta potencia para perforaciones precisas en diferentes materiales', 'AM-001'),
+('Apex Circular Saw', 'Sierra circular versátil y duradera para cortes limpios y precisos en madera y otros materiales', 'AM-002'),
+('Apex Bench Grinder', 'Amoladora de banco resistente para afilar y pulir herramientas y piezas metálicas', 'AM-003'),
+('Apex Air Compressor', 'Compresor de aire compacto y eficiente para inflar neumáticos y realizar trabajos de pintura', 'AM-004'),
+('Apex Welding Machine', 'Máquina de soldar versátil y fácil de usar para proyectos de soldadura en casa o en el taller', 'AM-005'),
+
+-- QuantumLeap Technologies
+('QuantumLeap Quantum Computer', 'Computadora cuántica de vanguardia con capacidades de procesamiento avanzadas', 'QLT-001'),
+('QuantumLeap Virtual Assistant', 'Asistente virtual inteligente con capacidades de aprendizaje automático y reconocimiento de voz', 'QLT-002'),
+('QuantumLeap Neural Implant', 'Implante neural innovador para mejorar las capacidades cognitivas y la conectividad cerebral', 'QLT-003'),
+('QuantumLeap Holographic Display', 'Display holográfico para proyecciones tridimensionales y experiencias visuales inmersivas', 'QLT-004'),
+('QuantumLeap Quantum Sensor', 'Sensor cuántico de alta precisión para mediciones avanzadas en campos como la física y la medicina', 'QLT-005'),
+
+-- MegaCorp
+('MegaCorp MegaPhone', 'Teléfono inteligente de última generación con características innovadoras y rendimiento excepcional', 'MC-001'),
+('MegaCorp MegaTablet', 'Tableta con pantalla grande y potente rendimiento para productividad y entretenimiento móvil', 'MC-002'),
+('MegaCorp MegaWatch', 'Reloj inteligente elegante y funcional con aplicaciones útiles y seguimiento de la salud', 'MC-003'),
+('MegaCorp MegaLaptop', 'Laptop ultradelgada y potente con diseño premium y larga duración de la batería', 'MC-004'),
+('MegaCorp MegaTV', 'Televisor inteligente con resolución 4K y capacidades de transmisión en línea para una experiencia de visualización inmersiva', 'MC-005'),
+
+-- TechGiant
+('TechGiant VR Headset', 'Visor de realidad virtual con seguimiento de movimiento preciso para juegos y experiencias inmersivas', 'TG-001'),
+('TechGiant Quantum Processor', 'Procesador cuántico de alta velocidad para aplicaciones de inteligencia artificial y análisis de datos avanzados', 'TG-002'),
+('TechGiant AI Speaker', 'Altavoz inteligente con asistente virtual integrado para controlar dispositivos y obtener información mediante comandos de voz', 'TG-003'),
+('TechGiant Smart Glasses', 'Gafas inteligentes con pantalla AR para aumentar la productividad y mejorar las experiencias de usuario', 'TG-004'),
+('TechGiant Drone Delivery System', 'Sistema de entrega de drones autónomo para transporte rápido y eficiente de paquetes', 'TG-005'),
+
+-- Innovative Solutions
+('Innovative Solar Panel', 'Panel solar innovador con tecnología de células fotovoltaicas de última generación para una mayor eficiencia energética', 'IS-001'),
+('Innovative Home Automation System', 'Sistema de automatización del hogar con tecnología IoT para controlar dispositivos desde tu teléfono inteligente', 'IS-002'),
+('Innovative Self-Driving Car', 'Automóvil autónomo con capacidades de conducción automática y seguridad avanzada', 'IS-003'),
+('Innovative Wearable Health Monitor', 'Monitor de salud portátil para seguimiento continuo de signos vitales y actividad física', 'IS-004'),
+('Innovative 3D Printer', 'Impresora 3D de alta precisión y velocidad para prototipado rápido y fabricación personalizada', 'IS-005'),
+
+-- Global Traders
+('Global Traders Business Networking Platform', 'Plataforma de redes empresariales para conectar con socios comerciales internacionales', 'GT-004'),
+('Global Traders Logistics Management Software', 'Software de gestión logística para optimizar el transporte y seguimiento de mercancías', 'GT-005'),
+('Global Traders Export Compliance Tool', 'Herramienta de cumplimiento de exportación para asegurar el cumplimiento normativo en operaciones de comercio internacional', 'GT-006'),
+('Global Traders Trade Finance Solution', 'Solución de financiamiento comercial para facilitar transacciones internacionales y mitigar riesgos financieros', 'GT-007'),
+('Global Traders Supply Chain Analytics Platform', 'Plataforma de análisis de cadena de suministro para identificar oportunidades de mejora y reducir costos operativos', 'GT-008'),
+
+-- RetailHub
+('RetailHub E-commerce Platform', 'Plataforma de comercio electrónico todo en uno para lanzar y hacer crecer tu tienda en línea', 'RH-001'),
+('RetailHub Point-of-Sale System', 'Sistema de punto de venta fácil de usar para gestionar transacciones y inventario en tiendas físicas', 'RH-002'),
+('RetailHub Inventory Management Software', 'Software de gestión de inventario para controlar las existencias y optimizar la reposición de productos', 'RH-003'),
+('RetailHub Customer Relationship Management (CRM) Tool', 'Herramienta de gestión de relaciones con los clientes para mejorar la atención al cliente y aumentar las ventas', 'RH-004'),
+('RetailHub Retail Analytics Dashboard', 'Panel de análisis de datos para visualizar métricas clave y tomar decisiones comerciales informadas', 'RH-005');
 
 
 
