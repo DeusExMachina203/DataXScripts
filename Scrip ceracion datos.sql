@@ -189,6 +189,32 @@ INSERT INTO CodigoTelefonoPais (Codigo, NombrePais) VALUES
 ('+61', 'Australia'),
 ('+55', 'Brasil');
 
+INSERT INTO TelefonoEmpresa (Telefono, Descripcion, IdEmpresa, IdCodigoPais) VALUES 
+('900000001', 'Atención al cliente', 1, 1),
+('900000002', '', 2, 1),
+('900000003', 'Ventas y consultas', 3, 1),
+('900000004', 'Oficina principal', 4, 1),
+('900000005', '', 5, 1),
+('900000006', 'Línea de pedidos', 6, 1),
+('900000007', 'Recepción', 7, 1),
+('900000008', '', 8, 1),
+('900000009', 'Línea directa gerencia', 9, 1),
+('900000010', 'Atención comercial', 10, 1),
+('900000011', '', 11, 1),
+('900000012', 'Central de emergencias', 12, 1),
+('900000013', '', 13, 1),
+('900000014', 'Servicio postventa', 14, 1),
+('900000015', 'Atención corporativa', 15, 1),
+('900000016', 'Contacto de ventas', 16, 1),
+('900000017', '', 17, 1),
+('900000018', 'Soporte de productos', 18, 1),
+('900000019', 'Atención administrativa', 19, 1),
+('900000020', 'Línea de atención técnica', 20, 1),
+('900000021', 'Consultas y soporte', 21, 1),
+('900000022', 'Línea de servicio', 22, 1),
+('900000023', '', 23, 1),
+('900000024', 'Atención de pedidos', 24, 1),
+('900000025', 'Línea de contacto', 25, 1);
 
 
 
