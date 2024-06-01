@@ -995,3 +995,35 @@ INSERT INTO Membresia (FechaInicio, FechaFinal, IdCliente, IdTipoMembresia) VALU
 ('2023-12-14', '2024-01-14', 13, 1), 
 ('2024-02-25', '2024-05-25', 14, 2),
 ('2022-10-31', '2023-10-31', 15, 3);
+
+-- Cargar datos en Pedido
+INSERT INTO Pedido (CostoTotal, IdCliente, IdEmpresa) VALUES
+(100.00, 1, 1),
+(200.00, 2, 2),
+(150.00, 3, 3),
+(180.00, 4, 4),
+(220.00, 5, 5);
+
+-- Cargar datos en ResumenPedido
+INSERT INTO ResumenPedido (Cantidad, CostoUnitario, NumeroPedido, CodigoProducto) VALUES
+(2, 25.00, 1, 'FF-001'),
+(3, 30.00, 2, 'DD-002'),
+(1, 50.00, 3, 'IC-003'),
+(4, 20.00, 4, 'PV-004'),
+(2, 110.00, 5, 'EP-002');
+
+-- Cargar datos en FormaPago
+INSERT INTO FormaPago (Nombre) VALUES
+('Efectivo'),
+('Tarjeta de Crédito'),
+('Transferencia Bancaria'),
+('Cheque'),
+('PayPal');
+
+-- Cargar datos en Factura
+INSERT INTO Factura (Vencimiento, Pagado, IdFormaPago, NumeroPedido, IdAlmacen) VALUES
+('2024-06-01', 1, 2, 1, 1),
+('2024-07-01', 1, 3, 2, 2),
+('2024-08-01', 0, 4, 3, 3),
+('2024-09-01', 0, 5, 4, 4),
+('2024-10-01', 0, 1, 5, 5);
