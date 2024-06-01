@@ -653,7 +653,7 @@ INSERT INTO Cliente (NombreCliente, RUC, IdDireccionOficial) VALUES
 ('CentFood Inc.', '20497285136', 74),
 ('South TechServ Ltd.', '20371958264', 75);
 
-<<<<<<< HEAD
+
 INSERT INTO Negociador (Nombre, Cargo, Descripcion, ApellidoPaterno, ApellidoMaterno, IdCliente)
 VALUES
 ('Juan', 'Gerente de ventas', 'Responsable de supervisar las ventas y el rendimiento del equipo de ventas', 'González', 'Martínez', 1),
@@ -707,18 +707,6 @@ VALUES
 ('Valeria', 'Especialista en marketing digital', 'Encargada de desarrollar estrategias de marketing en línea', 'Díaz', 'Gómez', 49),
 ('Santiago', 'Coordinador de ventas', 'Responsable de coordinar actividades de ventas', 'Martínez', 'González', 50);
 
-=======
-
-
-
-
-
-
-
-
-
-
-
 -- Cargar datos en TarjetaCredito
 INSERT INTO TarjetaCredito (Numero, FechaVencimiento, CodigoSeguridad, IdCliente) VALUES
 ('1234567093755678', '2025-12-01', '123', 1),
@@ -746,7 +734,6 @@ INSERT INTO TarjetaCredito (Numero, FechaVencimiento, CodigoSeguridad, IdCliente
 ('3333444421756666', '2025-10-01', '375', 23),
 ('4424555428667847', '2026-09-01', '446', 24),
 ('2695666677778048', '2027-08-01', '584', 25);
-<<<<<<< HEAD
 
 -- Cargar datos en TipoMembresia
 INSERT INTO TipoMembresia (NombreTipoMembresia, Descuento) VALUES
@@ -763,6 +750,3 @@ INSERT INTO Membresia (FechaInicio, FechaFinal, IdCliente, IdTipoMembresia) VALU
 ('2024-03-01', '2024-10-31', 3, 4),
 ('2024-04-01', '2024-09-30', 4, 5),
 ('2024-05-01', '2024-08-31', 5, 1);
-=======
->>>>>>> f7ce53f39fc8090ab703fd6d7be3c5a0d2a25005
->>>>>>> ac532065e1846fbed2f27d0eab5e14a9c45da938
