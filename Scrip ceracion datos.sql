@@ -705,7 +705,7 @@ VALUES
 ('Julieta', 'Gerente de marketing', 'Responsable de planificar y ejecutar estrategias de marketing', 'Fernández', 'López', 47),
 ('Dante', 'Analista de ventas', 'Encargado de analizar datos de ventas para mejorar resultados', 'García', 'Pérez', 48),
 ('Valeria', 'Especialista en marketing digital', 'Encargada de desarrollar estrategias de marketing en línea', 'Díaz', 'Gómez', 49),
-('Santiago', 'Coordinador de ventas', 'Responsable de coordinar actividades de ventas', 'Martínez', 'González', 50)
+('Santiago', 'Coordinador de ventas', 'Responsable de coordinar actividades de ventas', 'Martínez', 'González', 50),
 ('Lucía', 'Ejecutivo de ventas', 'Encargada de cerrar acuerdos comerciales', 'García', 'Pérez', 1),
 ('Sebastián', 'Analista de Marketing', 'Encargado de desarrollar estrategias de marketing', 'Martínez', 'López', 2),
 ('Valentina', 'Gerente de Cuentas', 'Responsable de mantener la relación con los clientes', 'Rodríguez', 'Gómez', 3),
@@ -809,7 +809,7 @@ VALUES
 ('julieta.sanchez@example.com', 'Correo principal de Julieta Sánchez', 47),
 ('dante.fernandez@example.com', 'Correo principal de Dante Fernández', 48),
 ('valeria.gomez@example.com', 'Correo principal de Valeria Gómez', 49),
-('santiago.martinez@example.com', 'Correo principal de Santiago Martínez', 50);
+('santiago.martinez@example.com', 'Correo principal de Santiago Martínez', 50),
 ('lucia.garcia@example.com', 'Correo principal de Lucía García', 51),
 ('sebastian.martinez@example.com', 'Correo principal de Sebastián Martínez', 52),
 ('valentina.rodriguez@example.com', 'Correo principal de Valentina Rodríguez', 53),
@@ -913,6 +913,34 @@ VALUES
 ('954321503', 'Número principal de Natalia Finanzas', 48, 88, 1),
 ('954321504', 'Número principal de Bruno Datos', 49, 89, 1),
 ('954321505', 'Número principal de Antonella Ventas', 50, 90, 1);
+
+INSERT INTO SedeCliente (IdDireccion, IdCliente)
+VALUES
+(76, 1),
+(77, 2),
+(78, 3),
+(79, 4),
+(80, 5),
+(81, 6),
+(82, 7),
+(83, 8),
+(84, 9),
+(85, 10),
+(86, 11),
+(87, 12),
+(88, 13),
+(89, 14),
+(90, 15),
+(91, 16),
+(92, 17),
+(93, 18),
+(94, 19),
+(95, 20),
+(96, 21),
+(97, 22),
+(98, 23),
+(99, 24),
+(100, 25);
 
 
 -- Cargar datos en TarjetaCredito
