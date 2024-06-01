@@ -173,7 +173,7 @@ create table ResumenPedido(
 );
 
 create table FormaPago(
-	Nombre varchar(10) not null,
+	Nombre varchar(40) not null,
 
 	IdFormaPago int primary key identity(1, 1),
 );
