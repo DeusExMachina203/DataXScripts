@@ -178,6 +178,7 @@ INSERT INTO CorreoEmpresa (Correo, Descripcion, IdEmpresa) VALUES
 
 -- Cargar datos en CodigoTelefonoPais
 INSERT INTO CodigoTelefonoPais (Codigo, NombrePais) VALUES
+('+51', 'Perú'),
 ('+1', 'Estados Unidos'),
 ('+44', 'Reino Unido'),
 ('+34', 'España'),
@@ -185,7 +186,6 @@ INSERT INTO CodigoTelefonoPais (Codigo, NombrePais) VALUES
 ('+33', 'Francia'),
 ('+81', 'Japón'),
 ('+86', 'China'),
-('+51', 'Perú'),
 ('+61', 'Australia'),
 ('+55', 'Brasil');
 
