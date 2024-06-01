@@ -19,7 +19,6 @@ INSERT INTO Provincia (NombreProvincia, IdRegion) VALUES
 INSERT INTO Distrito (NombreDistrito, IdProvincia) VALUES
 ('Huaraz', 2),
 ('Cochabamba', 2),
-r
 ('Independencia', 2),
 ('Tamburco', 3),
 ('Cayma', 4),
@@ -30,3 +29,25 @@ r
 ('Ascensión', 9),
 ('Amarilis', 10);
 
+
+INSERT INTO Empresa (NombreEmpresa, IdDireccionPrincipal) VALUES
+('Freaky Frog', 1),
+('Dooly Doll', 2),
+('InstaClothes', 3),
+('Panty Village', 4),
+('Exquisite Panty', 5),
+('Jump', 6),
+('OnTarget', 7),
+('Camisetas OnTarget', 8),
+('Impresionar Camisetas', 9),
+('Cinnamom Overdressed', 10),
+('Gafas New Vision', 11),
+('Tándem', 12),
+('TechNova Solutions', 13),
+('EcoGreen Industries', 14),
+('Stellar Innovations', 15),
+('Harmony Health Group', 16),
+('Nexus Dynamics', 17),
+('BlueWave Enterprises', 18),
+('Apex Manufacturing', 19),
+('QuantumLeap Technologies', 20)
