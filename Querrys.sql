@@ -72,71 +72,30 @@ SELECT * FROM dbo.ObtenerClientesSinTarjetas();
 --Problemática: 
 --Es necesario identificar cuál es la empresa que tiene el mayor número de clientes asociados. Esto puede ayudar a reconocer las empresas más influyentes y exitosas en términos de atracción de clientes, lo cual es valioso para análisis de mercado y decisiones estratégicas
 --Query: 
-CREATE FUNCTION dbo.ObtenerEmpresaMayorClientes() 
-RETURNS VARCHAR(50)
-AS 
-BEGIN
-	DECLARE @nombre_empresa VARCHAR(50);
-    SELECT TOP 1  NombreEmpresa = @nombre_empresa
-    FROM (
-        SELECT e.NombreEmpresa, COUNT(c.IdEmpresa) AS num_clientes
-        FROM Empresa e
-        JOIN Cliente c ON e.IdEmpresa = c.IdEmpresa
-        GROUP BY e.NombreEmpresa
-        ORDER BY COUNT(c.IdEmpresa) DESC
-    ) AS empresas_clientes
-    WHERE num_clientes > 0
-    RETURN @nombre_empresa
-END;
+SELECT TOP 1 e.NombreEmpresa, COUNT(p.IdEmpresa) AS num_clientes
+FROM Empresa e
+JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
+GROUP BY e.NombreEmpresa
+ORDER BY COUNT(p.IdEmpresa) DESC
 
-CREATE FUNCTION dbo.ObtenerEmpresaMayorClientes() 
-RETURNS VARCHAR(50)
-AS 
-BEGIN
-	DECLARE @nombre_empresa VARCHAR(50);
-    SELECT TOP 1  NombreEmpresa = @nombre_empresa
-    FROM (
-        SELECT e.NombreEmpresa, COUNT(c.IdEmpresa) AS num_clientes
-        FROM Empresa e
-        JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
-        GROUP BY e.NombreEmpresa
-        ORDER BY COUNT(p.IdEmpresa) DESC
-    ) AS empresas_clientes
-    WHERE num_clientes > 0
-    RETURN @nombre_empresa
-END;
+
 
 --Problemática: 
 --Para una gestión eficiente del inventario, es crucial conocer el total de productos almacenados en un almacén específico. Esto permite controlar el stock, planificar reabastecimientos y evitar rupturas de inventario.
 --Query: 
-CREATE FUNCTION calcularTotalProductosInventario(idal int, codigoprod varchar(100)) 
-RETURNS INT
-AS 
+CREATE PROCEDURE CalcularTotalProductosInventario @idal INT, @codigoprod VARCHAR(100)
+AS
 BEGIN
-    DECLARE total_productos int;
-    SELECT SUM(i.Cantidad) = total_productos
+    DECLARE @total_productos INT;
+
+    SELECT @total_productos = SUM(i.Cantidad)
     FROM Inventario i
-    WHERE i.IdAlmacen = idal
-	AND i.CodigoProducto = codigoprod
+    WHERE i.IdAlmacen = @idal
+    AND i.CodigoProducto = @codigoprod;
 
-    RETURN total_productos;
+    SELECT @total_productos AS TotalProductosInventario;
 END;
-
-
---Problemática: 
---Se necesita una función corregida para calcular el total de productos en el inventario de un almacén específico. La función debe sumar las cantidades de todos los productos almacenados en un almacén dado, proporcionando un total preciso para la gestión de inventario.
---Query: 
-CREATE FUNCTION calcular_total_productos_inventario(IdAlmacen int) 
-RETURNS INT
-AS 
-BEGIN
-DECLARE total_productos INT;
-SELECT SUM(Cantidad) INTO total_productos
-FROM Inventario
-WHERE IdAlmacen = IdAlmacen;
-    
-RETURN total_productos;
-END;
+EXEC CalcularTotalProductosInventario @idal = 1, @codigoprod = 'FF-001';
 
 --Problemática: 
 --Clientes sin pedidos recientes: Identificar clientes que no han realizado pedidos en los últimos seis meses para potencialmente enviarles promociones o incentivos
