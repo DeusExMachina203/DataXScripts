@@ -17,9 +17,9 @@ INSERT INTO Provincia (NombreProvincia, IdRegion) VALUES
 
 -- Cargar datos en Distrito
 INSERT INTO Distrito (NombreDistrito, IdProvincia) VALUES
-('Chachapoyas', 1),
-('asdasd', 1),
-
+('Huaraz', 2),
+('Cochabamba', 2),
+r
 ('Independencia', 2),
 ('Tamburco', 3),
 ('Cayma', 4),
