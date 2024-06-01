@@ -76,7 +76,7 @@ CREATE FUNCTION dbo.ObtenerEmpresaMayorClientes()
 RETURNS VARCHAR(50)
 AS 
 BEGIN
-DECLARE @nombre_empresa VARCHAR(50);
+	DECLARE @nombre_empresa VARCHAR(50);
     SELECT TOP 1  NombreEmpresa = @nombre_empresa
     FROM (
         SELECT e.NombreEmpresa, COUNT(c.IdEmpresa) AS num_clientes
@@ -86,22 +86,42 @@ DECLARE @nombre_empresa VARCHAR(50);
         ORDER BY COUNT(c.IdEmpresa) DESC
     ) AS empresas_clientes
     WHERE num_clientes > 0
-    RETURN nombre_empresa,
+    RETURN @nombre_empresa
+END;
+
+CREATE FUNCTION dbo.ObtenerEmpresaMayorClientes() 
+RETURNS VARCHAR(50)
+AS 
+BEGIN
+	DECLARE @nombre_empresa VARCHAR(50);
+    SELECT TOP 1  NombreEmpresa = @nombre_empresa
+    FROM (
+        SELECT e.NombreEmpresa, COUNT(c.IdEmpresa) AS num_clientes
+        FROM Empresa e
+        JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
+        GROUP BY e.NombreEmpresa
+        ORDER BY COUNT(p.IdEmpresa) DESC
+    ) AS empresas_clientes
+    WHERE num_clientes > 0
+    RETURN @nombre_empresa
 END;
 
 --Problemática: 
 --Para una gestión eficiente del inventario, es crucial conocer el total de productos almacenados en un almacén específico. Esto permite controlar el stock, planificar reabastecimientos y evitar rupturas de inventario.
 --Query: 
-CREATE FUNCTION calcular_total_productos_inventario(IdAlmacen int) 
+CREATE FUNCTION calcularTotalProductosInventario(idal int, codigoprod varchar(100)) 
 RETURNS INT
 AS 
 BEGIN
-    DECLARE total_productos INT;
-    SELECT SUM(Cantidad) INTO total_productos
-    FROM Inventario
-    WHERE IdAlmacen = IdAlmacen;
+    DECLARE total_productos int;
+    SELECT SUM(i.Cantidad) = total_productos
+    FROM Inventario i
+    WHERE i.IdAlmacen = idal
+	AND i.CodigoProducto = codigoprod
+
     RETURN total_productos;
 END;
+
 
 --Problemática: 
 --Se necesita una función corregida para calcular el total de productos en el inventario de un almacén específico. La función debe sumar las cantidades de todos los productos almacenados en un almacén dado, proporcionando un total preciso para la gestión de inventario.
@@ -130,11 +150,11 @@ HAVING MAX(p.FechaPedido) < DATEADD(MONTH, -6, GETDATE()) OR MAX(p.FechaPedido) 
 --Problemática: 
 --Almacenes con poco inventario: Identificar almacenes que tienen menos cantidad de un producto específico
 --Query: 
-SELECT a.IdAlmacen, a.NombreAlmacen, p.NombreProducto, i.Cantidad
+SELECT a.IdAlmacen, p.NombreProducto, i.Cantidad
 FROM Almacen a
 INNER JOIN Inventario i ON a.IdAlmacen = i.IdAlmacen
 INNER JOIN Producto p ON i.CodigoProducto = p.CodigoProducto
-WHERE i.Cantidad < 10;
+order by i.Cantidad asc
 
 --Problemática: 
 --Empresas con facturas pendientes de pago: Identificar las empresas que tienen facturas pendientes de pago
