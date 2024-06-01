@@ -653,6 +653,61 @@ INSERT INTO Cliente (NombreCliente, RUC, IdDireccionOficial) VALUES
 ('CentFood Inc.', '20497285136', 74),
 ('South TechServ Ltd.', '20371958264', 75);
 
+<<<<<<< HEAD
+INSERT INTO Negociador (Nombre, Cargo, Descripcion, ApellidoPaterno, ApellidoMaterno, IdCliente)
+VALUES
+('Juan', 'Gerente de ventas', 'Responsable de supervisar las ventas y el rendimiento del equipo de ventas', 'González', 'Martínez', 1),
+('María', 'Especialista en Marketing', 'Encargada de diseñar y ejecutar estrategias de marketing', 'Rodríguez', 'Sánchez', 2),
+('Pedro', 'Analista de datos', 'Encargado de analizar los datos del mercado para tomar decisiones informadas', 'Fernández', 'López', 3),
+('Laura', 'Ejecutivo de cuentas', 'Responsable de gestionar las cuentas de los clientes y mantener relaciones comerciales', 'García', 'Pérez', 4),
+('Carlos', 'Desarrollador de negocios', 'Encargado de identificar oportunidades de negocio y desarrollar relaciones con los clientes', 'Díaz', 'Gómez', 5),
+('Ana', 'Especialista en comunicaciones', 'Encargada de gestionar la comunicación interna y externa de la empresa', 'Martínez', 'González', 6),
+('Luis', 'Coordinador de ventas', 'Responsable de coordinar las actividades del equipo de ventas y alcanzar los objetivos establecidos', 'Sánchez', 'Rodríguez', 7),
+('Sofía', 'Analista de mercado', 'Encargada de analizar tendencias de mercado y proporcionar información relevante para la toma de decisiones', 'López', 'Fernández', 8),
+('Diego', 'Especialista en desarrollo de negocios', 'Encargado de desarrollar nuevas oportunidades de negocio y establecer relaciones comerciales', 'Pérez', 'García', 9),
+('Elena', 'Gerente de marketing', 'Responsable de planificar y ejecutar estrategias de marketing para alcanzar los objetivos de la empresa', 'Gómez', 'Díaz', 10),
+('Andrés', 'Analista financiero', 'Encargado de analizar datos financieros y elaborar informes para apoyar la toma de decisiones empresariales', 'González', 'Martínez', 11),
+('Valeria', 'Especialista en desarrollo de productos', 'Encargada de investigar, desarrollar y lanzar nuevos productos al mercado', 'Rodríguez', 'Sánchez', 12),
+('Javier', 'Gerente de cuentas', 'Responsable de gestionar y mantener relaciones con los clientes clave de la empresa', 'Fernández', 'López', 13),
+('Carolina', 'Analista de marketing digital', 'Encargada de analizar y optimizar estrategias de marketing en medios digitales', 'García', 'Pérez', 14),
+('Ricardo', 'Ejecutivo de ventas', 'Responsable de cerrar acuerdos de venta y alcanzar los objetivos de ventas establecidos', 'Díaz', 'Gómez', 15),
+('Paula', 'Especialista en relaciones públicas', 'Encargada de gestionar la imagen pública de la empresa y mantener relaciones con los medios de comunicación', 'Martínez', 'González', 16),
+('Martín', 'Coordinador de marketing', 'Responsable de coordinar las actividades del equipo de marketing y ejecutar campañas publicitarias', 'Sánchez', 'Rodríguez', 17),
+('Camila', 'Analista de negocio', 'Encargada de analizar el mercado y proponer estrategias para mejorar el rendimiento empresarial', 'López', 'Fernández', 18),
+('Alejandro', 'Gerente de desarrollo de negocios', 'Responsable de liderar el desarrollo e implementación de nuevas oportunidades de negocio', 'Pérez', 'García', 19),
+('Lucía', 'Especialista en marketing de contenidos', 'Encargada de crear contenido relevante para atraer y retener clientes', 'Gómez', 'Díaz', 20),
+('Mateo', 'Analista de riesgos financieros', 'Encargado de identificar y evaluar los riesgos financieros para la empresa', 'González', 'Martínez', 21),
+('Natalia', 'Especialista en investigación de mercado', 'Encargada de realizar estudios de mercado para identificar oportunidades y amenazas', 'Rodríguez', 'Sánchez', 22),
+('Felipe', 'Ejecutivo de cuentas clave', 'Responsable de gestionar las cuentas clave de la empresa y mantener relaciones comerciales sólidas', 'Fernández', 'López', 23),
+('Juliana', 'Analista de redes sociales', 'Encargada de gestionar y optimizar la presencia de la empresa en las redes sociales', 'García', 'Pérez', 24),
+('Sebastián', 'Gerente de ventas regionales', 'Responsable de supervisar y liderar las actividades de ventas en una región específica', 'Díaz', 'Gómez', 25),
+('Isabella', 'Especialista en branding', 'Encargada de desarrollar estrategias para mejorar la percepción de la marca en el mercado', 'Martínez', 'González', 26),
+('Gabriel', 'Analista de investigación de mercado', 'Encargado de recopilar, analizar y presentar datos para respaldar las decisiones de marketing', 'Sánchez', 'Rodríguez', 27),
+('Ana María', 'Coordinadora de marketing digital', 'Responsable de coordinar las actividades de marketing en medios digitales', 'López', 'Fernández', 28),
+('Juan José', 'Especialista en desarrollo de negocios internacionales', 'Encargado de identificar oportunidades de negocio en mercados internacionales', 'Pérez', 'García', 29),
+('Carla', 'Especialista en recursos humanos', 'Encargada de reclutar, seleccionar y desarrollar al talento humano de la empresa', 'Martínez', 'González', 30),
+('Daniel', 'Analista de ventas', 'Encargado de analizar datos de ventas para identificar oportunidades de mejora', 'Rodríguez', 'Sánchez', 31),
+('Valentina', 'Gerente de marketing digital', 'Responsable de planificar y ejecutar estrategias de marketing en entornos digitales', 'Fernández', 'López', 32),
+('Ignacio', 'Especialista en desarrollo de negocio', 'Encargado de identificar y desarrollar nuevas oportunidades de negocio', 'García', 'Pérez', 33),
+('Florencia', 'Analista de datos financieros', 'Encargada de analizar información financiera para apoyar la toma de decisiones empresariales', 'Díaz', 'Gómez', 34),
+('Simón', 'Coordinador de ventas', 'Responsable de coordinar las actividades de ventas y alcanzar los objetivos establecidos', 'Martínez', 'González', 35),
+('Amanda', 'Especialista en marketing de contenido', 'Encargada de crear y gestionar contenido para atraer y retener clientes', 'Rodríguez', 'Sánchez', 36),
+('Tomás', 'Analista de estrategias de negocio', 'Encargado de analizar estrategias empresariales y proponer mejoras', 'Fernández', 'López', 37),
+('Martina', 'Gerente de cuentas', 'Responsable de gestionar cuentas clave y mantener relaciones comerciales', 'García', 'Pérez', 38),
+('Lucas', 'Especialista en marketing de redes sociales', 'Encargado de gestionar la presencia de la empresa en las redes sociales', 'Díaz', 'Gómez', 39),
+('Isabel', 'Analista de investigación de mercado', 'Encargada de realizar estudios de mercado para identificar oportunidades', 'Martínez', 'González', 40),
+('Emilio', 'Especialista en desarrollo de producto', 'Encargado de desarrollar y mejorar productos para el mercado', 'Rodríguez', 'Sánchez', 41),
+('Renata', 'Gerente de ventas', 'Responsable de liderar el equipo de ventas y alcanzar objetivos', 'Fernández', 'López', 42),
+('Matías', 'Analista de marketing digital', 'Encargado de analizar y optimizar estrategias de marketing en línea', 'García', 'Pérez', 43),
+('Renzo', 'Ejecutivo de cuentas', 'Responsable de gestionar cuentas y mantener relaciones comerciales', 'Díaz', 'Gómez', 44),
+('Luna', 'Especialista en relaciones públicas', 'Encargada de gestionar la imagen pública de la empresa', 'Martínez', 'González', 45),
+('Maximiliano', 'Analista de negocios', 'Encargado de analizar y mejorar procesos empresariales', 'Rodríguez', 'Sánchez', 46),
+('Julieta', 'Gerente de marketing', 'Responsable de planificar y ejecutar estrategias de marketing', 'Fernández', 'López', 47),
+('Dante', 'Analista de ventas', 'Encargado de analizar datos de ventas para mejorar resultados', 'García', 'Pérez', 48),
+('Valeria', 'Especialista en marketing digital', 'Encargada de desarrollar estrategias de marketing en línea', 'Díaz', 'Gómez', 49),
+('Santiago', 'Coordinador de ventas', 'Responsable de coordinar actividades de ventas', 'Martínez', 'González', 50);
+
+=======
 
 
 
@@ -691,6 +746,7 @@ INSERT INTO TarjetaCredito (Numero, FechaVencimiento, CodigoSeguridad, IdCliente
 ('3333444421756666', '2025-10-01', '375', 23),
 ('4424555428667847', '2026-09-01', '446', 24),
 ('2695666677778048', '2027-08-01', '584', 25);
+<<<<<<< HEAD
 
 -- Cargar datos en TipoMembresia
 INSERT INTO TipoMembresia (NombreTipoMembresia, Descuento) VALUES
@@ -707,3 +763,6 @@ INSERT INTO Membresia (FechaInicio, FechaFinal, IdCliente, IdTipoMembresia) VALU
 ('2024-03-01', '2024-10-31', 3, 4),
 ('2024-04-01', '2024-09-30', 4, 5),
 ('2024-05-01', '2024-08-31', 5, 1);
+=======
+>>>>>>> f7ce53f39fc8090ab703fd6d7be3c5a0d2a25005
+>>>>>>> ac532065e1846fbed2f27d0eab5e14a9c45da938
