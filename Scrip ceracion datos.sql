@@ -653,6 +653,7 @@ INSERT INTO Cliente (NombreCliente, RUC, IdDireccionOficial) VALUES
 ('CentFood Inc.', '20497285136', 74),
 ('South TechServ Ltd.', '20371958264', 75);
 
+<<<<<<< HEAD
 INSERT INTO Negociador (Nombre, Cargo, Descripcion, ApellidoPaterno, ApellidoMaterno, IdCliente)
 VALUES
 ('Juan', 'Gerente de ventas', 'Responsable de supervisar las ventas y el rendimiento del equipo de ventas', 'González', 'Martínez', 1),
@@ -706,3 +707,43 @@ VALUES
 ('Valeria', 'Especialista en marketing digital', 'Encargada de desarrollar estrategias de marketing en línea', 'Díaz', 'Gómez', 49),
 ('Santiago', 'Coordinador de ventas', 'Responsable de coordinar actividades de ventas', 'Martínez', 'González', 50);
 
+=======
+
+
+
+
+
+
+
+
+
+
+
+-- Cargar datos en TarjetaCredito
+INSERT INTO TarjetaCredito (Numero, FechaVencimiento, CodigoSeguridad, IdCliente) VALUES
+('1234567093755678', '2025-12-01', '123', 1),
+('2345678929476789', '2025-11-01', '456', 2),
+('9037789034567890', '2027-10-01', '789', 3),
+('9837890309470901', '2026-09-01', '012', 4),
+('5678901256789012', '2026-08-01', '345', 5),
+('4389012367890123', '2025-07-01', '678', 6),
+('7890123478901234', '2024-06-01', '901', 7),
+('5901234589012345', '2028-03-01', '234', 8),
+('5612345690123456', '2022-04-01', '567', 9),
+('1423456701234567', '2027-03-01', '890', 10),
+('1234123412341234', '2028-12-01', '156', 11),
+('6445234298402345', '2025-11-01', '267', 12),
+('3452789057839456', '2026-10-01', '388', 13),
+('2847456395814567', '2025-09-01', '138', 14),
+('5678567856785678', '2029-08-01', '738', 15),
+('6789678967896789', '2025-07-01', '683', 16),
+('7890789078907890', '2026-06-01', '751', 17),
+('8901890189018901', '2027-05-01', '882', 18),
+('9012901785439012', '2028-04-01', '962', 19),
+('0123012301230123', '2028-03-01', '223', 20),
+('1149812233334444', '2026-12-01', '156', 21),
+('1278333344442485', '2024-11-01', '262', 22),
+('3333444421756666', '2025-10-01', '375', 23),
+('4424555428667847', '2026-09-01', '446', 24),
+('2695666677778048', '2027-08-01', '584', 25);
+>>>>>>> f7ce53f39fc8090ab703fd6d7be3c5a0d2a25005
