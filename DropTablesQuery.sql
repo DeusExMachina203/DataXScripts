@@ -9,6 +9,7 @@ drop table SedeCliente;
 drop table CorreoCliente;
 drop table TelefonoCliente;
 drop table Negociador;
+
 drop table Cliente;
 drop table Inventario;
 drop table Producto;
