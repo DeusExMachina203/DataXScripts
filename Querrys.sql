@@ -179,3 +179,57 @@ FROM Empresa e
 INNER JOIN Almacen a ON e.IdEmpresa = a.IdEmpresa
 GROUP BY e.NombreEmpresa
 HAVING COUNT(a.IdAlmacen) > 1;
+
+ 
+---------------------------Ernesto----------------
+
+--Problemática:
+--Hacer un ranking de los clientes que han hecho la mayor cantidad de pedidos con la tarjeta de crédito segun la empresa
+--Query:
+create procedure VentasTarjetaCredito
+@Empresa varchar(100)
+as
+begin
+	select e.NombreEmpresa, c.NombreCliente, t.VecesTarjetaCredito
+	from(
+		select e.IdEmpresa, p.IdCliente, count(fp.IdFormaPago) as VecesTarjetaCredito
+		from Empresa e
+		join Pedido p on e.IdEmpresa = p.IdEmpresa
+		join Factura f on f.NumeroPedido = p.NumeroPedido
+		join FormaPago fp on fp.IdFormaPago = f.IdFormaPago
+		where fp.Nombre = 'Tarjeta de Crédito' 
+		and e.NombreEmpresa = @Empresa
+		group by e.IdEmpresa, p.IdCliente
+	) t
+	join Empresa e on e.IdEmpresa = t.IdEmpresa
+	join Cliente c on c.IdCliente = t.IdCliente
+	order by t.VecesTarjetaCredito desc
+end;
+
+exec VentasTarjetaCredito @Empresa = 'Freaky Frog'
+
+
+--Hacer un ranking de las 10 empresas que facturaron más dinero en un año
+--Query:
+create procedure RankingExitos
+@anio varchar(4)
+as 
+begin
+	declare @date date = concat(@anio, '-01-01')
+
+	select top 10 e.NombreEmpresa, sum(p.CostoTotal) as Facturado
+	from Empresa e
+	join Pedido p on p.IdEmpresa = e.IdEmpresa
+	join Factura f on f.NumeroPedido = p.NumeroPedido
+	where year(@date) = year(f.Vencimiento) 
+	and f.Pagado = 1 
+	group by e.NombreEmpresa
+	order by sum(p.CostoTotal) desc
+
+end;
+
+exec RankingExitos @anio = '2024'
+
+
+--
+--Query:
