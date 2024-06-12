@@ -1,31 +1,61 @@
 --Problemática: 
 --Productos más vendidos: Las empresas quieren saber qué producto fue mas vendido en los últimos 3 meses para realizar un estudio de mercado sobre toda su mercaderia
 --Query:
-SELECT TOP 5 p.NombreProducto, COUNT(rp.CodigoProducto) AS TotalVentas
-FROM Producto p
-INNER JOIN ResumenPedido rp ON p.CodigoProducto = rp.CodigoProducto
-INNER JOIN Pedido pd ON rp.NumeroPedido = pd.NumeroPedido
-WHERE pd.FechaPedido BETWEEN DATEADD(MONTH, -3, GETDATE()) AND GETDATE()
-GROUP BY p.NombreProducto
-ORDER BY TotalVentas DESC;
+CREATE FUNCTION dbo.ProductosMasVendidos()
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT TOP 5 p.NombreProducto, COUNT(rp.CodigoProducto) AS TotalVentas
+    FROM Producto p
+    INNER JOIN ResumenPedido rp ON p.CodigoProducto = rp.CodigoProducto
+    INNER JOIN Pedido pd ON rp.NumeroPedido = pd.NumeroPedido
+    INNER JOIN Factura f ON pd.NumeroPedido = f.NumeroPedido
+    WHERE f.Vencimiento BETWEEN DATEADD(MONTH, -3, GETDATE()) AND GETDATE()
+    GROUP BY p.NombreProducto
+    ORDER BY TotalVentas DESC
+);
 
+SELECT * FROM dbo.ProductosMasVendidos();
 
 --Problemática: 
 --Membresia vencida: Identificar a los clientes con membresía vencida para mandar un recordatorio en caso no tengan puesto el pago automático y así no perder clientes
 --Query:
-SELECT c.NombreCliente, m.FechaFinal, tm.NombreTipoMembresia
-FROM Cliente c
-INNER JOIN Membresia m ON c.IdCliente = m.IdCliente
-INNER JOIN TipoMembresia tm ON m.IdTipoMembresia = tm.IdTipoMembresia
-WHERE m.FechaFinal < GETDATE();
+CREATE FUNCTION dbo.ClientesConMembresiaVencida()
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT c.NombreCliente, m.FechaFinal, tm.NombreTipoMembresia
+    FROM Cliente c
+    INNER JOIN Membresia m ON c.IdCliente = m.IdCliente
+    INNER JOIN TipoMembresia tm ON m.IdTipoMembresia = tm.IdTipoMembresia
+    WHERE m.FechaFinal < GETDATE()
+);
+SELECT * FROM dbo.ClientesConMembresiaVencida();
 
 --Problemática: 
---Pedidos pendientes: Identificar los pedidos de los clientes pendientes para saber si todavia se encuentran en el plazo establecido de entrega o hubo algún inconveniente
+--Dificultad para identificar falturas vencidas: Identificar pedidos pendientes que tenga la empresa es importante para garantizar una entrega oportuna y satisfactoria de los productos, manteniendo una buena reputacion de la empresa
 --Query: 
-SELECT p.NumeroPedido, p.CostoTotal, c.NombreCliente, p.FechaEntregaEstimada
-FROM Pedido p
-INNER JOIN Cliente c ON p.IdCliente = c.IdCliente
-WHERE p.EstadoPedido != 'Entregado';
+CREATE FUNCTION dbo.PedidosPendientes()
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT E.NombreEmpresa,
+    COUNT(P.NumeroPedido) AS TotalPedidos,
+    SUM(RP.Cantidad) AS TotalProductos,
+    SUM(RP.Cantidad * RP.CostoUnitario) AS TotalCosto, 
+    F.Pagado
+    FROM Empresa E
+    JOIN Pedido P ON E.IdEmpresa = P.IdEmpresa  
+    JOIN ResumenPedido RP ON P.NumeroPedido = RP.NumeroPedido  
+    JOIN Factura F ON P.NumeroPedido = F.NumeroPedido 
+    WHERE F.Vencimiento <= GETDATE()
+    GROUP BY E.NombreEmpresa, F.Pagado
+);
+
+SELECT * FROM dbo.PedidosPendientes();
 
 --Problemática: 
 --Listar productos que no se han vendido: Es importante conocer los productos que no han sido vendidos para analizar su rendimiento en el mercado y tomar decisiones sobre su continuidad o promoción.
