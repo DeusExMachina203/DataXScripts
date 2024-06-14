@@ -1,5 +1,6 @@
---Problem·tica: 
---Productos m·s vendidos: Las empresas quieren saber quÈ producto fue mas vendido en los ˙ltimos 3 meses para realizar un estudio de mercado sobre toda su mercaderia
+---------------------------Roy----------------
+--Problem√°tica: 
+--Productos m√°s vendidos: Las empresas quieren saber qu√© producto fue mas vendido en los √∫ltimos 3 meses para realizar un estudio de mercado sobre toda su mercaderia
 --Query:
 CREATE FUNCTION dbo.ProductosMasVendidos()
 RETURNS TABLE
@@ -18,8 +19,8 @@ RETURN
 
 SELECT * FROM dbo.ProductosMasVendidos();
 
---Problem·tica: 
---Membresia vencida: Identificar a los clientes con membresÌa vencida para mandar un recordatorio en caso no tengan puesto el pago autom·tico y asÌ no perder clientes
+--Problem√°tica: 
+--Membresia vencida: Identificar a los clientes con membres√≠a vencida para mandar un recordatorio en caso no tengan puesto el pago autom√°tico y as√≠ no perder clientes
 --Query:
 CREATE FUNCTION dbo.ClientesConMembresiaVencida()
 RETURNS TABLE
@@ -34,7 +35,7 @@ RETURN
 );
 SELECT * FROM dbo.ClientesConMembresiaVencida();
 
---Problem·tica: 
+--Problem√°tica: 
 --Dificultad para identificar falturas vencidas: Identificar pedidos pendientes que tenga la empresa es importante para garantizar una entrega oportuna y satisfactoria de los productos, manteniendo una buena reputacion de la empresa
 --Query: 
 CREATE FUNCTION dbo.PedidosPendientes()
@@ -57,34 +58,112 @@ RETURN
 
 SELECT * FROM dbo.PedidosPendientes();
 
---Problem·tica: 
---Listar productos que no se han vendido: Es importante conocer los productos que no han sido vendidos para analizar su rendimiento en el mercado y tomar decisiones sobre su continuidad o promociÛn.
---Query: 
-SELECT p.NombreProducto, p.CodigoProducto
- FROM Producto p
- EXCEPT
-SELECT p.NombreProducto, rp.CodigoProducto
-FROM Producto p
-JOIN ResumenPedido rp ON p.CodigoProducto = rp.CodigoProducto
 
---Problem·tica: 
---Listar clientes sin membresÌas activas: Es necesario identificar los clientes que no tienen ninguna membresÌa activa para promover ofertas o invitarlos a inscribirse en un programa de membresÌas.
---Query: 
-CREATE FUNCTION dbo.ObtenerClientesSinMembresias()
-RETURNS TABLE
-AS
-RETURN (
-SELECT c.NombreCliente, c.IdCliente
-FROM Cliente c
-EXCEPT
-SELECT c.NombreCliente, m.IdCliente
-FROM Cliente c
-JOIN Membresia m ON c.IdCliente = m.IdCliente
-);
-SELECT * FROM dbo.ObtenerClientesSinMembresias();
+---------------------------Mayra----------------
 
---Problem·tica: 
---Obtener los clientes sin tarjetas de crÈdito registradas: La consulta identifica los clientes que no tienen ning˙n registro en la tabla TarjetaCredito mediante una combinaciÛn externa izquierda LEFT JOIN y filtrando aquellos clientes cuya clave en TarjetaCredito sea nula.
+--Problem√°tica: 
+--Listar productos que no se han vendido: Es importante conocer los productos que no han sido vendidos para analizar su rendimiento en el mercado y tomar decisiones sobre su continuidad o promoci√≥n.
+--Query: 
+-- Ejecutar la consulta para listar productos que no se han vendido con detalles adicionales
+SELECT 
+    P.CodigoProducto,
+    P.NombreProducto,
+    P.Descripcion,
+    I.Cantidad AS CantidadEnInventario,
+    A.IdAlmacen,
+    E.NombreEmpresa,
+    D.NombreVia AS DireccionAlmacen,
+    DI.NombreDistrito,
+    PR.NombreProvincia,
+    R.NombreRegion
+FROM 
+    Producto P
+LEFT JOIN 
+    Inventario I ON P.CodigoProducto = I.CodigoProducto
+LEFT JOIN 
+    Almacen A ON I.IdAlmacen = A.IdAlmacen
+LEFT JOIN 
+    Empresa E ON A.IdEmpresa = E.IdEmpresa
+LEFT JOIN 
+    Direccion D ON A.IdDireccion = D.IdDireccion
+LEFT JOIN 
+    TipoVia DV ON D.IdTipoVia = DV.IdTipoVia
+LEFT JOIN 
+    Distrito DI ON D.IdDistrito = DI.IdDistrito
+LEFT JOIN 
+    Provincia PR ON DI.IdProvincia = PR.IdProvincia
+LEFT JOIN 
+    Region R ON PR.IdRegion = R.IdRegion
+WHERE 
+    P.CodigoProducto NOT IN (SELECT DISTINCT RP.CodigoProducto FROM ResumenPedido RP)
+ORDER BY 
+    P.NombreProducto;
+
+
+
+--Problem√°tica: 
+--Listar clientes sin membres√≠as activas: Es necesario identificar los clientes que no tienen ninguna membres√≠a activa para promover ofertas o invitarlos a inscribirse en un programa de membres√≠as.
+--Query: 
+-- Ejecutar la consulta para listar clientes sin membres√≠as activas con detalles adicionales
+SELECT 
+    C.IdCliente,
+    C.NombreCliente,
+    C.RUC,
+    D.NombreVia AS Direccion,
+    DV.Tipo AS TipoVia,
+    DI.NombreDistrito,
+    PR.NombreProvincia,
+    R.NombreRegion,
+    TC.Telefono AS TelefonoCliente,
+    CC.Correo AS CorreoCliente,
+    N.Nombre AS NombreNegociador,
+    N.ApellidoPaterno,
+    N.ApellidoMaterno,
+    N.Cargo AS CargoNegociador
+FROM 
+    Cliente C
+JOIN 
+    Direccion D ON C.IdDireccionOficial = D.IdDireccion
+JOIN 
+    TipoVia DV ON D.IdTipoVia = DV.IdTipoVia
+JOIN 
+    Distrito DI ON D.IdDistrito = DI.IdDistrito
+JOIN 
+    Provincia PR ON DI.IdProvincia = PR.IdProvincia
+JOIN 
+    Region R ON PR.IdRegion = R.IdRegion
+LEFT JOIN 
+    Membresia M ON C.IdCliente = M.IdCliente 
+                AND M.FechaFinal >= GETDATE()
+LEFT JOIN 
+    Negociador N ON C.IdCliente = N.IdCliente
+LEFT JOIN 
+    TelefonoCliente TC ON N.IdNegociador = TC.IdNegociador
+LEFT JOIN 
+    CorreoCliente CC ON N.IdNegociador = CC.IdNegociador
+WHERE 
+    M.IdMembresia IS NULL
+GROUP BY 
+    C.IdCliente, 
+    C.NombreCliente, 
+    C.RUC, 
+    D.NombreVia, 
+    DV.Tipo, 
+    DI.NombreDistrito, 
+    PR.NombreProvincia, 
+    R.NombreRegion, 
+    TC.Telefono, 
+    CC.Correo, 
+    N.Nombre, 
+    N.ApellidoPaterno, 
+    N.ApellidoMaterno, 
+    N.Cargo
+ORDER BY 
+    C.NombreCliente;
+
+
+--Problem√°tica: 
+--Obtener los clientes sin tarjetas de cr√©dito registradas: La consulta identifica los clientes que no tienen ning√∫n registro en la tabla TarjetaCredito mediante una combinaci√≥n externa izquierda LEFT JOIN y filtrando aquellos clientes cuya clave en TarjetaCredito sea nula.
 --Query:
 CREATE FUNCTION dbo.ObtenerClientesSinTarjetas()
 RETURNS TABLE
@@ -99,92 +178,71 @@ SELECT c.NombreCliente, c.IdCliente
 );
 SELECT * FROM dbo.ObtenerClientesSinTarjetas();
 
---Problem·tica: 
---Es necesario identificar cu·l es la empresa que tiene el mayor n˙mero de clientes asociados. Esto puede ayudar a reconocer las empresas m·s influyentes y exitosas en tÈrminos de atracciÛn de clientes, lo cual es valioso para an·lisis de mercado y decisiones estratÈgicas
---Query: 
-SELECT TOP 1 e.NombreEmpresa, COUNT(p.IdEmpresa) AS num_clientes
-FROM Empresa e
-JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
-GROUP BY e.NombreEmpresa
-ORDER BY COUNT(p.IdEmpresa) DESC
+
+---------------------------Nayeli----------------
 
 
 
---Problem·tica: 
---Para una gestiÛn eficiente del inventario, es crucial conocer el total de productos almacenados en un almacÈn especÌfico. Esto permite controlar el stock, planificar reabastecimientos y evitar rupturas de inventario.
---Query: 
-CREATE PROCEDURE CalcularTotalProductosInventario @idal INT, @codigoprod VARCHAR(100)
+
+
+---------------------------Ysela----------------
+
+--1. Gesti√≥n de futuras entregas: Se requiere saber las siguientes en entregas en los pr√≥ximos 3 meses, en consecuente poder gestionar eficientemente las entregas de pedidos futuros.
+--Para implementar esta soluci√≥n, podemos crear una consulta SQL que identifique todos los pedidos con fechas de entrega dentro de los pr√≥ximos tres meses.
+--Implementar la funci√≥n ClientesConPedidosEn3Meses nos permitir√° prever las entregas, asignar recursos de manera eficiente y asegurar la satisfacci√≥n del cliente, manteniendo la competitividad de nuestra empresa.
+CREATE FUNCTION ClientesConPedidosEn3Meses()
+RETURNS TABLE
 AS
-BEGIN
-    DECLARE @total_productos INT;
+RETURN
+(
+    SELECT c.NombreCliente, 
+           MAX(f.Vencimiento) AS ProximaFechaPedido
+    FROM Cliente c
+    LEFT JOIN Pedido p ON c.IdCliente = p.IdCliente
+    LEFT JOIN Factura f ON p.NumeroPedido = f.NumeroPedido
+    GROUP BY c.NombreCliente
+    HAVING MAX(f.Vencimiento) < DATEADD(MONTH, 3, GETDATE()) );
+SELECT * FROM ClientesConPedidosEn3Meses()
+ORDER BY ProximaFechaPedido ASC;
 
-    SELECT @total_productos = SUM(i.Cantidad)
+--2.  Almacenes con poco inventario de un producto: Desarrollar una funci√≥n en la base de datos que permita identificar almacenes con cantidades insuficientes de productos espec√≠ficos. Implementar esta soluci√≥n ayudar√° a tomar decisiones informadas sobre la redistribuci√≥n de inventarios y la necesidad de reabastecimiento.
+--La funci√≥n ObtenerAlmacenesConPocoInventario sirve para identificar almacenes con menos cantidad de un producto espec√≠fico. Se utiliza un par√°metro que determina el nivel m√≠nimo de inventario.
+CREATE FUNCTION ObtenerAlmacenesConPocoInventario(@parametro INT, @codigoProducto VARCHAR(10))
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT a.IdAlmacen, 
+           a.IdDireccion, 
+           i.CodigoProducto, 
+           i.Cantidad
     FROM Inventario i
-    WHERE i.IdAlmacen = @idal
-    AND i.CodigoProducto = @codigoprod;
+    JOIN Almacen a ON i.IdAlmacen = a.IdAlmacen
+    WHERE i.Cantidad < @parametro AND i.CodigoProducto = @codigoProducto
+);
+SELECT * FROM ObtenerAlmacenesConPocoInventario(81, 'HHG-003');
 
-    SELECT @total_productos AS TotalProductosInventario;
-END;
-EXEC CalcularTotalProductosInventario @idal = 1, @codigoprod = 'FF-001';
+--3. Facturas por almac√©n: Se requiere desarrollar una funci√≥n que permita obtener un reporte detallado de las facturas por almac√©n. Esta funci√≥n facilitar√° el seguimiento y la gesti√≥n eficiente de las facturas, permitiendo una mejor planificaci√≥n financiera y medidas correctivas oportunas por empresa.
+-- Implementar la funci√≥n ObtenerFacturasPorAlmacen nos permitir√° obtener un reporte detallado de las facturas emitidas por cada almac√©n, incluyendo la fecha de vencimiento y el estado de pago.
+CREATE FUNCTION FacturasPorAlmacen()
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT a.IdAlmacen, 
+           f.NumeroFactura, 
+           f.Vencimiento, 
+           f.Pagado
+    FROM Almacen a
+    JOIN Factura f ON a.IdAlmacen = f.IdAlmacen
+);
+SELECT * FROM FacturasPorAlmacen();
 
---Problem·tica: 
---Clientes sin pedidos recientes: Identificar clientes que no han realizado pedidos en los ˙ltimos seis meses para potencialmente enviarles promociones o incentivos
---Query: 
-SELECT c.NombreCliente, MAX(p.FechaPedido) AS UltimaFechaPedido
-FROM Cliente c
-LEFT JOIN Pedido p ON c.IdCliente = p.IdCliente
-GROUP BY c.NombreCliente
-HAVING MAX(p.FechaPedido) < DATEADD(MONTH, -6, GETDATE()) OR MAX(p.FechaPedido) IS NULL;
 
---Problem·tica: 
---Almacenes con poco inventario: Identificar almacenes que tienen menos cantidad de un producto especÌfico
---Query: 
-SELECT a.IdAlmacen, p.NombreProducto, i.Cantidad
-FROM Almacen a
-INNER JOIN Inventario i ON a.IdAlmacen = i.IdAlmacen
-INNER JOIN Producto p ON i.CodigoProducto = p.CodigoProducto
-order by i.Cantidad asc
-
---Problem·tica: 
---Empresas con facturas pendientes de pago: Identificar las empresas que tienen facturas pendientes de pago
---Query:
-SELECT e.NombreEmpresa, f.NumeroFactura, f.Vencimiento
-FROM Empresa e
-INNER JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
-INNER JOIN Factura f ON p.NumeroPedido = f.NumeroPedido
-WHERE f.Pagado = 0 AND f.Vencimiento < GETDATE();
-
---Problem·tica: 
---Clientes con multiples tarjetas de crÈdito: Identificar clientes que tienen registradas m˙ltiples tarjetas de crÈdito en el sistema 
---Query:
-SELECT c.NombreCliente, COUNT(tc.IdTarjetaCredito) AS TotalTarjetas
-FROM Cliente c
-INNER JOIN TarjetaCredito tc ON c.IdCliente = tc.IdCliente
-GROUP BY c.NombreCliente
-HAVING COUNT(tc.IdTarjetaCredito) > 1;
- 
---Problem·tica: 
---Negociadores sin contacto: Identificar negociadores que no tienen un telÈfono registrado
---Query:
-SELECT n.Nombre, n.ApellidoPaterno, n.ApellidoMaterno
-FROM Negociador n
-LEFT JOIN TelefonoCliente t ON n.IdNegociador = t.IdNegociador
-WHERE t.IdTelefono IS NULL;
- 
---Problem·tica:  
---Empresas con m·s de un almacÈn: Identificar las empresas que tienen m·s de un almacÈn asociado
---Query:
-SELECT e.NombreEmpresa, COUNT(a.IdAlmacen) AS TotalAlmacenes
-FROM Empresa e
-INNER JOIN Almacen a ON e.IdEmpresa = a.IdEmpresa
-GROUP BY e.NombreEmpresa
-HAVING COUNT(a.IdAlmacen) > 1;
-
- 
 ---------------------------Ernesto----------------
 
---Problem·tica:
---Hacer un ranking de los clientes que han hecho la mayor cantidad de pedidos con la tarjeta de crÈdito segun la empresa
+--Problem√°tica:
+--Hacer un ranking de los clientes que han hecho la mayor cantidad de pedidos con la tarjeta de cr√©dito segun la empresa
 --Query:
 create procedure VentasTarjetaCredito
 @Empresa varchar(100)
@@ -197,7 +255,7 @@ begin
 		join Pedido p on e.IdEmpresa = p.IdEmpresa
 		join Factura f on f.NumeroPedido = p.NumeroPedido
 		join FormaPago fp on fp.IdFormaPago = f.IdFormaPago
-		where fp.Nombre = 'Tarjeta de CrÈdito' 
+		where fp.Nombre = 'Tarjeta de Cr√©dito' 
 		and e.NombreEmpresa = @Empresa
 		group by e.IdEmpresa, p.IdCliente
 	) t
@@ -209,7 +267,7 @@ end;
 exec VentasTarjetaCredito @Empresa = 'Freaky Frog'
 
 
---Hacer un ranking de las 10 empresas que facturaron m·s dinero en un aÒo
+--Hacer un ranking de las 10 empresas que facturaron m√°s dinero en un a√±o
 --Query:
 create procedure RankingExitos
 @anio varchar(4)
