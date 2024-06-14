@@ -266,7 +266,7 @@ end;
 
 exec VentasTarjetaCredito @Empresa = 'Freaky Frog'
 
-
+--Probllematica:
 --Hacer un ranking de las 10 empresas que facturaron más dinero en un año
 --Query:
 create procedure RankingExitos
@@ -289,5 +289,18 @@ end;
 exec RankingExitos @anio = '2024'
 
 
---
+--Problematica:
+--Saber que tipo de membresia tienen los clientes
 --Query:
+create procedure ConocerMembresiaCliente
+@id int
+as
+begin
+    begin c.NombreCliente, tm.NombreTipoMembresia as TipoMembresia
+    from Cliente c
+    join Membresia m on m.IdCliente = c.IdCliente
+    join TipoMembresia tm on tm.IdTipoMembresia = m.IdTipoMembresia
+    where @id = c.IdCliente
+end;
+
+exec ConocerMembresiaCliente @id = 2
