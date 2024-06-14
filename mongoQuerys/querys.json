@@ -1,0 +1,13 @@
+#query 1
+#que negociadores tienen tanto correco como telefono
+{
+  filter: {
+    Correos: {
+      $exists: true,
+      $ne: []
+    },
+    Telefono: {
+      $ne: null
+    }
+  }
+}
