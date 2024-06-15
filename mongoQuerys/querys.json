@@ -1,6 +1,6 @@
 #Erntestoo =======================================================
 #query 1
-#que negociadores tienen tanto correco como telefono
+#que negociadores tienen tanto correo como telefono
 {
   filter: {
     Correos: {
@@ -13,9 +13,15 @@
   }
 }
 
-
+#query 2
+#saber que pedidos de cierta empresa tienen un costo total mayor a 1000 soles
+{ 
+  "IdEmpresa": 20, 
+  "CostoTotal": { "$gt": 1000 } 
+}
 #Roy ==========================================================
 #Query 1
+#Esta consulta especifica un filtro para encontrar documentos donde FechaInicio sea mayor o igual al 31 de diciembre de 2023, y donde FechaFinal sea menor o igual al 31 de diciembre de 2024. 
 {
   "collation": null,
   "filter": {
@@ -32,6 +38,7 @@
   "sort": null
 }
 #Query 2
+#Esta consulta especifica un filtro para encontrar documentos donde el campo Correos no sea nulo (es decir, tiene algún valor) y donde el campo Telefono no sea nulo.
 {
   filter: {
     Correos: { $ne: [null] },
