@@ -45,3 +45,43 @@
     Telefono: { $ne: null }
   }
 }
+#ysela==========================================================
+#querrry 1: Se requiere identificar los productos que tengan más de 200 en su inventario. Esta consulta es necesaria si se requiere identificar los productos que no necesiten restock de inventario y/o no han dado tantas ventas como deberían.
+{
+  filter: {
+    'Inventario.Cantidad': {
+      $gt: 200
+    }
+  }
+}
+
+#querry 2: Se requiere solamente obtener el Código de Producto que comience con la letra “F”. Esta consulta es necesaria si se requiere identificar los productos por su letra de inicio del código. Asimismo, se utiliza expresiones regulares (regex) para buscar documentos en una colección.
+{ 
+"CodigoProducto": { 
+"$regex": "^f", "$options": "i" }
+ }
+#nayeli==========================================================
+#querry 1: La consulta proporciona registros correspondientes al año 2025 y en el mes de noviembre.
+{
+  filter: {
+    FechaVencimiento: {
+      pattern: '2025-11',
+      options: ''
+    }
+  }
+}
+#querry 2: La consulta proporciona que los documentos recuperados tengan un valor IdEmpresa menor que 10 y un valor Dirección.Manzana de "F" o "G".
+{
+  filter: {
+    IdEmpresa: {
+      $lt: 10
+    },
+    'Direccion.Manzana': {
+      $in: [
+        'F',
+        'G'
+      ]
+    }
+  }
+}
+#Mayra==========================================================
