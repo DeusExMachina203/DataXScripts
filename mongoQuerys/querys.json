@@ -1,3 +1,4 @@
+#Erntestoo =======================================================
 #query 1
 #que negociadores tienen tanto correco como telefono
 {
@@ -9,5 +10,31 @@
     Telefono: {
       $ne: null
     }
+  }
+}
+
+
+#Roy ==========================================================
+#Query 1
+{
+  "collation": null,
+  "filter": {
+    "FechaInicio": {
+      "$gte": "2023-12-31"
+    },
+    "FechaFinal": {
+      "$lte": "2024-12-31"
+    }
+  },
+  "limit": null,
+  "project": null,
+  "skip": null,
+  "sort": null
+}
+#Query 2
+{
+  filter: {
+    Correos: { $ne: [null] },
+    Telefono: { $ne: null }
   }
 }
