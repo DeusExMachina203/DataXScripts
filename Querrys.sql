@@ -181,9 +181,48 @@ SELECT * FROM dbo.ObtenerClientesSinTarjetas();
 
 ---------------------------Nayeli----------------
 
+--Problemática: 
+--Es necesario identificar cuál es la empresa que tiene el mayor número de clientes asociados. Esto puede ayudar a reconocer las empresas más influyentes y exitosas en términos de atracción de clientes, lo cual es valioso para análisis de mercado y decisiones estratégicas
+--Query 1: 
+CREATE FUNCTION ObtenerTopEmpresaConClientes()
+RETURNS TABLE
+AS
+RETURN 
+(
+    SELECT TOP 1 e.NombreEmpresa, COUNT(p.IdEmpresa) AS num_clientes
+    FROM Empresa e
+    LEFT JOIN Pedido p ON e.IdEmpresa = p.IdEmpresa
+    GROUP BY e.NombreEmpresa
+    ORDER BY COUNT(p.IdEmpresa) DESC
+);
+SELECT * FROM ObtenerTopEmpresaConClientes();
+--Problemática: 
+--Para una gestión eficiente del inventario, es crucial conocer el total de productos almacenados en un almacén específico. Esto permite controlar el stock, planificar reabastecimientos y evitar rupturas de inventario.
+--Query 2: 
+CREATE PROCEDURE CalcularTotalProductoInventario @idal INT, @codigoprod VARCHAR(100)
+AS
+BEGIN
+    DECLARE @total_productos INT;
 
+    SELECT @total_productos = SUM(i.Cantidad)
+    FROM Inventario i
+    WHERE i.IdAlmacen = @idal
+    AND i.CodigoProducto = @codigoprod;
 
+    SELECT @total_productos AS TotalProductosInventario;
+END;
+EXEC CalcularTotalProductoInventario @idal = 1, @codigoprod = 'FF-001';
 
+--Problemática: 
+–informe mensual a todos los clientes: clientes con sus direcciones correspondientes, direcciones de correo electrónico y números de teléfono para asegurarse de que los informes se entreguen correctamente y que los clientes puedan acceder a la información que necesitan para tomar decisiones informadas.
+--Query 3: 
+SELECT c.NombreCliente, d.NombreVia, d.Numero, d.Manzana, d.Unidad, d.Lote, 
+       ce.Correo, ce.Descripcion, t.Telefono, t.Descripcion
+FROM Cliente c
+JOIN Direccion d ON c.IdDireccionOficial = d.IdDireccion
+JOIN CorreoCliente ce ON c.IdCliente = ce.IdNegociador
+JOIN TelefonoCliente  ON c.IdCliente = t.IdNegociador
+ORDER BY c.NombreCliente;
 
 ---------------------------Ysela----------------
 
