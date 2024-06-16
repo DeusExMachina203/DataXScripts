@@ -1,0 +1,2216 @@
+[{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0744"
+  },
+  "Nombre": "Juan",
+  "Cargo": "Gerente de ventas",
+  "Descripcion": "Responsable de supervisar las ventas y el rendimiento del equipo de ventas",
+  "ApellidoPaterno": "González",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 1,
+  "Correos": [
+    {
+      "Correo": "juan.gonzalez@example.com",
+      "Descripcion": "Correo principal de Juan González",
+      "IdNegociador": 1
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0745"
+  },
+  "Nombre": "María",
+  "Cargo": "Especialista de Marketing",
+  "Descripcion": "Encargada de diseñar y ejecutar estrategias de marketing",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 2,
+  "Correos": [
+    {
+      "Correo": "maria.rodriguez@example.com",
+      "Descripcion": "Correo principal de María Rodríguez",
+      "IdNegociador": 2
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0746"
+  },
+  "Nombre": "Pedro",
+  "Cargo": "Analista de datos",
+  "Descripcion": "Encargado de analizar los datos del mercado para tomar decisiones informadas",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 3,
+  "Correos": [
+    {
+      "Correo": "pedro.fernandez@example.com",
+      "Descripcion": "Correo principal de Pedro Fernández",
+      "IdNegociador": 3
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0747"
+  },
+  "Nombre": "Laura",
+  "Cargo": "Ejecutivo de cuentas",
+  "Descripcion": "Responsable de gestionar las cuentas de los clientes y mantener relaciones comerciales",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 4,
+  "Correos": [
+    {
+      "Correo": "laura.garcia@example.com",
+      "Descripcion": "Correo principal de Laura García",
+      "IdNegociador": 4
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0748"
+  },
+  "Nombre": "Carlos",
+  "Cargo": "Desarrollador de negocios",
+  "Descripcion": "Encargado de identificar oportunidades de negocio y desarrollar relaciones con los clientes",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 5,
+  "Correos": [
+    {
+      "Correo": "carlos.diaz@example.com",
+      "Descripcion": "Correo principal de Carlos Díaz",
+      "IdNegociador": 5
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0749"
+  },
+  "Nombre": "Ana",
+  "Cargo": "Especialista en comunicaciones",
+  "Descripcion": "Encargada de gestionar la comunicación interna y externa de la empresa",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 6
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074a"
+  },
+  "Nombre": "Luis",
+  "Cargo": "Coordinador de ventas",
+  "Descripcion": "Responsable de coordinar las actividades del equipo de ventas y alcanzar los objetivos establecidos",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 7,
+  "Correo": null,
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074b"
+  },
+  "Nombre": "Sofía",
+  "Cargo": "Analista de mercado",
+  "Descripcion": "Encargada de analizar tendencias de mercado y proporcionar información relevante para la toma de decisiones",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 8,
+  "Correo": null,
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074c"
+  },
+  "Nombre": "Diego",
+  "Cargo": "Especialista en desarrollo de negocios",
+  "Descripcion": "Encargado de desarrollar nuevas oportunidades de negocio y establecer relaciones comerciales",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "García",
+  "IdCliente": 9
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074d"
+  },
+  "Nombre": "Elena",
+  "Cargo": "Analista financiero",
+  "Descripcion": "Responsable de planificar y ejecutar estrategias de marketing para alcanzar los objetivos de la empresa",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 10,
+  "Correo": null,
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074e"
+  },
+  "Nombre": "Andrés",
+  "Cargo": "Analista Financiero",
+  "Descripcion": "Encargado de analizar datos financieros y elaborar informes para apoyar la toma de decisiones empresariales",
+  "ApellidoPaterno": "González",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 11,
+  "Correos": [
+    {
+      "Correo": "andres.gonzalez@example.com",
+      "Descripcion": "Correo principal de Andrés González",
+      "IdNegociador": 11
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb074f"
+  },
+  "Nombre": "Valeria",
+  "Cargo": "Especialista en desarrollo de productos",
+  "Descripcion": "Encargada de investigar, desarrollar y lanzar nuevos productos al mercado",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 12,
+  "Correos": [
+    {
+      "Correo": "valeria.rodriguez@example.com",
+      "Descripcion": "Correo principal de Valeria Rodríguez",
+      "IdNegociador": 12
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0750"
+  },
+  "Nombre": "Javier",
+  "Cargo": "Gerente de cuentas",
+  "Descripcion": "Responsable de gestionar y mantener relaciones con los clientes clave de la empresa",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 13,
+  "Correos": [
+    {
+      "Correo": "javier.fernandez@example.com",
+      "Descripcion": "Correo principal de Javier Fernández",
+      "IdNegociador": 13
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0751"
+  },
+  "Nombre": "Carolina",
+  "Cargo": "Analista de marketing digital",
+  "Descripcion": "Encargada de analizar y optimizar estrategias de marketing en medios digitales",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 14,
+  "Correos": [
+    {
+      "Correo": "carolina.garcia@example.com",
+      "Descripcion": "Correo principal de Carolina García",
+      "IdNegociador": 14
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0752"
+  },
+  "Nombre": "Ricardo",
+  "Cargo": "Ejecutivo de ventas",
+  "Descripcion": "Responsable de cerrar acuerdos de venta y alcanzar los objetivos de ventas establecidos",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 15,
+  "Correos": [
+    {
+      "Correo": "ricardo.diaz@example.com",
+      "Descripcion": "Correo principal de Ricardo Díaz",
+      "IdNegociador": 15
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0753"
+  },
+  "Nombre": "Paula",
+  "Cargo": "Especialista en relaciones públicas",
+  "Descripcion": "Encargada de gestionar la imagen pública de la empresa y mantener relaciones con los medios de comunicación",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 16,
+  "Correos": [
+    {
+      "Correo": "paula.martinez@example.com",
+      "Descripcion": "Correo principal de Paula Martínez",
+      "IdNegociador": 16
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0754"
+  },
+  "Nombre": "Martín",
+  "Cargo": "Coordinador de marketing",
+  "Descripcion": "Responsable de coordinar las actividades del equipo de marketing y ejecutar campañas publicitarias",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 17,
+  "Correos": [
+    {
+      "Correo": "martin.sanchez@example.com",
+      "Descripcion": "Correo principal de Martín Sánchez",
+      "IdNegociador": 17
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0755"
+  },
+  "Nombre": "Camila",
+  "Cargo": "Analista de negocio",
+  "Descripcion": "Encargada de analizar el mercado y proponer estrategias para mejorar el rendimiento empresarial",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 18,
+  "Correos": [
+    {
+      "Correo": "camila.lopez@example.com",
+      "Descripcion": "Correo principal de Camila López",
+      "IdNegociador": 18
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0756"
+  },
+  "Nombre": "Alejandro",
+  "Cargo": "Gerente de desarrollo de negocios",
+  "Descripcion": "Responsable de liderar el desarrollo e implementación de nuevas oportunidades de negocio",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "García",
+  "IdCliente": 19,
+  "Correos": [
+    {
+      "Correo": "alejandro.perez@example.com",
+      "Descripcion": "Correo principal de Alejandro Pérez",
+      "IdNegociador": 19
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0757"
+  },
+  "Nombre": "Lucía",
+  "Cargo": "Especialista en marketing de contenidos",
+  "Descripcion": "Encargada de crear contenido relevante para atraer y retener clientes",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 20,
+  "Correos": [
+    {
+      "Correo": "lucia.gomez@example.com",
+      "Descripcion": "Correo principal de Lucía Gómez",
+      "IdNegociador": 20
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0758"
+  },
+  "Nombre": "Mateo",
+  "Cargo": "Analista de riesgos financieros",
+  "Descripcion": "Encargado de identificar y evaluar los riesgos financieros para la empresa",
+  "ApellidoPaterno": "González",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 21,
+  "Correos": [
+    {
+      "Correo": "mateo.gonzalez@example.com",
+      "Descripcion": "Correo principal de Mateo González",
+      "IdNegociador": 21
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0759"
+  },
+  "Nombre": "Natalia",
+  "Cargo": "Especialista en investigación de mercado",
+  "Descripcion": "Encargada de realizar estudios de mercado para identificar oportunidades y amenazas",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 22,
+  "Correos": [
+    {
+      "Correo": "natalia.rodriguez@example.com",
+      "Descripcion": "Correo principal de Natalia Rodríguez",
+      "IdNegociador": 22
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075a"
+  },
+  "Nombre": "Felipe",
+  "Cargo": "Ejecutivo de cuentas clave",
+  "Descripcion": "Responsable de gestionar las cuentas clave de la empresa y mantener relaciones comerciales sólidas",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 23,
+  "Correos": [
+    {
+      "Correo": "felipe.fernandez@example.com",
+      "Descripcion": "Correo principal de Felipe Fernández",
+      "IdNegociador": 23
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075b"
+  },
+  "Nombre": "Juliana",
+  "Cargo": "Analista de redes sociales",
+  "Descripcion": "Encargada de gestionar y optimizar la presencia de la empresa en las redes sociales",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 24,
+  "Correos": [
+    {
+      "Correo": "juliana.garcia@example.com",
+      "Descripcion": "Correo principal de Juliana García",
+      "IdNegociador": 24
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075c"
+  },
+  "Nombre": "Sebastián",
+  "Cargo": "Gerente de ventas regionales",
+  "Descripcion": "Responsable de supervisar y liderar las actividades de ventas en una región específica",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 25,
+  "Correos": [
+    {
+      "Correo": "sebastian.diaz@example.com",
+      "Descripcion": "Correo principal de Sebastián Díaz",
+      "IdNegociador": 25
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075d"
+  },
+  "Nombre": "Isabella",
+  "Cargo": "Especialista en branding",
+  "Descripcion": "Encargada de desarrollar estrategias para mejorar la percepción de la marca en el mercado",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 26,
+  "Correos": [
+    {
+      "Correo": "isabella.martinez@example.com",
+      "Descripcion": "Correo principal de Isabella Martínez",
+      "IdNegociador": 26
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075e"
+  },
+  "Nombre": "Gabriel",
+  "Cargo": "Analista de investigación de mercado",
+  "Descripcion": "Encargado de recopilar, analizar y presentar datos para respaldar las decisiones de marketing",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 27,
+  "Correos": [
+    {
+      "Correo": "gabriel.sanchez@example.com",
+      "Descripcion": "Correo principal de Gabriel Sánchez",
+      "IdNegociador": 27
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb075f"
+  },
+  "Nombre": "Ana María",
+  "Cargo": "Coordinadora de marketing digital",
+  "Descripcion": "Responsable de coordinar las actividades de marketing en medios digitales",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 28,
+  "Correos": [
+    {
+      "Correo": "ana.maria.lopez@example.com",
+      "Descripcion": "Correo principal de Ana María López",
+      "IdNegociador": 28
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0760"
+  },
+  "Nombre": "Juan José",
+  "Cargo": "Especialista en desarrollo de negocios",
+  "Descripcion": "Encargado de identificar oportunidades de negocio en mercados internacionales",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "García",
+  "IdCliente": 29,
+  "Correos": [
+    {
+      "Correo": "juan.jose.perez@example.com",
+      "Descripcion": "Correo principal de Juan José Pérez",
+      "IdNegociador": 29
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0761"
+  },
+  "Nombre": "Carla",
+  "Cargo": "Especialista en recursos humanos",
+  "Descripcion": "Encargada de reclutar, seleccionar y desarrollar al talento humano de la empresa",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 30,
+  "Correos": [
+    {
+      "Correo": "carla.martinez@example.com",
+      "Descripcion": "Correo principal de Carla Martínez",
+      "IdNegociador": 30
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0762"
+  },
+  "Nombre": "Daniel",
+  "Cargo": "Analista de ventas",
+  "Descripcion": "Encargado de analizar datos de ventas para identificar oportunidades de mejora",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 31,
+  "Correos": [
+    {
+      "Correo": "daniel.rodriguez@example.com",
+      "Descripcion": "Correo principal de Daniel Rodríguez",
+      "IdNegociador": 31
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0763"
+  },
+  "Nombre": "Valentina",
+  "Cargo": "Gerente de marketing digital",
+  "Descripcion": "Responsable de planificar y ejecutar estrategias de marketing en entornos digitales",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 32,
+  "Correos": [
+    {
+      "Correo": "valentina.fernandez@example.com",
+      "Descripcion": "Correo principal de Valentina Fernández",
+      "IdNegociador": 32
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0764"
+  },
+  "Nombre": "Ignacio",
+  "Cargo": "Especialista en desarrollo de negocio",
+  "Descripcion": "Encargado de identificar y desarrollar nuevas oportunidades de negocio",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 33,
+  "Correos": [
+    {
+      "Correo": "ignacio.garcia@example.com",
+      "Descripcion": "Correo principal de Ignacio García",
+      "IdNegociador": 33
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0765"
+  },
+  "Nombre": "Florencia",
+  "Cargo": "Analista de datos financieros",
+  "Descripcion": "Encargada de analizar información financiera para apoyar la toma de decisiones empresariales",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 34,
+  "Correos": [
+    {
+      "Correo": "florencia.diaz@example.com",
+      "Descripcion": "Correo principal de Florencia Díaz",
+      "IdNegociador": 34
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0766"
+  },
+  "Nombre": "Simón",
+  "Cargo": "Coordinador de ventas",
+  "Descripcion": "Responsable de coordinar las actividades de ventas y alcanzar los objetivos establecidos",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 35,
+  "Correos": [
+    {
+      "Correo": "simon.martinez@example.com",
+      "Descripcion": "Correo principal de Simón Martínez",
+      "IdNegociador": 35
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0767"
+  },
+  "Nombre": "Amanda",
+  "Cargo": "Especialista en marketing de contenido",
+  "Descripcion": "Encargada de crear y gestionar contenido para atraer y retener clientes",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 36,
+  "Correos": [
+    {
+      "Correo": "amanda.rodriguez@example.com",
+      "Descripcion": "Correo principal de Amanda Rodríguez",
+      "IdNegociador": 36
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0768"
+  },
+  "Nombre": "Tomás",
+  "Cargo": "Analista de estrategias de negocio",
+  "Descripcion": "Encargado de analizar estrategias empresariales y proponer mejoras",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 37,
+  "Correos": [
+    {
+      "Correo": "tomas.sanchez@example.com",
+      "Descripcion": "Correo principal de Tomás Sánchez",
+      "IdNegociador": 37
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0769"
+  },
+  "Nombre": "Martina",
+  "Cargo": "Gerente de cuentas",
+  "Descripcion": "Responsable de gestionar cuentas clave y mantener relaciones comerciales",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 38,
+  "Correos": [
+    {
+      "Correo": "martina.lopez@example.com",
+      "Descripcion": "Correo principal de Martina López",
+      "IdNegociador": 38
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076a"
+  },
+  "Nombre": "Lucas",
+  "Cargo": "Especialista en marketing de redes sociales",
+  "Descripcion": "Encargado de gestionar la presencia de la empresa en las redes sociales",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 39,
+  "Correos": [
+    {
+      "Correo": "lucas.garcia@example.com",
+      "Descripcion": "Correo principal de Lucas García",
+      "IdNegociador": 39
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076b"
+  },
+  "Nombre": "Isabel",
+  "Cargo": "Analista de investigación de mercado",
+  "Descripcion": "Encargada de realizar estudios de mercado para identificar oportunidades",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 40,
+  "Correos": [
+    {
+      "Correo": "isabel.martinez@example.com",
+      "Descripcion": "Correo principal de Isabel Martínez",
+      "IdNegociador": 40
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076c"
+  },
+  "Nombre": "Emilio",
+  "Cargo": "Especialista en desarrollo de producto",
+  "Descripcion": "Encargado de desarrollar y mejorar productos para el mercado",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 41,
+  "Correos": [
+    {
+      "Correo": "emilio.lopez@example.com",
+      "Descripcion": "Correo principal de Emilio López",
+      "IdNegociador": 41
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076d"
+  },
+  "Nombre": "Renata",
+  "Cargo": "Gerente de ventas",
+  "Descripcion": "Responsable de liderar el equipo de ventas y alcanzar objetivos",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 42,
+  "Correos": [
+    {
+      "Correo": "renata.garcia@example.com",
+      "Descripcion": "Correo principal de Renata García",
+      "IdNegociador": 42
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076e"
+  },
+  "Nombre": "Matías",
+  "Cargo": "Analista de marketing digital",
+  "Descripcion": "Encargado de analizar y optimizar estrategias de marketing en línea",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 43,
+  "Correos": [
+    {
+      "Correo": "matias.perez@example.com",
+      "Descripcion": "Correo principal de Matías Pérez",
+      "IdNegociador": 43
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb076f"
+  },
+  "Nombre": "Renzo",
+  "Cargo": "Ejecutivo de cuentas",
+  "Descripcion": "Responsable de gestionar cuentas y mantener relaciones comerciales",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 44,
+  "Correos": [
+    {
+      "Correo": "renzo.diaz@example.com",
+      "Descripcion": "Correo principal de Renzo Díaz",
+      "IdNegociador": 44
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0770"
+  },
+  "Nombre": "Luna",
+  "Cargo": "Especialista en relaciones públicas",
+  "Descripcion": "Encargada de gestionar la imagen pública de la empresa",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 45,
+  "Correos": [
+    {
+      "Correo": "luna.martinez@example.com",
+      "Descripcion": "Correo principal de Luna Martínez",
+      "IdNegociador": 45
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0771"
+  },
+  "Nombre": "Maximiliano",
+  "Cargo": "Analista de negocios",
+  "Descripcion": "Encargado de analizar y mejorar procesos empresariales",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 46,
+  "Correos": [
+    {
+      "Correo": "maximiliano.gomez@example.com",
+      "Descripcion": "Correo principal de Maximiliano Gómez",
+      "IdNegociador": 46
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0772"
+  },
+  "Nombre": "Julieta",
+  "Cargo": "Gerente de marketing",
+  "Descripcion": "Responsable de planificar y ejecutar estrategias de marketing",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "López",
+  "IdCliente": 47,
+  "Correos": [
+    {
+      "Correo": "julieta.sanchez@example.com",
+      "Descripcion": "Correo principal de Julieta Sánchez",
+      "IdNegociador": 47
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0773"
+  },
+  "Nombre": "Dante",
+  "Cargo": "Analista de ventas",
+  "Descripcion": "Encargado de analizar datos de ventas para mejorar resultados",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 48,
+  "Correos": [
+    {
+      "Correo": "dante.fernandez@example.com",
+      "Descripcion": "Correo principal de Dante Fernández",
+      "IdNegociador": 48
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0774"
+  },
+  "Nombre": "Valeria",
+  "Cargo": "Especialista en marketing digital",
+  "Descripcion": "Encargada de desarrollar estrategias de marketing en línea",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 49,
+  "Correos": [
+    {
+      "Correo": "valeria.gomez@example.com",
+      "Descripcion": "Correo principal de Valeria Gómez",
+      "IdNegociador": 49
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0775"
+  },
+  "Nombre": "Santiago",
+  "Cargo": "Coordinador de ventas",
+  "Descripcion": "Responsable de coordinar actividades de ventas",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "González",
+  "IdCliente": 50,
+  "Correos": [
+    {
+      "Correo": "santiago.martinez@example.com",
+      "Descripcion": "Correo principal de Santiago Martínez",
+      "IdNegociador": 50
+    }
+  ],
+  "Telefono": null
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0776"
+  },
+  "Nombre": "Lucía",
+  "Cargo": "Ejecutivo de ventas",
+  "Descripcion": "Encargada de cerrar acuerdos comerciales",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 1,
+  "Correos": [
+    {
+      "Correo": "lucia.garcia@example.com",
+      "Descripcion": "Correo principal de Lucía García",
+      "IdNegociador": 51
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321456",
+      "Descripcion": "Número principal de Lucía García",
+      "IdNegociador": 41,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0777"
+  },
+  "Nombre": "Sebastián",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargado de desarrollar estrategias de marketing",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 2,
+  "Correos": [
+    {
+      "Correo": "sebastian.martinez@example.com",
+      "Descripcion": "Correo principal de Sebastián Martínez",
+      "IdNegociador": 52
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321457",
+      "Descripcion": "Número principal de Sebastián Martínez",
+      "IdNegociador": 42,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0778"
+  },
+  "Nombre": "Valentina",
+  "Cargo": "Gerente de Cuentas",
+  "Descripcion": "Responsable de mantener la relación con los clientes",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 3,
+  "Correos": [
+    {
+      "Correo": "valentina.rodriguez@example.com",
+      "Descripcion": "Correo principal de Valentina Rodríguez",
+      "IdNegociador": 53
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321458",
+      "Descripcion": "Número principal de Valentina Rodríguez",
+      "IdNegociador": 43,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0779"
+  },
+  "Nombre": "Mateo",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de analizar los estados financieros",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 4,
+  "Correos": [
+    {
+      "Correo": "mateo.gomez@example.com",
+      "Descripcion": "Correo principal de Mateo Gómez",
+      "IdNegociador": 54
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321459",
+      "Descripcion": "Número principal de Mateo Gómez",
+      "IdNegociador": 44,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077a"
+  },
+  "Nombre": "Isabella",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Responsable de interpretar datos para la toma de decisiones",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 5,
+  "Correos": [
+    {
+      "Correo": "isabella.hernandez@example.com",
+      "Descripcion": "Correo principal de Isabella Hernández",
+      "IdNegociador": 55
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321460",
+      "Descripcion": "Número principal de Isabella Hernández",
+      "IdNegociador": 45,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077b"
+  },
+  "Nombre": "Juan",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargado de coordinar el equipo de ventas",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "García",
+  "IdCliente": 6,
+  "Correos": [
+    {
+      "Correo": "juan.coordinador@example.com",
+      "Descripcion": "Correo principal de Juan Coordinador",
+      "IdNegociador": 56
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321461",
+      "Descripcion": "Número principal de Juan Coordinador",
+      "IdNegociador": 46,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077c"
+  },
+  "Nombre": "Camila",
+  "Cargo": "Ejecutivo de Cuentas",
+  "Descripcion": "Encargada de gestionar relaciones con clientes clave",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 7,
+  "Correos": [
+    {
+      "Correo": "camila.ejecutivo@example.com",
+      "Descripcion": "Correo principal de Camila Ejecutivo",
+      "IdNegociador": 57
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321462",
+      "Descripcion": "Número principal de Camila Ejecutivo",
+      "IdNegociador": 47,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077d"
+  },
+  "Nombre": "Lucas",
+  "Cargo": "Especialista en Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing online",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 8,
+  "Correos": [
+    {
+      "Correo": "lucas.marketing@example.com",
+      "Descripcion": "Correo principal de Lucas Marketing",
+      "IdNegociador": 58
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321463",
+      "Descripcion": "Número principal de Lucas Marketing",
+      "IdNegociador": 48,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077e"
+  },
+  "Nombre": "Valeria",
+  "Cargo": "Analista de Negocios",
+  "Descripcion": "Encargada de analizar oportunidades de mercado",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 9,
+  "Correos": [
+    {
+      "Correo": "valeria.analista@example.com",
+      "Descripcion": "Correo principal de Valeria Analista",
+      "IdNegociador": 59
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321464",
+      "Descripcion": "Número principal de Valeria Analista",
+      "IdNegociador": 49,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb077f"
+  },
+  "Nombre": "Tomás",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable de la estrategia de ventas",
+  "ApellidoPaterno": "Hernández",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 10,
+  "Correos": [
+    {
+      "Correo": "tomas.gerente@example.com",
+      "Descripcion": "Correo principal de Tomás Gerente",
+      "IdNegociador": 60
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321465",
+      "Descripcion": "Número principal de Tomás Gerente",
+      "IdNegociador": 50,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0780"
+  },
+  "Nombre": "María",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargada de estudios de mercado",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 11,
+  "Correos": [
+    {
+      "Correo": "maria.marketing@example.com",
+      "Descripcion": "Correo principal de María Marketing",
+      "IdNegociador": 61
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321466",
+      "Descripcion": "Número principal de María Marketing",
+      "IdNegociador": 51,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0781"
+  },
+  "Nombre": "Diego",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis financiero",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 12,
+  "Correos": [
+    {
+      "Correo": "diego.finanzas@example.com",
+      "Descripcion": "Correo principal de Diego Finanzas",
+      "IdNegociador": 62
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321467",
+      "Descripcion": "Número principal de Diego Finanzas",
+      "IdNegociador": 52,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0782"
+  },
+  "Nombre": "Laura",
+  "Cargo": "Gerente de Cuentas",
+  "Descripcion": "Responsable de relaciones con clientes corporativos",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 13,
+  "Correos": [
+    {
+      "Correo": "laura.gerente@example.com",
+      "Descripcion": "Correo principal de Laura Gerente",
+      "IdNegociador": 63
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321468",
+      "Descripcion": "Número principal de Laura Gerente",
+      "IdNegociador": 53,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0783"
+  },
+  "Nombre": "Alejandro",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargado de la coordinación del equipo de ventas",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 14,
+  "Correos": [
+    {
+      "Correo": "alejandro.coordinador@example.com",
+      "Descripcion": "Correo principal de Alejandro Coordinador",
+      "IdNegociador": 64
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321469",
+      "Descripcion": "Número principal de Alejandro Coordinador",
+      "IdNegociador": 54,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0784"
+  },
+  "Nombre": "Carolina",
+  "Cargo": "Analista de Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing en línea",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 15,
+  "Correos": [
+    {
+      "Correo": "carolina.digital@example.com",
+      "Descripcion": "Correo principal de Carolina Digital",
+      "IdNegociador": 65
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321470",
+      "Descripcion": "Número principal de Carolina Digital",
+      "IdNegociador": 55,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0785"
+  },
+  "Nombre": "Emilio",
+  "Cargo": "Ejecutivo de Cuentas",
+  "Descripcion": "Encargado de atender clientes corporativos",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "García",
+  "IdCliente": 16,
+  "Correos": [
+    {
+      "Correo": "emilio.ejecutivo@example.com",
+      "Descripcion": "Correo principal de Emilio Ejecutivo",
+      "IdNegociador": 66
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321471",
+      "Descripcion": "Número principal de Emilio Ejecutivo",
+      "IdNegociador": 56,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0786"
+  },
+  "Nombre": "Julia",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargada de análisis financiero y presupuestos",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 17,
+  "Correos": [
+    {
+      "Correo": "julia.finanzas@example.com",
+      "Descripcion": "Correo principal de Julia Finanzas",
+      "IdNegociador": 67
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321472",
+      "Descripcion": "Número principal de Julia Finanzas",
+      "IdNegociador": 57,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0787"
+  },
+  "Nombre": "Luciana",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Encargada de análisis estadístico",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 18,
+  "Correos": [
+    {
+      "Correo": "luciana.datos@example.com",
+      "Descripcion": "Correo principal de Luciana Datos",
+      "IdNegociador": 68
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321473",
+      "Descripcion": "Número principal de Luciana Datos",
+      "IdNegociador": 58,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0788"
+  },
+  "Nombre": "Santiago",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable del equipo de ventas y estrategias comerciales",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 19,
+  "Correos": [
+    {
+      "Correo": "santiago.ventas@example.com",
+      "Descripcion": "Correo principal de Santiago Ventas",
+      "IdNegociador": 69
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321474",
+      "Descripcion": "Número principal de Santiago Ventas",
+      "IdNegociador": 59,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0789"
+  },
+  "Nombre": "Isabel",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargada de estudios de mercado y tendencias",
+  "ApellidoPaterno": "Hernández",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 20,
+  "Correos": [
+    {
+      "Correo": "isabel.marketing@example.com",
+      "Descripcion": "Correo principal de Isabel Marketing",
+      "IdNegociador": 70
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321475",
+      "Descripcion": "Número principal de Isabel Marketing",
+      "IdNegociador": 60,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078a"
+  },
+  "Nombre": "Martín",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis de riesgos financieros",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 21,
+  "Correos": [
+    {
+      "Correo": "martin.finanzas@example.com",
+      "Descripcion": "Correo principal de Martín Finanzas",
+      "IdNegociador": 71
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321476",
+      "Descripcion": "Número principal de Martín Finanzas",
+      "IdNegociador": 61,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078b"
+  },
+  "Nombre": "Valentino",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargado de coordinar acciones comerciales",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 22,
+  "Correos": [
+    {
+      "Correo": "valentino.coordinador@example.com",
+      "Descripcion": "Correo principal de Valentino Coordinador",
+      "IdNegociador": 72
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321477",
+      "Descripcion": "Número principal de Valentino Coordinador",
+      "IdNegociador": 62,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078c"
+  },
+  "Nombre": "Natalia",
+  "Cargo": "Analista de Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing online",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 23,
+  "Correos": [
+    {
+      "Correo": "natalia.digital@example.com",
+      "Descripcion": "Correo principal de Natalia Digital",
+      "IdNegociador": 73
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321478",
+      "Descripcion": "Número principal de Natalia Digital",
+      "IdNegociador": 63,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078d"
+  },
+  "Nombre": "Bruno",
+  "Cargo": "Ejecutivo de Cuentas",
+  "Descripcion": "Encargado de gestionar cuentas corporativas",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 24,
+  "Correos": [
+    {
+      "Correo": "bruno.ejecutivo@example.com",
+      "Descripcion": "Correo principal de Bruno Ejecutivo",
+      "IdNegociador": 74
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321479",
+      "Descripcion": "Número principal de Bruno Ejecutivo",
+      "IdNegociador": 64,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078e"
+  },
+  "Nombre": "Antonella",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargada de análisis y planificación financiera",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 25,
+  "Correos": [
+    {
+      "Correo": "antonella.finanzas@example.com",
+      "Descripcion": "Correo principal de Antonella Finanzas",
+      "IdNegociador": 75
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321480",
+      "Descripcion": "Número principal de Antonella Finanzas",
+      "IdNegociador": 65,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb078f"
+  },
+  "Nombre": "Matías",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Encargado de análisis de datos para la toma de decisiones",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "García",
+  "IdCliente": 26,
+  "Correos": [
+    {
+      "Correo": "matias.datos@example.com",
+      "Descripcion": "Correo principal de Matías Datos",
+      "IdNegociador": 76
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321481",
+      "Descripcion": "Número principal de Matías Datos",
+      "IdNegociador": 66,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0790"
+  },
+  "Nombre": "Victoria",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable del equipo de ventas y estrategias comerciales",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 27,
+  "Correos": [
+    {
+      "Correo": "victoria.ventas@example.com",
+      "Descripcion": "Correo principal de Victoria Ventas",
+      "IdNegociador": 77
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321482",
+      "Descripcion": "Número principal de Victoria Ventas",
+      "IdNegociador": 67,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0791"
+  },
+  "Nombre": "Emilia",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargada de estudios de mercado y tendencias",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 28,
+  "Correos": [
+    {
+      "Correo": "emilia.marketing@example.com",
+      "Descripcion": "Correo principal de Emilia Marketing",
+      "IdNegociador": 78
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321483",
+      "Descripcion": "Número principal de Emilia Marketing",
+      "IdNegociador": 68,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0792"
+  },
+  "Nombre": "Iván",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis de inversión y riesgos",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 29,
+  "Correos": [
+    {
+      "Correo": "ivan.finanzas@example.com",
+      "Descripcion": "Correo principal de Iván Finanzas",
+      "IdNegociador": 79
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321484",
+      "Descripcion": "Número principal de Iván Finanzas",
+      "IdNegociador": 69,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0793"
+  },
+  "Nombre": "Mariana",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargada de coordinar acciones comerciales",
+  "ApellidoPaterno": "Hernández",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 30,
+  "Correos": [
+    {
+      "Correo": "mariana.coordinador@example.com",
+      "Descripcion": "Correo principal de Mariana Coordinador",
+      "IdNegociador": 80
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321485",
+      "Descripcion": "Número principal de Mariana Coordinador",
+      "IdNegociador": 70,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0794"
+  },
+  "Nombre": "Lautaro",
+  "Cargo": "Analista de Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing en línea",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 31,
+  "Correos": [
+    {
+      "Correo": "lautaro.digital@example.com",
+      "Descripcion": "Correo principal de Lautaro Digital",
+      "IdNegociador": 81
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321486",
+      "Descripcion": "Número principal de Lautaro Digital",
+      "IdNegociador": 71,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0795"
+  },
+  "Nombre": "Amparo",
+  "Cargo": "Ejecutivo de Cuentas",
+  "Descripcion": "Encargada de gestionar cuentas corporativas",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 32,
+  "Correos": [
+    {
+      "Correo": "amparo.ejecutivo@example.com",
+      "Descripcion": "Correo principal de Amparo Ejecutivo",
+      "IdNegociador": 82
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321487",
+      "Descripcion": "Número principal de Amparo Ejecutivo",
+      "IdNegociador": 72,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0796"
+  },
+  "Nombre": "Emilio",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis y planificación financiera",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 33,
+  "Correos": [
+    {
+      "Correo": "emilio.finanzas@example.com",
+      "Descripcion": "Correo principal de Emilio Finanzas",
+      "IdNegociador": 83
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321488",
+      "Descripcion": "Número principal de Emilio Finanzas",
+      "IdNegociador": 73,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0797"
+  },
+  "Nombre": "Natalia",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Encargada de análisis de datos para la toma de decisiones",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 34,
+  "Correos": [
+    {
+      "Correo": "natalia.datos@example.com",
+      "Descripcion": "Correo principal de Natalia Datos",
+      "IdNegociador": 84
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321489",
+      "Descripcion": "Número principal de Natalia Datos",
+      "IdNegociador": 74,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0798"
+  },
+  "Nombre": "Sebastián",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable del equipo de ventas y estrategias comerciales",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 35,
+  "Correos": [
+    {
+      "Correo": "sebastian.ventas@example.com",
+      "Descripcion": "Correo principal de Sebastián Ventas",
+      "IdNegociador": 85
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321490",
+      "Descripcion": "Número principal de Sebastián Ventas",
+      "IdNegociador": 75,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb0799"
+  },
+  "Nombre": "Valentina",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargada de estudios de mercado y tendencias",
+  "ApellidoPaterno": "López",
+  "ApellidoMaterno": "García",
+  "IdCliente": 36,
+  "Correos": [
+    {
+      "Correo": "valentina.marketing@example.com",
+      "Descripcion": "Correo principal de Valentina Marketing",
+      "IdNegociador": 86
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321491",
+      "Descripcion": "Número principal de Valentina Marketing",
+      "IdNegociador": 76,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079a"
+  },
+  "Nombre": "Diego",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis de inversión y riesgos",
+  "ApellidoPaterno": "Pérez",
+  "ApellidoMaterno": "Martínez",
+  "IdCliente": 37,
+  "Correos": [
+    {
+      "Correo": "diego.finanzas@example.com",
+      "Descripcion": "Correo principal de Diego Finanzas",
+      "IdNegociador": 87
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321492",
+      "Descripcion": "Número principal de Diego Finanzas",
+      "IdNegociador": 77,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079b"
+  },
+  "Nombre": "Lucía",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargada de coordinar acciones comerciales",
+  "ApellidoPaterno": "Gómez",
+  "ApellidoMaterno": "Rodríguez",
+  "IdCliente": 38,
+  "Correos": [
+    {
+      "Correo": "lucia.coordinador@example.com",
+      "Descripcion": "Correo principal de Lucía Coordinador",
+      "IdNegociador": 88
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321493",
+      "Descripcion": "Número principal de Lucía Coordinador",
+      "IdNegociador": 78,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079c"
+  },
+  "Nombre": "Santiago",
+  "Cargo": "Analista de Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing en línea",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 39,
+  "Correos": [
+    {
+      "Correo": "santiago.digital@example.com",
+      "Descripcion": "Correo principal de Santiago Digital",
+      "IdNegociador": 89
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321494",
+      "Descripcion": "Número principal de Santiago Digital",
+      "IdNegociador": 79,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079d"
+  },
+  "Nombre": "Carolina",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargada de análisis y planificación financiera",
+  "ApellidoPaterno": "Hernández",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 40,
+  "Correos": [
+    {
+      "Correo": "carolina.finanzas@example.com",
+      "Descripcion": "Correo principal de Carolina Finanzas",
+      "IdNegociador": 90
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321495",
+      "Descripcion": "Número principal de Carolina Finanzas",
+      "IdNegociador": 80,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079e"
+  },
+  "Nombre": "Emilio",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Encargado de análisis de datos para la toma de decisiones",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 41,
+  "Correos": [
+    {
+      "Correo": "emilio.datos@example.com",
+      "Descripcion": "Correo principal de Emilio Datos",
+      "IdNegociador": 91
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321496",
+      "Descripcion": "Número principal de Emilio Datos",
+      "IdNegociador": 81,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb079f"
+  },
+  "Nombre": "Julia",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable del equipo de ventas y estrategias comerciales",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 42,
+  "Correos": [
+    {
+      "Correo": "julia.ventas@example.com",
+      "Descripcion": "Correo principal de Julia Ventas",
+      "IdNegociador": 92
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321497",
+      "Descripcion": "Número principal de Julia Ventas",
+      "IdNegociador": 82,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a0"
+  },
+  "Nombre": "Luciana",
+  "Cargo": "Analista de Marketing",
+  "Descripcion": "Encargada de estudios de mercado y tendencias",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 43,
+  "Correos": [
+    {
+      "Correo": "luciana.marketing@example.com",
+      "Descripcion": "Correo principal de Luciana Marketing",
+      "IdNegociador": 93
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321498",
+      "Descripcion": "Número principal de Luciana Marketing",
+      "IdNegociador": 83,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a1"
+  },
+  "Nombre": "Santiago",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargado de análisis de inversión y riesgos",
+  "ApellidoPaterno": "Sánchez",
+  "ApellidoMaterno": "Fernández",
+  "IdCliente": 44,
+  "Correos": [
+    {
+      "Correo": "santiago.finanzas@example.com",
+      "Descripcion": "Correo principal de Santiago Finanzas",
+      "IdNegociador": 94
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321499",
+      "Descripcion": "Número principal de Santiago Finanzas",
+      "IdNegociador": 84,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a2"
+  },
+  "Nombre": "Isabel",
+  "Cargo": "Coordinador de Ventas",
+  "Descripcion": "Encargada de coordinar acciones comerciales",
+  "ApellidoPaterno": "Fernández",
+  "ApellidoMaterno": "Díaz",
+  "IdCliente": 45,
+  "Correos": [
+    {
+      "Correo": "isabel.ventas@example.com",
+      "Descripcion": "Correo principal de Isabel Ventas",
+      "IdNegociador": 95
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321500",
+      "Descripcion": "Número principal de Isabel Ventas",
+      "IdNegociador": 85,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a3"
+  },
+  "Nombre": "Martín",
+  "Cargo": "Analista de Marketing Digital",
+  "Descripcion": "Responsable de estrategias de marketing en línea",
+  "ApellidoPaterno": "Hernández",
+  "ApellidoMaterno": "Sánchez",
+  "IdCliente": 46,
+  "Correos": [
+    {
+      "Correo": "martin.digital@example.com",
+      "Descripcion": "Correo principal de Martín Digital",
+      "IdNegociador": 96
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321501",
+      "Descripcion": "Número principal de Martín Digital",
+      "IdNegociador": 86,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a4"
+  },
+  "Nombre": "Valentino",
+  "Cargo": "Ejecutivo de Cuentas",
+  "Descripcion": "Encargado de gestionar cuentas corporativas",
+  "ApellidoPaterno": "García",
+  "ApellidoMaterno": "Pérez",
+  "IdCliente": 47,
+  "Correos": [
+    {
+      "Correo": "valentino.ejecutivo@example.com",
+      "Descripcion": "Correo principal de Valentino Ejecutivo",
+      "IdNegociador": 97
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321502",
+      "Descripcion": "Número principal de Valentino Ejecutivo",
+      "IdNegociador": 87,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a5"
+  },
+  "Nombre": "Natalia",
+  "Cargo": "Especialista en Finanzas",
+  "Descripcion": "Encargada de análisis y planificación financiera",
+  "ApellidoPaterno": "Martínez",
+  "ApellidoMaterno": "López",
+  "IdCliente": 48,
+  "Correos": [
+    {
+      "Correo": "natalia.finanzas@example.com",
+      "Descripcion": "Correo principal de Natalia Finanzas",
+      "IdNegociador": 98
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321503",
+      "Descripcion": "Número principal de Natalia Finanzas",
+      "IdNegociador": 88,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a6"
+  },
+  "Nombre": "Bruno",
+  "Cargo": "Analista de Datos",
+  "Descripcion": "Encargado de análisis de datos para la toma de decisiones",
+  "ApellidoPaterno": "Rodríguez",
+  "ApellidoMaterno": "Gómez",
+  "IdCliente": 49,
+  "Correos": [
+    {
+      "Correo": "bruno.datos@example.com",
+      "Descripcion": "Correo principal de Bruno Datos",
+      "IdNegociador": 99
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321504",
+      "Descripcion": "Número principal de Bruno Datos",
+      "IdNegociador": 89,
+      "IdCodigoPais": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba8bc843cd78885cb07a7"
+  },
+  "Nombre": "Antonella",
+  "Cargo": "Gerente de Ventas",
+  "Descripcion": "Responsable del equipo de ventas y estrategias comerciales",
+  "ApellidoPaterno": "Díaz",
+  "ApellidoMaterno": "Hernández",
+  "IdCliente": 50,
+  "Correos": [
+    {
+      "Correo": "antonella.ventas@example.com",
+      "Descripcion": "Correo principal de Antonella Ventas",
+      "IdNegociador": 100
+    }
+  ],
+  "Telefono": [
+    {
+      "Telefono": "954321505",
+      "Descripcion": "Número principal de Antonella Ventas",
+      "IdNegociador": 90,
+      "IdCodigoPais": 1
+    }
+  ]
+}]

@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "666bd730084e31f5b0104670"
+  },
+  "Numero": "1234567093755678",
+  "FechaVencimiento": "2025-12-01",
+  "CodigoSeguridad": "123",
+  "IdCliente": 1
+},
+{
+  "_id": {
+    "$oid": "666bd76a084e31f5b0104671"
+  },
+  "Numero": "2345678929476789",
+  "FechaVencimiento": "2025-11-01",
+  "CodigoSeguridad": "456",
+  "IdCliente": 2
+},
+{
+  "_id": {
+    "$oid": "666bd795084e31f5b0104672"
+  },
+  "Numero": "9037789034567890",
+  "FechaVencimiento": "2027-10-01",
+  "CodigoSeguridad": "789",
+  "IdCliente": 3
+},
+{
+  "_id": {
+    "$oid": "666bd7b5084e31f5b0104673"
+  },
+  "Numero": "9837890309470901",
+  "FechaVencimiento": "2026-09-01",
+  "CodigoSeguridad": "012",
+  "IdCliente": 4
+},
+{
+  "_id": {
+    "$oid": "666bd7d8084e31f5b0104674"
+  },
+  "Numero": "5678901256789012",
+  "FechaVencimiento": "2026-08-01",
+  "CodigoSeguridad": "345",
+  "IdCliente": 5
+},
+{
+  "_id": {
+    "$oid": "666bd7fe084e31f5b0104675"
+  },
+  "Numero": "4389012367890123",
+  "FechaVencimiento": "2025-07-01",
+  "CodigoSeguridad": "678",
+  "IdCliente": 6
+},
+{
+  "_id": {
+    "$oid": "666bd834084e31f5b0104678"
+  },
+  "Numero": "7890123478901234",
+  "FechaVencimiento": "2024-06-01",
+  "CodigoSeguridad": "901",
+  "IdCliente": 7
+},
+{
+  "_id": {
+    "$oid": "666bd855084e31f5b0104679"
+  },
+  "Numero": "5901234589012345",
+  "FechaVencimiento": "2028-03-01",
+  "CodigoSeguridad": "234",
+  "IdCliente": 8
+},
+{
+  "_id": {
+    "$oid": "666bd8ec084e31f5b010467e"
+  },
+  "Numero": "5612345690123456",
+  "FechaVencimiento": "2022-04-01",
+  "CodigoSeguridad": "567",
+  "IdCliente": 9
+},
+{
+  "_id": {
+    "$oid": "666bd911084e31f5b010467f"
+  },
+  "Numero": "1423456701234567",
+  "FechaVencimiento": "2027-03-01",
+  "CodigoSeguridad": "890",
+  "IdCliente": 10
+},
+{
+  "_id": {
+    "$oid": "666bd937084e31f5b0104680"
+  },
+  "Numero": "1234123412341234",
+  "FechaVencimiento": "2028-12-01",
+  "CodigoSeguridad": "890",
+  "IdCliente": 11
+},
+{
+  "_id": {
+    "$oid": "666bd973084e31f5b0104681"
+  },
+  "Numero": "6445234298402345",
+  "FechaVencimiento": "2025-11-01",
+  "CodigoSeguridad": "267",
+  "IdCliente": 12
+},
+{
+  "_id": {
+    "$oid": "666bd9dd084e31f5b0104682"
+  },
+  "Numero": "3452789057839456",
+  "FechaVencimiento": "2026-10-01",
+  "CodigoSeguridad": "388",
+  "IdCliente": 13
+},
+{
+  "_id": {
+    "$oid": "666bda0c084e31f5b0104683"
+  },
+  "Numero": "2847456395814567",
+  "FechaVencimiento": "2025-09-01",
+  "CodigoSeguridad": "138",
+  "IdCliente": 14
+},
+{
+  "_id": {
+    "$oid": "666bda2d084e31f5b0104684"
+  },
+  "Numero": "5678567856785678",
+  "FechaVencimiento": "2029-08-01",
+  "CodigoSeguridad": "738",
+  "IdCliente": 15
+},
+{
+  "_id": {
+    "$oid": "666bda61084e31f5b0104685"
+  },
+  "Numero": "6789678967896789",
+  "FechaVencimiento": "2025-07-01",
+  "CodigoSeguridad": "683",
+  "IdCliente": 16
+},
+{
+  "_id": {
+    "$oid": "666bda83084e31f5b0104686"
+  },
+  "Numero": "7890789078907890",
+  "FechaVencimiento": "2026-06-01",
+  "CodigoSeguridad": "751",
+  "IdCliente": 17
+},
+{
+  "_id": {
+    "$oid": "666bdaa9084e31f5b0104687"
+  },
+  "Numero": "8901890189018901",
+  "FechaVencimiento": "2027-05-01",
+  "CodigoSeguridad": "882",
+  "IdCliente": 18
+},
+{
+  "_id": {
+    "$oid": "666bdad0084e31f5b0104688"
+  },
+  "Numero": "9012901785439012",
+  "FechaVencimiento": "2028-04-01",
+  "CodigoSeguridad": "962",
+  "IdCliente": 19
+},
+{
+  "_id": {
+    "$oid": "666bdafd084e31f5b0104689"
+  },
+  "Numero": "0123012301230123",
+  "FechaVencimiento": "2028-03-01",
+  "CodigoSeguridad": "223",
+  "IdCliente": 20
+},
+{
+  "_id": {
+    "$oid": "666bdb2b084e31f5b010468a"
+  },
+  "Numero": "1149812233334444",
+  "FechaVencimiento": "2026-12-01",
+  "CodigoSeguridad": "156",
+  "IdCliente": 21
+},
+{
+  "_id": {
+    "$oid": "666bdb72084e31f5b010468b"
+  },
+  "Numero": "1278333344442485",
+  "FechaVencimiento": "2024-11-01",
+  "CodigoSeguridad": "262",
+  "IdCliente": 22
+},
+{
+  "_id": {
+    "$oid": "666bdb98084e31f5b010468c"
+  },
+  "Numero": "3333444421756666",
+  "FechaVencimiento": "2025-10-01",
+  "CodigoSeguridad": "375",
+  "IdCliente": 23
+},
+{
+  "_id": {
+    "$oid": "666bdbb9084e31f5b010468d"
+  },
+  "Numero": "4424555428667847",
+  "FechaVencimiento": "2026-09-01",
+  "CodigoSeguridad": "446",
+  "IdCliente": 24
+},
+{
+  "_id": {
+    "$oid": "666bdbe3084e31f5b010468e"
+  },
+  "Numero": "2695666677778048",
+  "FechaVencimiento": "2027-08-01",
+  "CodigoSeguridad": "584",
+  "IdCliente": 25
+}]

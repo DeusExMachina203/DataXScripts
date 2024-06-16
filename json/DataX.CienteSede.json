@@ -1,0 +1,179 @@
+[{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad70b"
+  },
+  "IdCliente": 1,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Argentina 2450",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15001"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad70c"
+  },
+  "IdCliente": 2,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Los Frutales 450",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15024"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad70d"
+  },
+  "IdCliente": 3,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Separadora Industrial 1815",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "codigoPostalSede": "15026"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad70e"
+  },
+  "IdCliente": 4,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Colonial 2354",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15021"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad70f"
+  },
+  "IdCliente": 5,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Argentina 2450",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15001"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad710"
+  },
+  "IdCliente": 6,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Colonial 2354",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15021"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad711"
+  },
+  "IdCliente": 7,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Manuel Olguín 335",
+  "ciudadSede": "Lima",
+  "estadoSede": "Cerrado",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15023"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad712"
+  },
+  "IdCliente": 8,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Néstor Gambetta 5500",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Pais",
+  "codigoPostalSede": "07016"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad713"
+  },
+  "IdCliente": 9,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Elmer Faucett 4040",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "07031"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad714"
+  },
+  "IdCliente": 10,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Venezuela 3150",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "07011"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad715"
+  },
+  "IdCliente": 11,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Los Ruiseñores 1220",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15009"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad716"
+  },
+  "IdCliente": 12,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida San Juan 500",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15064"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad717"
+  },
+  "IdCliente": 13,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Los Faisanes 123",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15834"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad718"
+  },
+  "IdCliente": 14,
+  "Sede": "Principal",
+  "direccionSede": "Avenida Tomás Marsano 2500",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15047"
+},
+{
+  "_id": {
+    "$oid": "666cd2373ded36049f7ad719"
+  },
+  "IdCliente": 15,
+  "Sede": "Secundaria",
+  "direccionSede": "Avenida Mariscal Castilla 1230",
+  "ciudadSede": "Lima",
+  "estadoSede": "Activo",
+  "paisSede": "Peru",
+  "codigoPostalSede": "15066"
+}]

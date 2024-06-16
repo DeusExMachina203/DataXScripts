@@ -1,0 +1,1750 @@
+[{
+  "_id": {
+    "$oid": "666a1d1f83a0cddb64684632"
+  },
+  "CodigoProducto": "FF-001",
+  "NombreProducto": "Froggy Toy",
+  "Descripcion": "Juguete para niños de alta calidad",
+  "Inventario": [
+    {
+      "IdAlmacen": 1,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b97be822504fde407075f"
+  },
+  "CodigoProducto": "FF-002",
+  "NombreProducto": "Froggy Backpack",
+  "Descripcion": "Mochila resistente y duradera",
+  "Inventario": [
+    {
+      "IdAlmacen": 1,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9851822504fde4070760"
+  },
+  "CodigoProducto": "FF-003",
+  "NombreProducto": "Froggy Adventure Game",
+  "Descripcion": "Juego de aventuras interactivo",
+  "Inventario": [
+    {
+      "IdAlmacen": 1,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b989c822504fde4070761"
+  },
+  "CodigoProducto": "FF-004",
+  "NombreProducto": "Froggy Plushie",
+  "Descripcion": "Peluche suave y adorable de Froggy",
+  "Inventario": [
+    {
+      "IdAlmacen": 1,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b98ed822504fde4070763"
+  },
+  "CodigoProducto": "FF-005",
+  "NombreProducto": "Froggy Coloring Book",
+  "Descripcion": "Libro para colorear con ilustraciones de Froggy",
+  "Inventario": [
+    {
+      "IdAlmacen": 1,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b994f822504fde4070764"
+  },
+  "CodigoProducto": "DD-001",
+  "NombreProducto": "Dooly Plushie",
+  "Descripcion": "Peluche esponjoso y encantador de Dooly",
+  "Inventario": [
+    {
+      "IdAlmacen": 2,
+      "Cantidad": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b999a822504fde4070765"
+  },
+  "CodigoProducto": "DD-002",
+  "NombreProducto": "Dooly Storybook",
+  "Descripcion": "Libro de cuentos ilustrado con las aventuras de Dooly",
+  "Inventario": [
+    {
+      "IdAlmacen": 2,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b99e7822504fde4070766"
+  },
+  "CodigoProducto": "DD-003",
+  "NombreProducto": "Dooly Puzzle Set",
+  "Descripcion": "Set de rompecabezas con imágenes de Dooly",
+  "Inventario": [
+    {
+      "IdAlmacen": 2,
+      "Cantidad": 80
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9a32822504fde4070767"
+  },
+  "CodigoProducto": "DD-004",
+  "NombreProducto": "Dooly Stationery Kit",
+  "Descripcion": "Kit de papelería con diseño de Dooly",
+  "Inventario": [
+    {
+      "IdAlmacen": 2,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9a6b822504fde4070768"
+  },
+  "CodigoProducto": "DD-005",
+  "NombreProducto": "Dooly Dollhouse",
+  "Descripcion": "Casa de muñecas con accesorios de Dooly",
+  "Inventario": [
+    {
+      "IdAlmacen": 2,
+      "Cantidad": 95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9ab3822504fde4070769"
+  },
+  "CodigoProducto": "IC-001",
+  "NombreProducto": "InstaTee",
+  "Descripcion": "Camiseta básica de algodón de alta calidad",
+  "Inventario": [
+    {
+      "IdAlmacen": 3,
+      "Cantidad": 300
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9b1c822504fde407076a"
+  },
+  "CodigoProducto": "IC-002",
+  "NombreProducto": "InstaJeans",
+  "Descripcion": "Jeans clásicos y cómodos para uso diario",
+  "Inventario": [
+    {
+      "IdAlmacen": 3,
+      "Cantidad": 250
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9b5c822504fde407076b"
+  },
+  "CodigoProducto": "IC-003",
+  "NombreProducto": "InstaDress",
+  "Descripcion": "Vestido elegante y versátil para cualquier ocasión",
+  "Inventario": [
+    {
+      "IdAlmacen": 3,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9bb6822504fde407076c"
+  },
+  "CodigoProducto": "IC-004",
+  "NombreProducto": "InstaHoodie",
+  "Descripcion": "Sudadera con capucha para un estilo casual",
+  "Inventario": [
+    {
+      "IdAlmacen": 3,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9d91822504fde407076d"
+  },
+  "CodigoProducto": "IC-005",
+  "NombreProducto": "InstaJacket",
+  "Descripcion": "Chaqueta ligera y moderna para todas las estaciones",
+  "Inventario": [
+    {
+      "IdAlmacen": 3,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9df5822504fde407076e"
+  },
+  "CodigoProducto": "PV-001",
+  "NombreProducto": "Lace Panties",
+  "Descripcion": "Cómodos y elegantes calzones de encaje",
+  "Inventario": [
+    {
+      "IdAlmacen": 4,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9e3b822504fde4070770"
+  },
+  "CodigoProducto": "PV-002",
+  "NombreProducto": "Silk Panties",
+  "Descripcion": "Seductores calzones de seda para ocasiones especiales",
+  "Inventario": [
+    {
+      "IdAlmacen": 4,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9f07822504fde4070771"
+  },
+  "CodigoProducto": "PV-003",
+  "NombreProducto": "Cotton Briefs",
+  "Descripcion": "Calzoncillos clásicos de algodón para uso diario",
+  "Inventario": [
+    {
+      "IdAlmacen": 4,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9f3f822504fde4070772"
+  },
+  "CodigoProducto": "PV-004",
+  "NombreProducto": "Seamless Panties",
+  "Descripcion": "Calzones sin costuras para una comodidad total",
+  "Inventario": [
+    {
+      "IdAlmacen": 4,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9f6e822504fde4070773"
+  },
+  "CodigoProducto": "PV-005",
+  "NombreProducto": "Thong Panties",
+  "Descripcion": "Tangas sexys y atrevidas para sentirse segura",
+  "Inventario": [
+    {
+      "IdAlmacen": 4,
+      "Cantidad": 160
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666b9ff4822504fde4070774"
+  },
+  "CodigoProducto": "EP-001",
+  "NombreProducto": "Satin Robe",
+  "Descripcion": "Bata de satén lujosa y suave para momentos de relajación",
+  "Inventario": [
+    {
+      "IdAlmacen": 5,
+      "Cantidad": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba061822504fde4070775"
+  },
+  "CodigoProducto": "EP-002",
+  "NombreProducto": "Silk Chemise",
+  "Descripcion": "Camisón de seda con detalles elegantes y femeninos",
+  "Inventario": [
+    {
+      "IdAlmacen": 5,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba3d2822504fde4070779"
+  },
+  "CodigoProducto": "EP-003",
+  "NombreProducto": "Lace Babydoll",
+  "Descripcion": "Babydoll de encaje para una noche especial",
+  "Inventario": [
+    {
+      "IdAlmacen": 5,
+      "Cantidad": 85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba434822504fde407077a"
+  },
+  "CodigoProducto": "EP-004",
+  "NombreProducto": "Sheer Teddy",
+  "Descripcion": "Teddy transparente para una seducción sutil",
+  "Inventario": [
+    {
+      "IdAlmacen": 5,
+      "Cantidad": 95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba47a822504fde407077b"
+  },
+  "CodigoProducto": "EP-005",
+  "NombreProducto": "Mesh Bodysuit",
+  "Descripcion": "Bodysuit de malla para un look sensual",
+  "Inventario": [
+    {
+      "IdAlmacen": 5,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba90b822504fde407077e"
+  },
+  "CodigoProducto": "JU-001",
+  "NombreProducto": "JumpStart Energy Drink",
+  "Descripcion": "Bebida energética para un impulso instantáneo",
+  "Inventario": [
+    {
+      "IdAlmacen": 6,
+      "Cantidad": 400
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba93c822504fde407077f"
+  },
+  "CodigoProducto": "JU-002",
+  "NombreProducto": "JumpRope Fitness Tracker",
+  "Descripcion": "Dispositivo para contar saltos y rastrear el ejercicio",
+  "Inventario": [
+    {
+      "IdAlmacen": 6,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba976822504fde4070780"
+  },
+  "CodigoProducto": "JU-003",
+  "NombreProducto": "JumpPack Backpack",
+  "Descripcion": "Mochila resistente y funcional para aventuras al aire libre",
+  "Inventario": [
+    {
+      "IdAlmacen": 6,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba999822504fde4070781"
+  },
+  "CodigoProducto": "JU-004",
+  "NombreProducto": "JumpBox Subscription",
+  "Descripcion": "Suscripción mensual para recibir productos sorpresa",
+  "Inventario": [
+    {
+      "IdAlmacen": 6,
+      "Cantidad": 300
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666ba9d0822504fde4070782"
+  },
+  "CodigoProducto": "JU-005",
+  "NombreProducto": "JumpFit Exercise Mat",
+  "Descripcion": "Tapete de ejercicio acolchado para entrenamientos cómodos",
+  "Inventario": [
+    {
+      "IdAlmacen": 6,
+      "Cantidad": 250
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baa0f822504fde4070783"
+  },
+  "CodigoProducto": "OT-001",
+  "NombreProducto": "OnTarget Smartwatch",
+  "Descripcion": "Reloj inteligente con funciones avanzadas de seguimiento",
+  "Inventario": [
+    {
+      "IdAlmacen": 7,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baa38822504fde4070784"
+  },
+  "CodigoProducto": "OT-002",
+  "NombreProducto": "OnTarget Fitness Band",
+  "Descripcion": "Banda de fitness para monitorizar la actividad física",
+  "Inventario": [
+    {
+      "IdAlmacen": 7,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baa71822504fde4070785"
+  },
+  "CodigoProducto": "OT-003",
+  "NombreProducto": "OnTarget Wireless Earbuds",
+  "Descripcion": "Auriculares inalámbricos para una experiencia auditiva sin cables",
+  "Inventario": [
+    {
+      "IdAlmacen": 7,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666babd9822504fde4070786"
+  },
+  "CodigoProducto": "OT-004",
+  "NombreProducto": "OnTarget Portable Charger",
+  "Descripcion": "Cargador portátil para mantener tus dispositivos siempre cargados",
+  "Inventario": [
+    {
+      "IdAlmacen": 7,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bac40822504fde4070787"
+  },
+  "CodigoProducto": "OT-005",
+  "NombreProducto": "OnTarget Laptop Sleeve",
+  "Descripcion": "Funda acolchada para proteger tu laptop mientras viajas",
+  "Inventario": [
+    {
+      "IdAlmacen": 7,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baca8822504fde4070788"
+  },
+  "CodigoProducto": "CT-001",
+  "NombreProducto": "Graphic Tee",
+  "Descripcion": "Camiseta con estampado gráfico llamativo",
+  "Inventario": [
+    {
+      "IdAlmacen": 8,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bacd0822504fde4070789"
+  },
+  "CodigoProducto": "CT-002",
+  "NombreProducto": "Vintage Tee",
+  "Descripcion": "Camiseta de estilo vintage con un toque retro",
+  "Inventario": [
+    {
+      "IdAlmacen": 8,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bacfa822504fde407078a"
+  },
+  "CodigoProducto": "CT-003",
+  "NombreProducto": "Logo Tee",
+  "Descripcion": "Camiseta con el logo icónico de la marca",
+  "Inventario": [
+    {
+      "IdAlmacen": 8,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bad1e822504fde407078b"
+  },
+  "CodigoProducto": "CT-004",
+  "NombreProducto": "Striped Tee",
+  "Descripcion": "Camiseta a rayas para un look clásico y elegante",
+  "Inventario": [
+    {
+      "IdAlmacen": 8,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bad3c822504fde407078c"
+  },
+  "CodigoProducto": "CT-005",
+  "NombreProducto": "Pocket Tee",
+  "Descripcion": "Camiseta con bolsillo frontal para un estilo casual",
+  "Inventario": [
+    {
+      "IdAlmacen": 8,
+      "Cantidad": 210
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bad9b822504fde407078d"
+  },
+  "CodigoProducto": "ICam-001",
+  "NombreProducto": "Custom Print Tee",
+  "Descripcion": "Camiseta personalizada con tu diseño favorito",
+  "Inventario": [
+    {
+      "IdAlmacen": 9,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666badc9822504fde407078e"
+  },
+  "CodigoProducto": "ICam-002",
+  "NombreProducto": "Typography Tee",
+  "Descripcion": "Camiseta con tipografía creativa y llamativa",
+  "Inventario": [
+    {
+      "IdAlmacen": 9,
+      "Cantidad": 170
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666badee822504fde407078f"
+  },
+  "CodigoProducto": "ICam-003",
+  "NombreProducto": "Artistic Tee",
+  "Descripcion": "Camiseta con diseño artístico y original",
+  "Inventario": [
+    {
+      "IdAlmacen": 9,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bae17822504fde4070790"
+  },
+  "CodigoProducto": "ICam-004",
+  "NombreProducto": "Photo Print Tee",
+  "Descripcion": "Camiseta con impresión fotográfica de alta calidad",
+  "Inventario": [
+    {
+      "IdAlmacen": 9,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bae33822504fde4070791"
+  },
+  "CodigoProducto": "ICam-005",
+  "NombreProducto": "Limited Edition Tee",
+  "Descripcion": "Camiseta de edición limitada con diseño exclusivo",
+  "Inventario": [
+    {
+      "IdAlmacen": 9,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baeda822504fde4070792"
+  },
+  "CodigoProducto": "CO-001",
+  "NombreProducto": "Cinnamon Dress",
+  "Descripcion": "Vestido elegante con toques de canela y glamour",
+  "Inventario": [
+    {
+      "IdAlmacen": 10,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baefe822504fde4070793"
+  },
+  "CodigoProducto": "CO-002",
+  "NombreProducto": "Spice Skirt",
+  "Descripcion": "Falda picante con estampado de canela para un look único",
+  "Inventario": [
+    {
+      "IdAlmacen": 10,
+      "Cantidad": 140
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baf1f822504fde4070794"
+  },
+  "CodigoProducto": "CO-003",
+  "NombreProducto": "Cinnamon Blouse",
+  "Descripcion": "Blusa ligera y sofisticada con aroma a canela",
+  "Inventario": [
+    {
+      "IdAlmacen": 10,
+      "Cantidad": 130
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baf41822504fde4070795"
+  },
+  "CodigoProducto": "CO-004",
+  "NombreProducto": "Scented Scarf",
+  "Descripcion": "Bufanda suave y perfumada con esencia de canela",
+  "Inventario": [
+    {
+      "IdAlmacen": 10,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666baf60822504fde4070796"
+  },
+  "CodigoProducto": "CO-005",
+  "NombreProducto": "Cinnamon Accessories Set",
+  "Descripcion": "Conjunto de accesorios coordinados con aroma a canela",
+  "Inventario": [
+    {
+      "IdAlmacen": 10,
+      "Cantidad": 125
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb47b822504fde4070797"
+  },
+  "CodigoProducto": "GNV-001",
+  "NombreProducto": "Classic Aviators",
+  "Descripcion": "Gafas de sol estilo aviador con montura clásica",
+  "Inventario": [
+    {
+      "IdAlmacen": 11,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb4b6822504fde4070798"
+  },
+  "CodigoProducto": "GNV-002",
+  "NombreProducto": "Retro Round Sunglasses",
+  "Descripcion": "Gafas de sol redondas con un toque vintage",
+  "Inventario": [
+    {
+      "IdAlmacen": 11,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb4d3822504fde4070799"
+  },
+  "CodigoProducto": "GNV-003",
+  "NombreProducto": "Sporty Wraparound Shades",
+  "Descripcion": "Gafas de sol envolventes para actividades deportivas",
+  "Inventario": [
+    {
+      "IdAlmacen": 11,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb502822504fde407079a"
+  },
+  "CodigoProducto": "GNV-004",
+  "NombreProducto": "Fashion Cat-Eye Glasses",
+  "Descripcion": "Gafas de estilo gato para un look elegante y femenino",
+  "Inventario": [
+    {
+      "IdAlmacen": 11,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb522822504fde407079b"
+  },
+  "CodigoProducto": "GNV-005",
+  "NombreProducto": "Polarized Wayfarers",
+  "Descripcion": "Gafas de sol wayfarer con lentes polarizadas para una visión clara",
+  "Inventario": [
+    {
+      "IdAlmacen": 11,
+      "Cantidad": 210
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb578822504fde407079c"
+  },
+  "CodigoProducto": "TD-001",
+  "NombreProducto": "Tandem Adventure Backpack",
+  "Descripcion": "Mochila resistente y versátil para viajes de aventura",
+  "Inventario": [
+    {
+      "IdAlmacen": 12,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb599822504fde407079d"
+  },
+  "CodigoProducto": "TD-002",
+  "NombreProducto": "Tandem Camping Tent",
+  "Descripcion": "Tienda de campaña espaciosa y fácil de montar para acampar al aire libre",
+  "Inventario": [
+    {
+      "IdAlmacen": 12,
+      "Cantidad": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb5b8822504fde407079e"
+  },
+  "CodigoProducto": "TD-003",
+  "NombreProducto": "Tandem Outdoor Grill",
+  "Descripcion": "Parrilla portátil para asar alimentos al aire libre con amigos y familiares",
+  "Inventario": [
+    {
+      "IdAlmacen": 12,
+      "Cantidad": 80
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb5e5822504fde407079f"
+  },
+  "CodigoProducto": "TD-004",
+  "NombreProducto": "Tandem Hiking Boots",
+  "Descripcion": "Botas de senderismo duraderas y cómodas para explorar la naturaleza",
+  "Inventario": [
+    {
+      "IdAlmacen": 12,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb603822504fde40707a0"
+  },
+  "CodigoProducto": "TD-005",
+  "NombreProducto": "Tandem Portable Hammock",
+  "Descripcion": "Hamacas portátiles y ligeras para relajarse en cualquier lugar",
+  "Inventario": [
+    {
+      "IdAlmacen": 12,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb677822504fde40707a1"
+  },
+  "CodigoProducto": "TNS-001",
+  "NombreProducto": "TechNova Smart Home System",
+  "Descripcion": "Sistema de domótica avanzado para controlar tu hogar desde tu teléfono inteligente",
+  "Inventario": [
+    {
+      "IdAlmacen": 13,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb693822504fde40707a2"
+  },
+  "CodigoProducto": "TNS-002",
+  "NombreProducto": "TechNova Virtual Reality Headset",
+  "Descripcion": "Visor de realidad virtual para experimentar juegos y videos inmersivos",
+  "Inventario": [
+    {
+      "IdAlmacen": 13,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb6b4822504fde40707a3"
+  },
+  "CodigoProducto": "TNS-003",
+  "NombreProducto": "TechNova Wireless Charging Pad",
+  "Descripcion": "Almohadilla de carga inalámbrica para cargar tus dispositivos de manera conveniente",
+  "Inventario": [
+    {
+      "IdAlmacen": 13,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb6d4822504fde40707a4"
+  },
+  "CodigoProducto": "TNS-004",
+  "NombreProducto": "TechNova Bluetooth Speaker",
+  "Descripcion": "Altavoz Bluetooth portátil con sonido de alta calidad para disfrutar de tu música favorita",
+  "Inventario": [
+    {
+      "IdAlmacen": 13,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb6f7822504fde40707a5"
+  },
+  "CodigoProducto": "TNS-005",
+  "NombreProducto": "TechNova Security Camera",
+  "Descripcion": "Cámara de seguridad inteligente con detección de movimiento y visión nocturna",
+  "Inventario": [
+    {
+      "IdAlmacen": 13,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb764822504fde40707a6"
+  },
+  "CodigoProducto": "EGI-001",
+  "NombreProducto": "EcoGreen Organic Soap",
+  "Descripcion": "Jabón orgánico y biodegradable para una limpieza suave y respetuosa con el medio ambiente",
+  "Inventario": [
+    {
+      "IdAlmacen": 14,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb788822504fde40707a7"
+  },
+  "CodigoProducto": "EGI-002",
+  "NombreProducto": "EcoGreen Bamboo Toothbrush",
+  "Descripcion": "Cepillo de dientes de bambú ecológico y sostenible para una higiene bucal consciente",
+  "Inventario": [
+    {
+      "IdAlmacen": 14,
+      "Cantidad": 140
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb7aa822504fde40707a8"
+  },
+  "CodigoProducto": "EGI-003",
+  "NombreProducto": "EcoGreen Reusable Water Bottle",
+  "Descripcion": "Botella de agua reutilizable y libre de BPA para reducir el uso de plástico",
+  "Inventario": [
+    {
+      "IdAlmacen": 14,
+      "Cantidad": 130
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb7c8822504fde40707a9"
+  },
+  "CodigoProducto": "EGI-004",
+  "NombreProducto": "EcoGreen Recycled Paper Notebook",
+  "Descripcion": "Cuaderno de papel reciclado ideal para tomar notas y dibujar de manera sostenible",
+  "Inventario": [
+    {
+      "IdAlmacen": 14,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb7f4822504fde40707aa"
+  },
+  "CodigoProducto": "EGI-005",
+  "NombreProducto": "EcoGreen Eco-Friendly Tote Bag",
+  "Descripcion": "Bolso ecológico y reutilizable para llevar tus compras de manera responsable",
+  "Inventario": [
+    {
+      "IdAlmacen": 14,
+      "Cantidad": 125
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb81e822504fde40707ab"
+  },
+  "CodigoProducto": "SI-001",
+  "NombreProducto": "Stellar Wireless Earphones",
+  "Descripcion": "Auriculares inalámbricos con cancelación de ruido para una experiencia auditiva inmersiva",
+  "Inventario": [
+    {
+      "IdAlmacen": 15,
+      "Cantidad": 160
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb85b822504fde40707ac"
+  },
+  "CodigoProducto": "SI-002",
+  "NombreProducto": "Stellar Solar Power Bank",
+  "Descripcion": "Batería portátil con panel solar para cargar tus dispositivos en cualquier lugar",
+  "Inventario": [
+    {
+      "IdAlmacen": 15,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb87a822504fde40707ad"
+  },
+  "CodigoProducto": "SI-003",
+  "NombreProducto": "Stellar Fitness Tracker",
+  "Descripcion": "Monitor de actividad física para llevar un seguimiento de tu salud y estado físico",
+  "Inventario": [
+    {
+      "IdAlmacen": 15,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb89a822504fde40707ae"
+  },
+  "CodigoProducto": "SI-004",
+  "NombreProducto": "Stellar Smart Watch",
+  "Descripcion": "Reloj inteligente con pantalla táctil y funciones avanzadas para un estilo de vida conectado",
+  "Inventario": [
+    {
+      "IdAlmacen": 15,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb8c0822504fde40707af"
+  },
+  "CodigoProducto": "SI-005",
+  "NombreProducto": "Stellar Portable Speaker",
+  "Descripcion": "Altavoz portátil resistente al agua y con sonido de alta fidelidad para disfrutar de la música al aire libre",
+  "Inventario": [
+    {
+      "IdAlmacen": 15,
+      "Cantidad": 175
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb8f2822504fde40707b0"
+  },
+  "CodigoProducto": "HHG-001",
+  "NombreProducto": "Harmony Meditation App",
+  "Descripcion": "Aplicación de meditación guiada para reducir el estrés y mejorar el bienestar mental",
+  "Inventario": [
+    {
+      "IdAlmacen": 16,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb933822504fde40707b1"
+  },
+  "CodigoProducto": "HHG-002",
+  "NombreProducto": "Harmony Yoga Mat",
+  "Descripcion": "Tapete de yoga antideslizante y acolchado para prácticas cómodas y seguras",
+  "Inventario": [
+    {
+      "IdAlmacen": 16,
+      "Cantidad": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb95d822504fde40707b2"
+  },
+  "CodigoProducto": "HHG-003",
+  "NombreProducto": "Harmony Herbal Tea Set",
+  "Descripcion": "Set de té de hierbas orgánicas para relajarse y rejuvenecer el cuerpo y la mente",
+  "Inventario": [
+    {
+      "IdAlmacen": 16,
+      "Cantidad": 80
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb983822504fde40707b3"
+  },
+  "CodigoProducto": "HHG-004",
+  "NombreProducto": "Harmony Aromatherapy Diffuser",
+  "Descripcion": "Difusor de aromaterapia con luz LED y diferentes modos de niebla para crear un ambiente tranquilo",
+  "Inventario": [
+    {
+      "IdAlmacen": 16,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb9a7822504fde40707b4"
+  },
+  "CodigoProducto": "HHG-005",
+  "NombreProducto": "Harmony Wellness Journal",
+  "Descripcion": "Diario de bienestar para llevar un registro de tus hábitos y metas de salud",
+  "Inventario": [
+    {
+      "IdAlmacen": 16,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bb9e9822504fde40707b5"
+  },
+  "CodigoProducto": "ND-001",
+  "NombreProducto": "Nexus Smart Glasses",
+  "Descripcion": "Gafas inteligentes con realidad aumentada para mejorar la productividad y la eficiencia",
+  "Inventario": [
+    {
+      "IdAlmacen": 17,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bba2d822504fde40707b6"
+  },
+  "CodigoProducto": "ND-002",
+  "NombreProducto": "Nexus Drone with Camera",
+  "Descripcion": "Dron equipado con cámara HD para capturar imágenes y videos desde el aire",
+  "Inventario": [
+    {
+      "IdAlmacen": 17,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bba48822504fde40707b7"
+  },
+  "CodigoProducto": "ND-003",
+  "NombreProducto": "Nexus Smart Lock System",
+  "Descripcion": "Sistema de bloqueo inteligente para mejorar la seguridad y la accesibilidad en el hogar",
+  "Inventario": [
+    {
+      "IdAlmacen": 17,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bba6a822504fde40707b8"
+  },
+  "CodigoProducto": "ND-004",
+  "NombreProducto": "Nexus Robotic Vacuum Cleaner",
+  "Descripcion": "Aspiradora robótica con navegación inteligente y funciones de limpieza programables",
+  "Inventario": [
+    {
+      "IdAlmacen": 17,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bba99822504fde40707b9"
+  },
+  "CodigoProducto": "ND-005",
+  "NombreProducto": "Nexus Smart Thermostat",
+  "Descripcion": "Termostato inteligente para controlar la temperatura de tu hogar desde cualquier lugar",
+  "Inventario": [
+    {
+      "IdAlmacen": 17,
+      "Cantidad": 160
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbb15822504fde40707ba"
+  },
+  "CodigoProducto": "BWE-001",
+  "NombreProducto": "BlueWave Wireless Router",
+  "Descripcion": "Router inalámbrico de alta velocidad para una conectividad confiable en el hogar u oficina",
+  "Inventario": [
+    {
+      "IdAlmacen": 18,
+      "Cantidad": 170
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbb44822504fde40707bb"
+  },
+  "CodigoProducto": "BWE-002",
+  "NombreProducto": "BlueWave Portable Speaker",
+  "Descripcion": "Altavoz portátil con sonido estéreo de calidad para disfrutar de la música en cualquier lugar",
+  "Inventario": [
+    {
+      "IdAlmacen": 18,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbb6d822504fde40707bc"
+  },
+  "CodigoProducto": "BWE-003",
+  "NombreProducto": "BlueWave External Hard Drive",
+  "Descripcion": "Disco duro externo de gran capacidad para almacenar y respaldar tus datos importantes",
+  "Inventario": [
+    {
+      "IdAlmacen": 18,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbb8f822504fde40707bd"
+  },
+  "CodigoProducto": "BWE-004",
+  "NombreProducto": "BlueWave Gaming Mouse",
+  "Descripcion": "Mouse ergonómico y preciso diseñado para jugadores exigentes",
+  "Inventario": [
+    {
+      "IdAlmacen": 18,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbbb4822504fde40707be"
+  },
+  "CodigoProducto": "BWE-005",
+  "NombreProducto": "BlueWave Bluetooth Headphones",
+  "Descripcion": "Auriculares inalámbricos con cancelación de ruido para una experiencia auditiva inmersiva",
+  "Inventario": [
+    {
+      "IdAlmacen": 18,
+      "Cantidad": 185
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbbe7822504fde40707bf"
+  },
+  "CodigoProducto": "AM-001",
+  "NombreProducto": "Apex Power Drill",
+  "Descripcion": "Taladro eléctrico de alta potencia para perforaciones precisas en diferentes materiales",
+  "Inventario": [
+    {
+      "IdAlmacen": 19,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbc10822504fde40707c0"
+  },
+  "CodigoProducto": "AM-002",
+  "NombreProducto": "Apex Circular Saw",
+  "Descripcion": "Sierra circular versátil y duradera para cortes limpios y precisos en madera y otros materiales",
+  "Inventario": [
+    {
+      "IdAlmacen": 19,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbc2f822504fde40707c1"
+  },
+  "CodigoProducto": "AM-003",
+  "NombreProducto": "Apex Bench Grinder",
+  "Descripcion": "Amoladora de banco resistente para afilar y pulir herramientas y piezas metálicas",
+  "Inventario": [
+    {
+      "IdAlmacen": 19,
+      "Cantidad": 250
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbc55822504fde40707c2"
+  },
+  "CodigoProducto": "AM-004",
+  "NombreProducto": "Apex Air Compressor",
+  "Descripcion": "Compresor de aire compacto y eficiente para inflar neumáticos y realizar trabajos de pintura",
+  "Inventario": [
+    {
+      "IdAlmacen": 19,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbc79822504fde40707c3"
+  },
+  "CodigoProducto": "AM-005",
+  "NombreProducto": "Apex Welding Machine",
+  "Descripcion": "Máquina de soldar versátil y fácil de usar para proyectos de soldadura en casa o en el taller",
+  "Inventario": [
+    {
+      "IdAlmacen": 19,
+      "Cantidad": 210
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbcaa822504fde40707c4"
+  },
+  "CodigoProducto": "QLT-001",
+  "NombreProducto": "QuantumLeap Quantum Computer",
+  "Descripcion": "Computadora cuántica de vanguardia con capacidades de procesamiento avanzadas",
+  "Inventario": [
+    {
+      "IdAlmacen": 20,
+      "Cantidad": 100
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbcdb822504fde40707c5"
+  },
+  "CodigoProducto": "QLT-002",
+  "NombreProducto": "QuantumLeap Virtual Assistant",
+  "Descripcion": "Asistente virtual inteligente con capacidades de aprendizaje automático y reconocimiento de voz",
+  "Inventario": [
+    {
+      "IdAlmacen": 20,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbd0b822504fde40707c6"
+  },
+  "CodigoProducto": "QLT-003",
+  "NombreProducto": "QuantumLeap Neural Implant",
+  "Descripcion": "Implante neural innovador para mejorar las capacidades cognitivas y la conectividad cerebral",
+  "Inventario": [
+    {
+      "IdAlmacen": 20,
+      "Cantidad": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbd2e822504fde40707c7"
+  },
+  "CodigoProducto": "QLT-004",
+  "NombreProducto": "QuantumLeap Holographic Display",
+  "Descripcion": "Display holográfico para proyecciones tridimensionales y experiencias visuales inmersivas",
+  "Inventario": [
+    {
+      "IdAlmacen": 20,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbd51822504fde40707c8"
+  },
+  "CodigoProducto": "QLT-005",
+  "NombreProducto": "QuantumLeap Quantum Sensor",
+  "Descripcion": "Sensor cuántico de alta precisión para mediciones avanzadas en campos como la física y la medicina",
+  "Inventario": [
+    {
+      "IdAlmacen": 20,
+      "Cantidad": 130
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbd81822504fde40707c9"
+  },
+  "CodigoProducto": "MC-001",
+  "NombreProducto": "MegaCorp MegaPhone",
+  "Descripcion": "Teléfono inteligente de última generación con características innovadoras y rendimiento excepcional",
+  "Inventario": [
+    {
+      "IdAlmacen": 21,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbd9c822504fde40707ca"
+  },
+  "CodigoProducto": "MC-002",
+  "NombreProducto": "MegaCorp MegaTablet",
+  "Descripcion": "Tableta con pantalla grande y potente rendimiento para productividad y entretenimiento móvil",
+  "Inventario": [
+    {
+      "IdAlmacen": 21,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbdbb822504fde40707cb"
+  },
+  "CodigoProducto": "MC-003",
+  "NombreProducto": "MegaCorp MegaWatch",
+  "Descripcion": "Reloj inteligente elegante y funcional con aplicaciones útiles y seguimiento de la salud",
+  "Inventario": [
+    {
+      "IdAlmacen": 21,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbddd822504fde40707cc"
+  },
+  "CodigoProducto": "MC-004",
+  "NombreProducto": "MegaCorp MegaLaptop",
+  "Descripcion": "Laptop ultradelgada y potente con diseño premium y larga duración de la batería",
+  "Inventario": [
+    {
+      "IdAlmacen": 21,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbdff822504fde40707cd"
+  },
+  "CodigoProducto": "MC-005",
+  "NombreProducto": "MegaCorp MegaTV",
+  "Descripcion": "Televisor inteligente con resolución 4K y capacidades de transmisión en línea para una experiencia de visualización inmersiva",
+  "Inventario": [
+    {
+      "IdAlmacen": 21,
+      "Cantidad": 210
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbe8a822504fde40707ce"
+  },
+  "CodigoProducto": "TG-001",
+  "NombreProducto": "TechGiant VR Headset",
+  "Descripcion": "Visor de realidad virtual con seguimiento de movimiento preciso para juegos y experiencias inmersivas",
+  "Inventario": [
+    {
+      "IdAlmacen": 22,
+      "Cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbeb4822504fde40707cf"
+  },
+  "CodigoProducto": "TG-002",
+  "NombreProducto": "TechGiant Quantum Processor",
+  "Descripcion": "Procesador cuántico de alta velocidad para aplicaciones de inteligencia artificial y análisis de datos avanzados",
+  "Inventario": [
+    {
+      "IdAlmacen": 22,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbeeb822504fde40707d0"
+  },
+  "CodigoProducto": "TG-003",
+  "NombreProducto": "TechGiant AI Speaker",
+  "Descripcion": "Altavoz inteligente con asistente virtual integrado para controlar dispositivos y obtener información mediante comandos de voz",
+  "Inventario": [
+    {
+      "IdAlmacen": 22,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbf0f822504fde40707d1"
+  },
+  "CodigoProducto": "TG-004",
+  "NombreProducto": "TechGiant Smart Glasses",
+  "Descripcion": "Gafas inteligentes con pantalla AR para aumentar la productividad y mejorar las experiencias de usuario",
+  "Inventario": [
+    {
+      "IdAlmacen": 22,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbf38822504fde40707d2"
+  },
+  "CodigoProducto": "TG-005",
+  "NombreProducto": "TechGiant Drone Delivery System",
+  "Descripcion": "Sistema de entrega de drones autónomo para transporte rápido y eficiente de paquetes",
+  "Inventario": [
+    {
+      "IdAlmacen": 22,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbf6c822504fde40707d3"
+  },
+  "CodigoProducto": "IS-001",
+  "NombreProducto": "Innovative Solar Panel",
+  "Descripcion": "Panel solar innovador con tecnología de células fotovoltaicas de última generación para una mayor eficiencia energética",
+  "Inventario": [
+    {
+      "IdAlmacen": 23,
+      "Cantidad": 120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbf95822504fde40707d4"
+  },
+  "CodigoProducto": "IS-002",
+  "NombreProducto": "Innovative Home Automation System",
+  "Descripcion": "Sistema de automatización del hogar con tecnología IoT para controlar dispositivos desde tu teléfono inteligente",
+  "Inventario": [
+    {
+      "IdAlmacen": 23,
+      "Cantidad": 140
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbfbb822504fde40707d5"
+  },
+  "CodigoProducto": "IS-003",
+  "NombreProducto": "Innovative Self-Driving Car",
+  "Descripcion": "Automóvil autónomo con capacidades de conducción automática y seguridad avanzada",
+  "Inventario": [
+    {
+      "IdAlmacen": 23,
+      "Cantidad": 130
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bbfde822504fde40707d6"
+  },
+  "CodigoProducto": "IS-004",
+  "NombreProducto": "Innovative Wearable Health Monitor",
+  "Descripcion": "Monitor de salud portátil para seguimiento continuo de signos vitales y actividad física",
+  "Inventario": [
+    {
+      "IdAlmacen": 23,
+      "Cantidad": 110
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc076822504fde40707d7"
+  },
+  "CodigoProducto": "IS-005",
+  "NombreProducto": "Innovative 3D Printer",
+  "Descripcion": "Impresora 3D de alta precisión y velocidad para prototipado rápido y fabricación personalizada",
+  "Inventario": [
+    {
+      "IdAlmacen": 23,
+      "Cantidad": 125
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc0ae822504fde40707d8"
+  },
+  "CodigoProducto": "GT-004",
+  "NombreProducto": "Global Traders Business Networking Platform",
+  "Descripcion": "Plataforma de redes empresariales para conectar con socios comerciales internacionales",
+  "Inventario": [
+    {
+      "IdAlmacen": 24,
+      "Cantidad": 160
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc0fb822504fde40707d9"
+  },
+  "CodigoProducto": "GT-005",
+  "NombreProducto": "Global Traders Logistics Management Software",
+  "Descripcion": "Software de gestión logística para optimizar el transporte y seguimiento de mercancías",
+  "Inventario": [
+    {
+      "IdAlmacen": 24,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc15c822504fde40707da"
+  },
+  "CodigoProducto": "GT-006",
+  "NombreProducto": "Global Traders Export Compliance Tool",
+  "Descripcion": "Herramienta de cumplimiento de exportación para asegurar el cumplimiento normativo en operaciones de comercio internacional",
+  "Inventario": [
+    {
+      "IdAlmacen": 24,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc18e822504fde40707db"
+  },
+  "CodigoProducto": "GT-007",
+  "NombreProducto": "Global Traders Trade Finance Solution",
+  "Descripcion": "Solución de financiamiento comercial para facilitar transacciones internacionales y mitigar riesgos financieros",
+  "Inventario": [
+    {
+      "IdAlmacen": 24,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc1b6822504fde40707dc"
+  },
+  "CodigoProducto": "GT-008",
+  "NombreProducto": "Global Traders Supply Chain Analytics Platform",
+  "Descripcion": "Plataforma de análisis de cadena de suministro para identificar oportunidades de mejora y reducir costos operativos",
+  "Inventario": [
+    {
+      "IdAlmacen": 24,
+      "Cantidad": 185
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc211822504fde40707dd"
+  },
+  "CodigoProducto": "RH-001",
+  "NombreProducto": "RetailHub E-commerce Platform",
+  "Descripcion": "Plataforma de comercio electrónico todo en uno para lanzar y hacer crecer tu tienda en línea",
+  "Inventario": [
+    {
+      "IdAlmacen": 25,
+      "Cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc2b3822504fde40707de"
+  },
+  "CodigoProducto": "RH-002",
+  "NombreProducto": "RetailHub Point-of-Sale System",
+  "Descripcion": "Sistema de punto de venta fácil de usar para gestionar transacciones y inventario en tiendas físicas",
+  "Inventario": [
+    {
+      "IdAlmacen": 25,
+      "Cantidad": 180
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc2d7822504fde40707df"
+  },
+  "CodigoProducto": "RH-003",
+  "NombreProducto": "RetailHub Inventory Management Software",
+  "Descripcion": "Software de gestión de inventario para controlar las existencias y optimizar la reposición de productos",
+  "Inventario": [
+    {
+      "IdAlmacen": 25,
+      "Cantidad": 220
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc2fd822504fde40707e0"
+  },
+  "CodigoProducto": "RH-004",
+  "NombreProducto": "RetailHub Customer Relationship Management (CRM) Tool",
+  "Descripcion": "Herramienta de gestión de relaciones con los clientes para mejorar la atención al cliente y aumentar las ventas",
+  "Inventario": [
+    {
+      "IdAlmacen": 25,
+      "Cantidad": 190
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666bc322822504fde40707e1"
+  },
+  "CodigoProducto": "RH-005",
+  "NombreProducto": "RetailHub Retail Analytics Dashboard",
+  "Descripcion": "Panel de análisis de datos para visualizar métricas clave y tomar decisiones comerciales informadas",
+  "Inventario": [
+    {
+      "IdAlmacen": 25,
+      "Cantidad": 210
+    }
+  ]
+}]

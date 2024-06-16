@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b4319c"
+  },
+  "FechaInicio": "2023-12-31",
+  "FechaFinal": "2024-12-31",
+  "IdCliente": 1,
+  "IdTipoMembresia": 1
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b4319d"
+  },
+  "FechaInicio": "2024-03-16",
+  "FechaFinal": "2024-11-16",
+  "IdCliente": 2,
+  "IdTipoMembresia": 2
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b4319e"
+  },
+  "FechaInicio": "2024-03-28",
+  "FechaFinal": "2025-03-28",
+  "IdCliente": 3,
+  "IdTipoMembresia": 3
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b4319f"
+  },
+  "FechaInicio": "2024-04-10",
+  "FechaFinal": "2024-05-10",
+  "IdCliente": 4,
+  "IdTipoMembresia": 4
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a0"
+  },
+  "FechaInicio": "2024-05-01",
+  "FechaFinal": "2025-08-01",
+  "IdCliente": 5,
+  "IdTipoMembresia": 1
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a1"
+  },
+  "FechaInicio": "2023-06-01",
+  "FechaFinal": "2024-06-01",
+  "IdCliente": 6,
+  "IdTipoMembresia": 2
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a2"
+  },
+  "FechaInicio": "2024-02-19",
+  "FechaFinal": "2025-02-19",
+  "IdCliente": 7,
+  "IdTipoMembresia": 3
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a3"
+  },
+  "FechaInicio": "2022-08-29",
+  "FechaFinal": "2023-08-29",
+  "IdCliente": 8,
+  "IdTipoMembresia": 4
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a4"
+  },
+  "FechaInicio": "2024-02-13",
+  "FechaFinal": "2024-09-13",
+  "IdCliente": 9,
+  "IdTipoMembresia": 1
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a5"
+  },
+  "FechaInicio": "2024-01-15",
+  "FechaFinal": "2025-01-15",
+  "IdCliente": 10,
+  "IdTipoMembresia": 2
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a6"
+  },
+  "FechaInicio": "2022-11-14",
+  "FechaFinal": "2024-11-14",
+  "IdCliente": 11,
+  "IdTipoMembresia": 3
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a7"
+  },
+  "FechaInicio": "2024-04-30",
+  "FechaFinal": "2024-12-30",
+  "IdCliente": 12,
+  "IdTipoMembresia": 4
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a8"
+  },
+  "FechaInicio": "2023-12-14",
+  "FechaFinal": "2024-01-14",
+  "IdCliente": 13,
+  "IdTipoMembresia": 1
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431a9"
+  },
+  "FechaInicio": "2024-02-25",
+  "FechaFinal": "2024-05-25",
+  "IdCliente": 14,
+  "IdTipoMembresia": 2
+},
+{
+  "_id": {
+    "$oid": "6665e6e4c8715c9d88b431aa"
+  },
+  "FechaInicio": "2022-10-31",
+  "FechaFinal": "2023-10-31",
+  "IdCliente": 15,
+  "IdTipoMembresia": 3
+}]

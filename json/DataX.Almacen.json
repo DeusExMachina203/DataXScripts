@@ -1,0 +1,325 @@
+[{
+  "_id": {
+    "$oid": "666bf938def91f1d005d14ce"
+  },
+  "IdEmpresa": 1,
+  "Direccion": {
+    "NombreVia": "Avenida Los Incas",
+    "Numero": "101",
+    "Manzana": "A",
+    "Unidad": "1",
+    "Lote": "10"
+  }
+},
+{
+  "_id": {
+    "$oid": "666bfab8def91f1d005d14d4"
+  },
+  "IdEmpresa": 2,
+  "Direccion": {
+    "NombreVia": "Avenida Grau",
+    "Numero": "202",
+    "Manzana": "B",
+    "Unidad": "2",
+    "Lote": "20"
+  }
+},
+{
+  "_id": {
+    "$oid": "666bfae8def91f1d005d14d5"
+  },
+  "IdEmpresa": 3,
+  "Direccion": {
+    "NombreVia": "Avenida Balta",
+    "Numero": "303",
+    "Manzana": "C",
+    "Unidad": "3",
+    "Lote": "30"
+  }
+},
+{
+  "_id": {
+    "$oid": "666bfb23def91f1d005d14d6"
+  },
+  "IdEmpresa": 4,
+  "Direccion": {
+    "NombreVia": "Avenida de la Cultura'",
+    "Numero": "404",
+    "Manzana": "D",
+    "Unidad": "4",
+    "Lote": "40"
+  }
+},
+{
+  "_id": {
+    "$oid": "666bfb6cdef91f1d005d14d7"
+  },
+  "IdEmpresa": 5,
+  "Direccion": {
+    "NombreVia": "Avenida Central'",
+    "Numero": "505",
+    "Manzana": "E",
+    "Unidad": "5",
+    "Lote": "50"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c445733a30762f1815d9c"
+  },
+  "IdEmpresa": 6,
+  "Direccion": {
+    "NombreVia": "Avenida de los Reyes'",
+    "Numero": "606",
+    "Manzana": "F",
+    "Unidad": "6",
+    "Lote": "60"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c447d33a30762f1815d9d"
+  },
+  "IdEmpresa": 7,
+  "Direccion": {
+    "NombreVia": "Avenida Las Flores'",
+    "Numero": "707",
+    "Manzana": "G",
+    "Unidad": "7",
+    "Lote": "70"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c536e33a30762f1815e28"
+  },
+  "IdEmpresa": 8,
+  "Direccion": {
+    "NombreVia": "Avenida Santa Rosa",
+    "Numero": "808",
+    "Manzana": "H",
+    "Unidad": "8",
+    "Lote": "80"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c53eb33a30762f1815ead"
+  },
+  "IdEmpresa": 9,
+  "Direccion": {
+    "NombreVia": "Avenida Junín",
+    "Numero": "909",
+    "Manzana": "I",
+    "Unidad": "9",
+    "Lote": "90"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eae"
+  },
+  "IdEmpresa": 10,
+  "Direccion": {
+    "NombreVia": "Avenida Balta",
+    "Numero": "1010",
+    "Manzana": "J",
+    "Unidad": "10",
+    "Lote": "100"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eaf"
+  },
+  "IdEmpresa": 11,
+  "Direccion": {
+    "NombreVia": "Avenida Higuereta",
+    "Numero": "1111",
+    "Manzana": "K",
+    "Unidad": "11",
+    "Lote": "110"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb0"
+  },
+  "IdEmpresa": 12,
+  "Direccion": {
+    "NombreVia": "Avenida Los Pinos",
+    "Numero": "1212",
+    "Manzana": "L",
+    "Unidad": "12",
+    "Lote": "120"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb1"
+  },
+  "IdEmpresa": 13,
+  "Direccion": {
+    "NombreVia": "Avenida Mayor",
+    "Numero": "1313",
+    "Manzana": "M",
+    "Unidad": "13",
+    "Lote": "130"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb2"
+  },
+  "IdEmpresa": 14,
+  "Direccion": {
+    "NombreVia": "Avenida Kennedy",
+    "Numero": "1414",
+    "Manzana": "N",
+    "Unidad": "14",
+    "Lote": "140"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb3"
+  },
+  "IdEmpresa": 15,
+  "Direccion": {
+    "NombreVia": "Avenida Arenales",
+    "Numero": "1515",
+    "Manzana": "O",
+    "Unidad": "15",
+    "Lote": "150"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb4"
+  },
+  "IdEmpresa": 16,
+  "Direccion": {
+    "NombreVia": "Avenida de la República",
+    "Numero": "1616",
+    "Manzana": "P",
+    "Unidad": "16",
+    "Lote": "160"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c573633a30762f1815eb5"
+  },
+  "IdEmpresa": 17,
+  "Direccion": {
+    "NombreVia": "Avenida San Blas",
+    "Numero": "1717",
+    "Manzana": "P",
+    "Unidad": "17",
+    "Lote": "170"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815eb6"
+  },
+  "IdEmpresa": 18,
+  "Direccion": {
+    "NombreVia": "Avenida Real",
+    "Numero": "1818",
+    "Manzana": "R",
+    "Unidad": "18",
+    "Lote": "180"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815eb7"
+  },
+  "IdEmpresa": 19,
+  "Direccion": {
+    "NombreVia": "Avenida de los Andes",
+    "Numero": "1919",
+    "Manzana": "S",
+    "Unidad": "19",
+    "Lote": "190"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815eb8"
+  },
+  "IdEmpresa": 20,
+  "Direccion": {
+    "NombreVia": "Avenida Nuevo",
+    "Numero": "2020",
+    "Manzana": "T",
+    "Unidad": "20",
+    "Lote": "200"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815eb9"
+  },
+  "IdEmpresa": 21,
+  "Direccion": {
+    "NombreVia": "Avenida del Sol",
+    "Numero": "2121",
+    "Manzana": "U",
+    "Unidad": "21",
+    "Lote": "210"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815eba"
+  },
+  "IdEmpresa": 22,
+  "Direccion": {
+    "NombreVia": "Avenida Panamericana",
+    "Numero": "2222",
+    "Manzana": "V",
+    "Unidad": "22",
+    "Lote": "220"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815ebb"
+  },
+  "IdEmpresa": 23,
+  "Direccion": {
+    "NombreVia": "Avenida de los Héroes",
+    "Numero": "2323",
+    "Manzana": "W",
+    "Unidad": "23",
+    "Lote": "230"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815ebc"
+  },
+  "IdEmpresa": 24,
+  "Direccion": {
+    "NombreVia": "Avenida San Martín",
+    "Numero": "2424",
+    "Manzana": "X",
+    "Unidad": "24",
+    "Lote": "240"
+  }
+},
+{
+  "_id": {
+    "$oid": "666c6a1133a30762f1815ebd"
+  },
+  "IdEmpresa": 25,
+  "Direccion": {
+    "NombreVia": "Avenida del Río",
+    "Numero": "2525",
+    "Manzana": "W",
+    "Unidad": "25",
+    "Lote": "25"
+  }
+}]

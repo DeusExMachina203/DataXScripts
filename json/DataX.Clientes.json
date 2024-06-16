@@ -1,0 +1,650 @@
+[{
+  "_id": {
+    "$oid": "666ce40a683da919800aae0a"
+  },
+  "nombre": "InnoSol LLC",
+  "Ruc": "20603187235",
+  "idDistrito": "1",
+  "direccion": {
+    "numero": "2626",
+    "Manzana": "Z",
+    "dirección": "Avenida 28 de Julio"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ce8f6683da919800aae0b"
+  },
+  "nombre": "STI Ltd",
+  "ruc": "20548198292",
+  "idDistrito": "27",
+  "direccion": {
+    "numero": "2727",
+    "manzana": "A",
+    "direccion": "avenida austral"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ce9e9683da919800aae0c"
+  },
+  "nombre": "Global Solutions Ltd",
+  "ruc": "20473263814",
+  "idDistrito": "28",
+  "direccion": {
+    "numero": "2828",
+    "manzana": "B",
+    "direccion": "Avenida señor de los milagros"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ceb36683da919800aae0d"
+  },
+  "nombre": "Future Invest Ltd",
+  "ruc": "20394257101",
+  "idDistrito": "29",
+  "direcciones": {
+    "numero": "2929",
+    "manzana": "C",
+    "distrito": "Calle las orquídeas"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cec5c683da919800aae0e"
+  },
+  "nombre": "Integro Logistics Inc.",
+  "ruc": "20513482049",
+  "idDistrito": "30",
+  "direccion": {
+    "numero": "3030",
+    "manzana": "D",
+    "distrito": "Avenida La Merced"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cecee683da919800aae0f"
+  },
+  "nombre": "FinAd Co. Ltd.",
+  "ruc": "20457093628",
+  "idDistrito": "31",
+  "distrito": {
+    "numero": "3131",
+    "manzana": "E",
+    "direccion": "Avenida Bolívar"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ced64683da919800aae10"
+  },
+  "nombre": "InnoPeru Ltd.",
+  "ruc": "20389657142",
+  "idDireccion": "32",
+  "direccion": {
+    "numero": "3232",
+    "manzana": "F",
+    "direccion": " Calle Wilson Cisneros Cabos"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cedf6683da919800aae11"
+  },
+  "nombre": "North Food Inc.",
+  "ruc": "20402731948",
+  "idDistrito": "34",
+  "distrito": {
+    "numero": "3333",
+    "manzana": "G",
+    "direccion": "Ovalo la perla"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ceeb5683da919800aae12"
+  },
+  "nombre": "SouthStrat Ltd.",
+  "ruc": "20514978236",
+  "idDistrito": "34",
+  "direccion": {
+    "numero": "3434",
+    "menzana": "H",
+    "distrito": "Avenida los Eucaliptos"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cef18683da919800aae13"
+  },
+  "nombre": "Central Con Ltd.",
+  "ruc": "20514978236",
+  "idDistrito": "35",
+  "direccion": {
+    "numero": "3535",
+    "manzana": "I",
+    "direccion": "Avenida San Miguel"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cefdc683da919800aae14"
+  },
+  "nombre": "AdvTech Ltd.",
+  "ruc": "20570214831",
+  "idDistrito": "36",
+  "distrito": {
+    "numero": "3636",
+    "manzana": "J",
+    "direccion": "Jirón Dos de Mayo"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf200683da919800aae15"
+  },
+  "nombre": "Essential Prod Co.",
+  "ruc": "20501483729",
+  "idDistrito": "37",
+  "direccion": {
+    "numero": "3737",
+    "manzana": "K",
+    "direccion": "Avenida Grau"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf280683da919800aae16"
+  },
+  "nombre": "InnoBiz Ltd.",
+  "ruc": "20432159682",
+  "idDistrito": "38",
+  "direccion": {
+    "numero": "3838",
+    "manzana": "L",
+    "direccion": "calle Cristobal Colón"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf320683da919800aae17"
+  },
+  "nombre": "North Peru Food Ltd.",
+  "ruc": "20578204938",
+  "idDistrito": "39",
+  "direccion": {
+    "numero": "3939",
+    "manzana": "M",
+    "direccion": "Barrio de belen "
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf3c8683da919800aae18"
+  },
+  "nombre": "StratConsult Inc.",
+  "ruc": "20634791825",
+  "idDistrito": "40",
+  "direccion": {
+    "numero": "4040",
+    "manzana": "N",
+    "direccion": "Glof de los Incas"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf4fb683da919800aae1b"
+  },
+  "nombre": "Urban ConDev Inc.",
+  "ruc": "20482716359",
+  "idDistrito": "41",
+  "direccion": {
+    "numero": "4141",
+    "manzana": "O",
+    "direccion": "avenida de sol"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf56b683da919800aae1c"
+  },
+  "nombre": "Real Estate Trade Ltd",
+  "ruc": "20389547123",
+  "idDistrito": "42",
+  "direccion": {
+    "numero": "4242",
+    "manzana": "P",
+    "direccion": "Puerto Viejo"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf5d0683da919800aae1d"
+  },
+  "nombre": "SouthStrat Inc.",
+  "ruc": "20503471928",
+  "idDistrito": "43",
+  "direccion": {
+    "numero": "4343",
+    "manzana": "Q",
+    "direccion": "Caminos del Inka"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf652683da919800aae1e"
+  },
+  "nombre": "PeruLog Ltd.",
+  "ruc": "20347182596",
+  "idDistrito": "44",
+  "diraccion": {
+    "numero": "4444",
+    "manzana": "R",
+    "direccion": "Lima Norte"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf710683da919800aae1f"
+  },
+  "nombre": "South Food Inc.",
+  "ruc": "20481394725",
+  "idDIstrito": "45",
+  "distritos": {
+    "numero": "4545",
+    "manzana": "R",
+    "direccion": "Avenida Pardo"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf840683da919800aae20"
+  },
+  "nombre": "TechServ Ltd.",
+  "ruc": "20563419872",
+  "idDistrito": "46",
+  "distrito": {
+    "numero": "4646",
+    "manzana": "T",
+    "direccion": "Avenida José Pardo"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cf991683da919800aae21"
+  },
+  "nombre": "North BusServ Ltd.",
+  "ruc": "20394857132",
+  "idDireccion": "47",
+  "direccion": {
+    "numero": "4747",
+    "manzana": "T",
+    "direccion": "Avenida Mariscal Castilla"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cfd96683da919800aae22"
+  },
+  "nombre": "Future Prod Ltd.",
+  "ruc": "20347192856",
+  "idDireccion": "49",
+  "direccion": {
+    "numero": "4949",
+    "manzana": "V",
+    "direccion": "Avenida Tacna"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cff17683da919800aae23"
+  },
+  "nombre": "South Food Ltd.",
+  "ruc": "20471836529",
+  "idDireccion": "50",
+  "direccion": {
+    "numero": "5050",
+    "manzana": "U",
+    "direccion": "avenida grau"
+  }
+},
+{
+  "_id": {
+    "$oid": "666cffb0683da919800aae24"
+  },
+  "nombre": "FinServ Co. Ltd.",
+  "ruc": "20612389472",
+  "idDistrito": "51",
+  "distrito": {
+    "numero": "5151",
+    "manzana": "Y",
+    "direccion": "avenida Los Laureles"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d003a683da919800aae25"
+  },
+  "nombre": "North StratInvest Inc.",
+  "ruc": "20479361285",
+  "idDistrito": "52",
+  "direccion": {
+    "numero": "5252",
+    "manzana": "T",
+    "direccion": "Avenida la Marina"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d014c683da919800aae26"
+  },
+  "nommbre": "NatProd Trade Ltd.",
+  "ruc": "20582763419",
+  "idDireccion": "54",
+  "direccion": {
+    "numero": "5454",
+    "manzana": "B",
+    "direccion": "Avenida los Olivos"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d02d9683da919800aae27"
+  },
+  "nombre": "InnoBiz Peru Ltd.",
+  "ruc": "20495738126",
+  "idDistrito": "55",
+  "direccion": {
+    "numero": "5555",
+    "manzana": "C",
+    "direccion": "avenida molina"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0393683da919800aae28"
+  },
+  "nombre": "South CentCon Ltd.",
+  "ruc": "20371498256",
+  "idDireccion": "56",
+  "direccion": {
+    "numero": "5656",
+    "manzana": "D",
+    "direccion": "Avenida Nicolás de Piérola"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0498683da919800aae29"
+  },
+  "nombre": "BusConsult Inc.",
+  "ruc": "20638215947",
+  "idDisreccion": "57",
+  "direccion": {
+    "numero": "5757",
+    "manzana": "E",
+    "direccion": "Avenida Los Cedros"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0578683da919800aae2a"
+  },
+  "nombre": "Urban ConDev Peru Ltd.",
+  "ruc": "20478391562",
+  "idDistrito": "57",
+  "direccion": {
+    "numero": "5757",
+    "manzana": "F",
+    "direccion": "avenida el sol"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d067d683da919800aae2b"
+  },
+  "nombre": "North Real Estate Trade Co.",
+  "ruc": "20514798321",
+  "Iddistrito": "59",
+  "direccion": {
+    "numero": "5959",
+    "manzana": "G",
+    "direccion": "jiron Ayacucho"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0731683da919800aae2c"
+  },
+  "nombre": "TechInno South Peru Ltd.",
+  "ruc": "20493571628",
+  "iddistrito": "60",
+  "direccion": {
+    "numero": "6060",
+    "manzana": "H",
+    "direccion": "Avenida Arequipa"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d08dc683da919800aae2d"
+  },
+  "nombre": "Future Prod Ltd.",
+  "ruc": "20628749135",
+  "idDitrito": "61",
+  "direccion": {
+    "numero": "6161",
+    "manzana": "I",
+    "direccion": "Avenida Arica"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0981683da919800aae2e"
+  },
+  "nombre": "North Food Inc.",
+  "ruc": "20478192653",
+  "idDistrito": "62",
+  "direccion": {
+    "numero": "6262",
+    "manzana": "J",
+    "direccion": "Avenida Tupac Amaru"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d09ea683da919800aae2f"
+  },
+  "nombre": "TechServ Co. Ltd.",
+  "ruc": "20549187236",
+  "idDistrito": "63",
+  "direccion": {
+    "numero": "6363",
+    "manzana": "K",
+    "direccion": "Avenida San Pedro"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0a5c683da919800aae30"
+  },
+  "nombre": "South StratInvest Ltd.",
+  "ruc": "20476281395",
+  "idDireccion": "64",
+  "direccion": {
+    "numero": "6464",
+    "manzana": "L",
+    "direccion": "Avenida de los Recuerdos"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0add683da919800aae31"
+  },
+  "nombre": "PeruLog Ltd.",
+  "ruc": "20398214765",
+  "idDistrito": "65",
+  "direccion": {
+    "numero": "6565",
+    "manzana": "M",
+    "direccion": "Avenida Benavides"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0b94683da919800aae32"
+  },
+  "nombre": "South Food Trade Co. Ltd.",
+  "ruc": "20571863429",
+  "idDistrito": "66",
+  "direccion": {
+    "numero": "6666",
+    "manzana": "N",
+    "direccion": "Avenida Colmena"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0c2f683da919800aae33"
+  },
+  "nombre": "InnoBiz North Peru Ltd.",
+  "ruc": "20451793826",
+  "idDistrito": "67",
+  "direccion": {
+    "numero": "6767",
+    "manzana": "O",
+    "direccion": "Avenida de los Héroes"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0c9b683da919800aae34"
+  },
+  "nombre": "CentCon Ltd.",
+  "ruc": "20648719325",
+  "idDistrito": "68",
+  "direccion": {
+    "numero": "6868",
+    "manzana": "P",
+    "direccion": "Avenida Santa Rosa"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0cfd683da919800aae35"
+  },
+  "nombre": "South BusConsult Inc.",
+  "ruc": "20378512946",
+  "idDitrstico": "69",
+  "direccion": {
+    "numero": "6969",
+    "manzana": "Q",
+    "direccion": "Avenida San Martín"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0d53683da919800aae36"
+  },
+  "nombre": "Urban ConDev North Peru Ltd.",
+  "ruc": "20471836592",
+  "idDistrito": "70",
+  "direccion": {
+    "numero": "7070",
+    "manzana": "P",
+    "direccion": "Avenida de los Suspiros"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0ddd683da919800aae37"
+  },
+  "nombre": "South Real Estate Trade Co.",
+  "ruc": "20563917248",
+  "idDistrito": "71",
+  "direccion": {
+    "numero": "6161",
+    "manzana": "X",
+    "direccion": "Avenida de la República"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0e8d683da919800aae38"
+  },
+  "nombre": "North TechInno Ltd.",
+  "ruc": "20457139268",
+  "idDistrito": "72",
+  "direccion": {
+    "numero": "6262",
+    "manzana": "Y",
+    "direccion": "avenida San Juan"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d0fc5683da919800aae39"
+  },
+  "nombre": "Future Prod Peru Ltd.",
+  "ruc": "20671359284",
+  "idDireccion": "73",
+  "direccion": {
+    "numero": "6363",
+    "manzana": "V",
+    "direccion": "Avenida Los Próceres"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d103b683da919800aae3a"
+  },
+  "nombre": "CentFood Inc.",
+  "ruc": "20497285136",
+  "idDistrito": "74",
+  "direccion": {
+    "numero": "6464",
+    "manzana": "A",
+    "direccion": "Calle Buenos Aires"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d10d4683da919800aae3b"
+  },
+  "nombre": "South TechServ Ltd.",
+  "ruc": "20371958264",
+  "idDistrito": "75",
+  "direccion": {
+    "numero": "6565",
+    "manzana": "B",
+    "direccion": "Camino Real"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d1168683da919800aae3c"
+  },
+  "nombre": "Future Prod Ltd.",
+  "ruc": "20612389472",
+  "idDistrito": "79",
+  "direccion": {
+    "numero": "7979",
+    "manzana": "X",
+    "direccion": "Avenida Molina"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d124a683da919800aae3d"
+  },
+  "nombre": "South Food Inc.",
+  "ruc": "20481394725",
+  "idDistrtito": "90",
+  "direccion": {
+    "numero": "9090",
+    "manzana": "Q",
+    "distrito": "Acenida Fontana"
+  }
+}]

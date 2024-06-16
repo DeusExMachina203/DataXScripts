@@ -1,0 +1,1700 @@
+[{
+  "_id": {
+    "$oid": "666c88cd77fb9903deebf6f2"
+  },
+  "IdCliente": 1,
+  "IdEmpresa": 1,
+  "IdAlmacen": 1,
+  "CostoTotal": 1000,
+  "CodigoProducto": "FF-001",
+  "Cantidad": 20,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-01",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c891777fb9903deebf6f4"
+  },
+  "IdCliente": 2,
+  "IdEmpresa": 2,
+  "IdAlmacen": 2,
+  "CostoTotal": 2000,
+  "CodigoProducto": "DD-002",
+  "Cantidad": 30,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-02",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c892c77fb9903deebf6f6"
+  },
+  "IdCliente": 3,
+  "IdEmpresa": 3,
+  "IdAlmacen": "IC-003",
+  "CostoTotal": 1500,
+  "CodigoProducto": "IC-003",
+  "Cantidad": 10,
+  "CostoUnitario": 50,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-03",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c894677fb9903deebf6f8"
+  },
+  "IdCliente": 4,
+  "IdEmpresa": 4,
+  "IdAlmacen": 4,
+  "CostoTotal": 1800,
+  "CodigoProducto": "PV-004",
+  "Cantidad": 40,
+  "CostoUnitario": 20,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-04",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c895d77fb9903deebf6fa"
+  },
+  "IdCliente": 5,
+  "IdEmpresa": 5,
+  "IdAlmacen": 5,
+  "CostoTotal": 2200,
+  "CodigoProducto": "EP-002",
+  "Cantidad": "2024-06-05",
+  "CostoUnitario": 100,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-05",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c897277fb9903deebf6fc"
+  },
+  "IdCliente": 6,
+  "IdEmpresa": 6,
+  "IdAlmacen": 6,
+  "CostoTotal": 1100,
+  "CodigoProducto": "JU-003",
+  "Cantidad": 20,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-06",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c898777fb9903deebf6fe"
+  },
+  "IdCliente": 7,
+  "IdEmpresa": 7,
+  "IdAlmacen": 7,
+  "CostoTotal": 900,
+  "CodigoProducto": "OT-004",
+  "Cantidad": 20,
+  "CostoUnitario": 20,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-07",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c899c77fb9903deebf700"
+  },
+  "IdCliente": 8,
+  "IdEmpresa": 8,
+  "IdAlmacen": 8,
+  "CostoTotal": 2500,
+  "CodigoProducto": "CT-005",
+  "Cantidad": 10,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-08",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c89af77fb9903deebf702"
+  },
+  "IdCliente": 9,
+  "IdEmpresa": 9,
+  "IdAlmacen": 9,
+  "CostoTotal": 1800,
+  "CodigoProducto": "ICam-001",
+  "Cantidad": 30,
+  "CostoUnitario": 45,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-09",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c89c277fb9903deebf704"
+  },
+  "IdCliente": 10,
+  "IdEmpresa": 10,
+  "IdAlmacen": 10,
+  "CostoTotal": 3000,
+  "CodigoProducto": "CO-003",
+  "Cantidad": 20,
+  "CostoUnitario": 150,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-10",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c89d377fb9903deebf706"
+  },
+  "IdCliente": 11,
+  "IdEmpresa": 11,
+  "IdAlmacen": 11,
+  "CostoTotal": 1200,
+  "CodigoProducto": "GNV-004",
+  "Cantidad": 30,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-11",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c89e177fb9903deebf708"
+  },
+  "IdCliente": 12,
+  "IdEmpresa": 12,
+  "IdAlmacen": 12,
+  "CostoTotal": 1900,
+  "CodigoProducto": "TD-005",
+  "Cantidad": 10,
+  "CostoUnitario": 35,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-12",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c89f777fb9903deebf70a"
+  },
+  "IdCliente": 13,
+  "IdEmpresa": 13,
+  "IdAlmacen": 13,
+  "CostoTotal": 1700,
+  "CodigoProducto": "TNS-002",
+  "Cantidad": 20,
+  "CostoUnitario": 60,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-13",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a1277fb9903deebf70c"
+  },
+  "IdCliente": 14,
+  "IdEmpresa": 14,
+  "IdAlmacen": 14,
+  "CostoTotal": 2000,
+  "CodigoProducto": "EGI-003",
+  "Cantidad": 40,
+  "CostoUnitario": 15,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-14",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a2677fb9903deebf70e"
+  },
+  "IdCliente": 15,
+  "IdEmpresa": 15,
+  "IdAlmacen": 15,
+  "CostoTotal": 2800,
+  "CodigoProducto": "SI-004",
+  "Cantidad": 20,
+  "CostoUnitario": 120,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-15",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a3877fb9903deebf710"
+  },
+  "IdCliente": 16,
+  "IdEmpresa": 16,
+  "IdAlmacen": 16,
+  "CostoTotal": 1500,
+  "CodigoProducto": "HHG-002",
+  "Cantidad": 20,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-16",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a6c77fb9903deebf712"
+  },
+  "IdCliente": 17,
+  "IdEmpresa": 17,
+  "IdAlmacen": 17,
+  "CostoTotal": 2300,
+  "CodigoProducto": "ND-001",
+  "Cantidad": 30,
+  "CostoUnitario": 40,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-17",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a8077fb9903deebf714"
+  },
+  "IdCliente": 18,
+  "IdEmpresa": 18,
+  "IdAlmacen": 18,
+  "CostoTotal": 1600,
+  "CodigoProducto": "BWE-003",
+  "Cantidad": 10,
+  "CostoUnitario": 55,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-18",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8a9177fb9903deebf716"
+  },
+  "IdCliente": 19,
+  "IdEmpresa": 19,
+  "IdAlmacen": 19,
+  "CostoTotal": 2100,
+  "CodigoProducto": "AM-001",
+  "Cantidad": 40,
+  "CostoUnitario": 18,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-19",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8aa077fb9903deebf718"
+  },
+  "IdCliente": 20,
+  "IdEmpresa": 20,
+  "IdAlmacen": 20,
+  "CostoTotal": 2700,
+  "CodigoProducto": "QLT-005",
+  "Cantidad": 20,
+  "CostoUnitario": 100,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-20",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ab077fb9903deebf71a"
+  },
+  "IdCliente": 21,
+  "IdEmpresa": 21,
+  "IdAlmacen": 21,
+  "CostoTotal": 1400,
+  "CodigoProducto": "MC-004",
+  "Cantidad": 30,
+  "CostoUnitario": 22,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-21",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ac277fb9903deebf71c"
+  },
+  "IdCliente": 22,
+  "IdEmpresa": 22,
+  "IdAlmacen": 22,
+  "CostoTotal": 2600,
+  "CodigoProducto": "TG-002",
+  "Cantidad": 10,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-22",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ad177fb9903deebf71e"
+  },
+  "IdCliente": 23,
+  "IdEmpresa": 23,
+  "IdAlmacen": 23,
+  "CostoTotal": 2000,
+  "CodigoProducto": "IS-003",
+  "Cantidad": 20,
+  "CostoUnitario": 60,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-23",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ae177fb9903deebf720"
+  },
+  "IdCliente": 24,
+  "IdEmpresa": 24,
+  "IdAlmacen": 24,
+  "CostoTotal": 1900,
+  "CodigoProducto": "GT-004",
+  "Cantidad": 40,
+  "CostoUnitario": 17,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-24",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8af477fb9903deebf722"
+  },
+  "IdCliente": 25,
+  "IdEmpresa": 25,
+  "IdAlmacen": 25,
+  "CostoTotal": 2400,
+  "CodigoProducto": "RH-002",
+  "Cantidad": 20,
+  "CostoUnitario": 105,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-03-25",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8b0477fb9903deebf724"
+  },
+  "IdCliente": 26,
+  "IdEmpresa": 1,
+  "IdAlmacen": 1,
+  "CostoTotal": 1300,
+  "CodigoProducto": "FF-003",
+  "Cantidad": 20,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-26",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8b1677fb9903deebf726"
+  },
+  "IdCliente": 27,
+  "IdEmpresa": 2,
+  "IdAlmacen": 2,
+  "CostoTotal": 1800,
+  "CodigoProducto": "DD-004",
+  "Cantidad": 10,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-27",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8b2677fb9903deebf728"
+  },
+  "IdCliente": 28,
+  "IdEmpresa": 3,
+  "IdAlmacen": 3,
+  "CostoTotal": 2200,
+  "CodigoProducto": "IC-005",
+  "Cantidad": 30,
+  "CostoUnitario": 70,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-06-28",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8b3377fb9903deebf72a"
+  },
+  "IdCliente": 29,
+  "IdEmpresa": 4,
+  "IdAlmacen": 4,
+  "CostoTotal": 1700,
+  "CodigoProducto": "PV-003",
+  "Cantidad": 40,
+  "CostoUnitario": 19,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-06-29",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8bcd77fb9903deebf72c"
+  },
+  "IdCliente": 30,
+  "IdEmpresa": 5,
+  "IdAlmacen": 5,
+  "CostoTotal": 2500,
+  "CodigoProducto": "EP-003",
+  "Cantidad": 20,
+  "CostoUnitario": 125,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-06-30",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8bde77fb9903deebf72e"
+  },
+  "IdCliente": 31,
+  "IdEmpresa": 6,
+  "IdAlmacen": 6,
+  "CostoTotal": 2100,
+  "CodigoProducto": "JU-005",
+  "Cantidad": 30,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-01",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8bed77fb9903deebf730"
+  },
+  "IdCliente": 32,
+  "IdEmpresa": 7,
+  "IdAlmacen": 7,
+  "CostoTotal": 1700,
+  "CodigoProducto": "OT-004",
+  "Cantidad": 10,
+  "CostoUnitario": 40,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-02",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8bfb77fb9903deebf732"
+  },
+  "IdCliente": 33,
+  "IdEmpresa": 8,
+  "IdAlmacen": 8,
+  "CostoTotal": 2000,
+  "CodigoProducto": "CT-003",
+  "Cantidad": 20,
+  "CostoUnitario": 50,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-03",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c1777fb9903deebf734"
+  },
+  "IdCliente": 34,
+  "IdEmpresa": 9,
+  "IdAlmacen": 9,
+  "CostoTotal": 2200,
+  "CodigoProducto": "ICam-002",
+  "Cantidad": 40,
+  "CostoUnitario": 16,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-04",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c2577fb9903deebf736"
+  },
+  "IdCliente": 35,
+  "IdEmpresa": 10,
+  "IdAlmacen": 10,
+  "CostoTotal": 2400,
+  "CodigoProducto": "CO-001",
+  "Cantidad": 20,
+  "CostoUnitario": 110,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-05",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c3477fb9903deebf738"
+  },
+  "IdCliente": 36,
+  "IdEmpresa": 11,
+  "IdAlmacen": 11,
+  "CostoTotal": 2600,
+  "CodigoProducto": "GNV-004",
+  "Cantidad": 20,
+  "CostoUnitario": 35,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-06",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c4477fb9903deebf73a"
+  },
+  "IdCliente": 37,
+  "IdEmpresa": 12,
+  "IdAlmacen": 12,
+  "CostoTotal": 1900,
+  "CodigoProducto": "TD-005",
+  "Cantidad": 10,
+  "CostoUnitario": 45,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-07",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c5477fb9903deebf73c"
+  },
+  "IdCliente": 38,
+  "IdEmpresa": 13,
+  "IdAlmacen": 13,
+  "CostoTotal": 2800,
+  "CodigoProducto": "TNS-001",
+  "Cantidad": 30,
+  "CostoUnitario": 65,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-08",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c6377fb9903deebf73e"
+  },
+  "IdCliente": 39,
+  "IdEmpresa": 14,
+  "IdAlmacen": 14,
+  "CostoTotal": 1500,
+  "CodigoProducto": "EGI-002",
+  "Cantidad": 40,
+  "CostoUnitario": 21,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-09",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c7777fb9903deebf740"
+  },
+  "IdCliente": 40,
+  "IdEmpresa": 15,
+  "IdAlmacen": 15,
+  "CostoTotal": 2300,
+  "CodigoProducto": "SI-003",
+  "Cantidad": 20,
+  "CostoUnitario": 130,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-03-10",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c8677fb9903deebf742"
+  },
+  "IdCliente": 41,
+  "IdEmpresa": 16,
+  "IdAlmacen": 16,
+  "CostoTotal": 1600,
+  "CodigoProducto": "HHG-004",
+  "Cantidad": 30,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-11",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8c9477fb9903deebf744"
+  },
+  "IdCliente": 42,
+  "IdEmpresa": 17,
+  "IdAlmacen": 17,
+  "CostoTotal": 2700,
+  "CodigoProducto": "ND-005",
+  "Cantidad": 10,
+  "CostoUnitario": 50,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-12",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ca677fb9903deebf746"
+  },
+  "IdCliente": 43,
+  "IdEmpresa": 18,
+  "IdAlmacen": 18,
+  "CostoTotal": 1400,
+  "CodigoProducto": "BWE-003",
+  "Cantidad": 20,
+  "CostoUnitario": 55,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-13",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8cb477fb9903deebf748"
+  },
+  "IdCliente": 44,
+  "IdEmpresa": 19,
+  "IdAlmacen": 19,
+  "CostoTotal": 2400,
+  "CodigoProducto": "AM-003",
+  "Cantidad": 40,
+  "CostoUnitario": 20,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-14",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8cc177fb9903deebf74a"
+  },
+  "IdCliente": 45,
+  "IdEmpresa": 20,
+  "IdAlmacen": 20,
+  "CostoTotal": 2000,
+  "CodigoProducto": "QLT-005",
+  "Cantidad": 20,
+  "CostoUnitario": 115,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-15",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8cd477fb9903deebf74c"
+  },
+  "IdCliente": 46,
+  "IdEmpresa": 21,
+  "IdAlmacen": 21,
+  "CostoTotal": 2100,
+  "CodigoProducto": "MC-004",
+  "Cantidad": 20,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-16",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ce377fb9903deebf74e"
+  },
+  "IdCliente": 47,
+  "IdEmpresa": 22,
+  "IdAlmacen": 22,
+  "CostoTotal": 2500,
+  "CodigoProducto": "TG-001",
+  "Cantidad": 10,
+  "CostoUnitario": 60,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-17",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8cf577fb9903deebf750"
+  },
+  "IdCliente": 48,
+  "IdEmpresa": 23,
+  "IdAlmacen": 23,
+  "CostoTotal": 1700,
+  "CodigoProducto": "IS-002",
+  "Cantidad": 30,
+  "CostoUnitario": 75,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-18",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d0377fb9903deebf752"
+  },
+  "IdCliente": 49,
+  "IdEmpresa": 24,
+  "IdAlmacen": 24,
+  "CostoTotal": 2200,
+  "CodigoProducto": "GT-005",
+  "Cantidad": 40,
+  "CostoUnitario": 22,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-19",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d1977fb9903deebf754"
+  },
+  "IdCliente": 50,
+  "IdEmpresa": 25,
+  "IdAlmacen": 25,
+  "CostoTotal": 1800,
+  "CodigoProducto": "RH-001",
+  "Cantidad": 20,
+  "CostoUnitario": 120,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-20",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d2d77fb9903deebf756"
+  },
+  "IdCliente": 1,
+  "IdEmpresa": 1,
+  "IdAlmacen": 1,
+  "CostoTotal": 1900,
+  "CodigoProducto": "FF-003",
+  "Cantidad": 30,
+  "CostoUnitario": 28,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-21",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d3b77fb9903deebf758"
+  },
+  "IdCliente": 2,
+  "IdEmpresa": 2,
+  "IdAlmacen": 2,
+  "CostoTotal": 2200,
+  "CodigoProducto": "DD-004",
+  "Cantidad": 10,
+  "CostoUnitario": 48,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-22",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d4b77fb9903deebf75a"
+  },
+  "IdCliente": 3,
+  "IdEmpresa": 3,
+  "IdAlmacen": 3,
+  "CostoTotal": 2600,
+  "CodigoProducto": "IC-005",
+  "Cantidad": 20,
+  "CostoUnitario": 52,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-02-23",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d5b77fb9903deebf75c"
+  },
+  "IdCliente": 4,
+  "IdEmpresa": 4,
+  "IdAlmacen": 4,
+  "CostoTotal": 1500,
+  "CodigoProducto": "PV-001",
+  "Cantidad": 40,
+  "CostoUnitario": 19,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-24",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d6e77fb9903deebf75e"
+  },
+  "IdCliente": 5,
+  "IdEmpresa": 5,
+  "IdAlmacen": 5,
+  "CostoTotal": 2700,
+  "CodigoProducto": "EP-002",
+  "Cantidad": 20,
+  "CostoUnitario": 115,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-25",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d7e77fb9903deebf760"
+  },
+  "IdCliente": 6,
+  "IdEmpresa": 6,
+  "IdAlmacen": 6,
+  "CostoTotal": 2800,
+  "CodigoProducto": "JU-004",
+  "Cantidad": 20,
+  "CostoUnitario": 32,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-26",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d8d77fb9903deebf762"
+  },
+  "IdCliente": 7,
+  "IdEmpresa": 7,
+  "IdAlmacen": 7,
+  "CostoTotal": 2000,
+  "CodigoProducto": "OT-005",
+  "Cantidad": 10,
+  "CostoUnitario": 55,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-27",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8d9c77fb9903deebf764"
+  },
+  "IdCliente": 8,
+  "IdEmpresa": 8,
+  "IdAlmacen": 8,
+  "CostoTotal": 2400,
+  "CodigoProducto": "CT-003",
+  "Cantidad": 30,
+  "CostoUnitario": 80,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-28",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8dac77fb9903deebf766"
+  },
+  "IdCliente": 9,
+  "IdEmpresa": 9,
+  "IdAlmacen": 9,
+  "CostoTotal": 1300,
+  "CodigoProducto": "ICam-002",
+  "Cantidad": 40,
+  "CostoUnitario": 24,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-07-29",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8dbe77fb9903deebf768"
+  },
+  "IdCliente": 10,
+  "IdEmpresa": 10,
+  "IdAlmacen": 10,
+  "CostoTotal": 1600,
+  "CodigoProducto": "CO-003",
+  "Cantidad": 20,
+  "CostoUnitario": 135,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-07-30",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8dce77fb9903deebf76a"
+  },
+  "IdCliente": 11,
+  "IdEmpresa": 11,
+  "IdAlmacen": 11,
+  "CostoTotal": 2200,
+  "CodigoProducto": "GNV-002",
+  "Cantidad": 30,
+  "CostoUnitario": 33,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-07-31",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8de377fb9903deebf76c"
+  },
+  "IdCliente": 12,
+  "IdEmpresa": 12,
+  "IdAlmacen": 12,
+  "CostoTotal": 1700,
+  "CodigoProducto": "TD-002",
+  "Cantidad": 10,
+  "CostoUnitario": 65,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-01",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8df477fb9903deebf76e"
+  },
+  "IdCliente": 13,
+  "IdEmpresa": 13,
+  "IdAlmacen": 13,
+  "CostoTotal": 2100,
+  "CodigoProducto": "TNS-004",
+  "Cantidad": 20,
+  "CostoUnitario": 65,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-02",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e0c77fb9903deebf770"
+  },
+  "IdCliente": 14,
+  "IdEmpresa": 14,
+  "IdAlmacen": 14,
+  "CostoTotal": 1900,
+  "CodigoProducto": "EGI-003",
+  "Cantidad": 40,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-03",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e1a77fb9903deebf772"
+  },
+  "IdCliente": 15,
+  "IdEmpresa": 15,
+  "IdAlmacen": 15,
+  "CostoTotal": 2500,
+  "CodigoProducto": "SI-005",
+  "Cantidad": 20,
+  "CostoUnitario": 125,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-04",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e2777fb9903deebf774"
+  },
+  "IdCliente": 16,
+  "IdEmpresa": 16,
+  "IdAlmacen": 16,
+  "CostoTotal": 1500,
+  "CodigoProducto": "HHG-003",
+  "Cantidad": 30,
+  "CostoUnitario": 35,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-05",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e3677fb9903deebf776"
+  },
+  "IdCliente": 17,
+  "IdEmpresa": 17,
+  "IdAlmacen": 17,
+  "CostoTotal": 2700,
+  "CodigoProducto": "ND-004",
+  "Cantidad": 10,
+  "CostoUnitario": 70,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-06",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e4477fb9903deebf778"
+  },
+  "IdCliente": 18,
+  "IdEmpresa": 18,
+  "IdAlmacen": 18,
+  "CostoTotal": 1800,
+  "CodigoProducto": "BWE-003",
+  "Cantidad": 20,
+  "CostoUnitario": 70,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-07",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e5277fb9903deebf77a"
+  },
+  "IdCliente": 19,
+  "IdEmpresa": 19,
+  "IdAlmacen": 19,
+  "CostoTotal": 2000,
+  "CodigoProducto": "AM-001",
+  "Cantidad": 40,
+  "CostoUnitario": 26,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-01-08",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e6377fb9903deebf77c"
+  },
+  "IdCliente": 20,
+  "IdEmpresa": 20,
+  "IdAlmacen": 20,
+  "CostoTotal": 2800,
+  "CodigoProducto": "QLT-005",
+  "Cantidad": 20,
+  "CostoUnitario": 140,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-09",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e7677fb9903deebf77e"
+  },
+  "IdCliente": 21,
+  "IdEmpresa": 21,
+  "IdAlmacen": 21,
+  "CostoTotal": 1900,
+  "CodigoProducto": "MC-003",
+  "Cantidad": 30,
+  "CostoUnitario": 40,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-10",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e8577fb9903deebf780"
+  },
+  "IdCliente": 22,
+  "IdEmpresa": 22,
+  "IdAlmacen": 22,
+  "CostoTotal": 2400,
+  "CodigoProducto": "TG-001",
+  "Cantidad": 10,
+  "CostoUnitario": 75,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-11",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8e9577fb9903deebf782"
+  },
+  "IdCliente": 23,
+  "IdEmpresa": 23,
+  "IdAlmacen": 23,
+  "CostoTotal": 1700,
+  "CodigoProducto": "IS-002",
+  "Cantidad": 20,
+  "CostoUnitario": 75,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-12",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ea477fb9903deebf784"
+  },
+  "IdCliente": 24,
+  "IdEmpresa": 24,
+  "IdAlmacen": 24,
+  "CostoTotal": 2500,
+  "CodigoProducto": "GT-005",
+  "Cantidad": 40,
+  "CostoUnitario": 28,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-13",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8eb177fb9903deebf786"
+  },
+  "IdCliente": 25,
+  "IdEmpresa": 25,
+  "IdAlmacen": 25,
+  "CostoTotal": 2200,
+  "CodigoProducto": "RH-003",
+  "Cantidad": 20,
+  "CostoUnitario": 145,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-14",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ec177fb9903deebf788"
+  },
+  "IdCliente": 26,
+  "IdEmpresa": 1,
+  "IdAlmacen": 1,
+  "CostoTotal": 1600,
+  "CodigoProducto": "FF-002",
+  "Cantidad": 20,
+  "CostoUnitario": 38,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-15",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ecf77fb9903deebf78a"
+  },
+  "IdCliente": 27,
+  "IdEmpresa": 2,
+  "IdAlmacen": 2,
+  "CostoTotal": 2300,
+  "CodigoProducto": "DD-003",
+  "Cantidad": 10,
+  "CostoUnitario": 80,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-16",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ee077fb9903deebf78c"
+  },
+  "IdCliente": 28,
+  "IdEmpresa": 3,
+  "IdAlmacen": 3,
+  "CostoTotal": 1400,
+  "CodigoProducto": "IC-004",
+  "Cantidad": 30,
+  "CostoUnitario": 85,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-17",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ef177fb9903deebf78e"
+  },
+  "IdCliente": 29,
+  "IdEmpresa": 4,
+  "IdAlmacen": 4,
+  "CostoTotal": 2600,
+  "CodigoProducto": "PV-005",
+  "Cantidad": 40,
+  "CostoUnitario": 30,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-18",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f0477fb9903deebf790"
+  },
+  "IdCliente": 30,
+  "IdEmpresa": 5,
+  "IdAlmacen": 5,
+  "CostoTotal": 2000,
+  "CodigoProducto": "EP-002",
+  "Cantidad": 20,
+  "CostoUnitario": 150,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-19",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f1177fb9903deebf792"
+  },
+  "IdCliente": 31,
+  "IdEmpresa": 6,
+  "IdAlmacen": 6,
+  "CostoTotal": 2100,
+  "CodigoProducto": "JU-003",
+  "Cantidad": 30,
+  "CostoUnitario": 45,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-20",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f1d77fb9903deebf794"
+  },
+  "IdCliente": 32,
+  "IdEmpresa": 7,
+  "IdAlmacen": 7,
+  "CostoTotal": 1500,
+  "CodigoProducto": "OT-005",
+  "Cantidad": 10,
+  "CostoUnitario": 85,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-21",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f2c77fb9903deebf796"
+  },
+  "IdCliente": 33,
+  "IdEmpresa": 8,
+  "IdAlmacen": 8,
+  "CostoTotal": 2700,
+  "CodigoProducto": "CT-001",
+  "Cantidad": 20,
+  "CostoUnitario": 85,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-22",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f3b77fb9903deebf798"
+  },
+  "IdCliente": 34,
+  "IdEmpresa": 9,
+  "IdAlmacen": 9,
+  "CostoTotal": 2200,
+  "CodigoProducto": "ICam-003",
+  "Cantidad": 40,
+  "CostoUnitario": 32,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-23",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f4877fb9903deebf79a"
+  },
+  "IdCliente": 35,
+  "IdEmpresa": 10,
+  "IdAlmacen": 10,
+  "CostoTotal": 1900,
+  "CodigoProducto": "CO-002",
+  "Cantidad": 20,
+  "CostoUnitario": 155,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-24",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f5677fb9903deebf79c"
+  },
+  "IdCliente": 36,
+  "IdEmpresa": 11,
+  "IdAlmacen": 11,
+  "CostoTotal": 2500,
+  "CodigoProducto": "GNV-003",
+  "Cantidad": 20,
+  "CostoUnitario": 40,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-25",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f6377fb9903deebf79e"
+  },
+  "IdCliente": 37,
+  "IdEmpresa": 12,
+  "IdAlmacen": 12,
+  "CostoTotal": 1800,
+  "CodigoProducto": "TD-004",
+  "Cantidad": 10,
+  "CostoUnitario": 90,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-26",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f7077fb9903deebf7a0"
+  },
+  "IdCliente": 38,
+  "IdEmpresa": 13,
+  "IdAlmacen": 13,
+  "CostoTotal": 1600,
+  "CodigoProducto": "TNS-005",
+  "Cantidad": 30,
+  "CostoUnitario": 90,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-27",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f7d77fb9903deebf7a2"
+  },
+  "IdCliente": 39,
+  "IdEmpresa": 14,
+  "IdAlmacen": 14,
+  "CostoTotal": 2800,
+  "CodigoProducto": "EGI-003",
+  "Cantidad": 40,
+  "CostoUnitario": 34,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-28",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f8e77fb9903deebf7a4"
+  },
+  "IdCliente": 40,
+  "IdEmpresa": 15,
+  "IdAlmacen": 15,
+  "CostoTotal": 2000,
+  "CodigoProducto": "SI-003",
+  "Cantidad": 20,
+  "CostoUnitario": 160,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-08-29",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8f9a77fb9903deebf7a6"
+  },
+  "IdCliente": 41,
+  "IdEmpresa": 16,
+  "IdAlmacen": 16,
+  "CostoTotal": 1900,
+  "CodigoProducto": "HHG-004",
+  "Cantidad": 30,
+  "CostoUnitario": 50,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-08-30",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8fa877fb9903deebf7a8"
+  },
+  "IdCliente": 42,
+  "IdEmpresa": 17,
+  "IdAlmacen": 17,
+  "CostoTotal": 270,
+  "CodigoProducto": "ND-003",
+  "Cantidad": 50,
+  "CostoUnitario": 25,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-08-31",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8fb977fb9903deebf7aa"
+  },
+  "IdCliente": 43,
+  "IdEmpresa": 18,
+  "IdAlmacen": 18,
+  "CostoTotal": 220,
+  "CodigoProducto": "BWE-003",
+  "Cantidad": 20,
+  "CostoUnitario": 40,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-09-01",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8fc977fb9903deebf7ac"
+  },
+  "IdCliente": 44,
+  "IdEmpresa": 19,
+  "IdAlmacen": 19,
+  "CostoTotal": 150,
+  "CodigoProducto": "AM-002",
+  "Cantidad": 30,
+  "CostoUnitario": 55,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-09-02",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8fd677fb9903deebf7ae"
+  },
+  "IdCliente": 45,
+  "IdEmpresa": 20,
+  "IdAlmacen": 20,
+  "CostoTotal": 230,
+  "CodigoProducto": "QLT-001",
+  "Cantidad": 20,
+  "CostoUnitario": 18,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-09-03",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8fe577fb9903deebf7b0"
+  },
+  "IdCliente": 46,
+  "IdEmpresa": 21,
+  "IdAlmacen": 21,
+  "CostoTotal": 160,
+  "CodigoProducto": "MC-005",
+  "Cantidad": 40,
+  "CostoUnitario": 100,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-09-04",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c8ff577fb9903deebf7b2"
+  },
+  "IdCliente": 47,
+  "IdEmpresa": 22,
+  "IdAlmacen": 22,
+  "CostoTotal": 240,
+  "CodigoProducto": "TG-002",
+  "Cantidad": 20,
+  "CostoUnitario": 22,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-09-05",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c900877fb9903deebf7b4"
+  },
+  "IdCliente": 48,
+  "IdEmpresa": 23,
+  "IdAlmacen": 23,
+  "CostoTotal": 140,
+  "CodigoProducto": "IS-001",
+  "Cantidad": 60,
+  "CostoUnitario": 75,
+  "Factura": {
+    "FormaPago": "Transferencia Bancaria",
+    "Vencimiento": "2024-09-06",
+    "Pagado": false
+  }
+},
+{
+  "_id": {
+    "$oid": "666c904b77fb9903deebf7b6"
+  },
+  "IdCliente": 49,
+  "IdEmpresa": 24,
+  "IdAlmacen": 24,
+  "CostoTotal": 250,
+  "CodigoProducto": "GT-005",
+  "Cantidad": 50,
+  "CostoUnitario": 75,
+  "Factura": {
+    "FormaPago": "Cheque",
+    "Vencimiento": "2024-09-07",
+    "Pagado": true
+  }
+},
+{
+  "_id": {
+    "$oid": "666c905977fb9903deebf7b8"
+  },
+  "IdCliente": 50,
+  "IdEmpresa": 25,
+  "IdAlmacen": 25,
+  "CostoTota": 210,
+  "CodigoProducto": "RH-003",
+  "Cantidad": 80,
+  "CostoUnitario": 33,
+  "Factura": {
+    "FormaPago": "Tarjeta de Credito",
+    "Vencimiento": "2024-09-08",
+    "Pagado": true
+  }
+}]

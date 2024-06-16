@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6665e70ac8715c9d88b431ae"
+  },
+  "NombreTipoMembresia": "Bronze",
+  "Descuento": 0.03
+},
+{
+  "_id": {
+    "$oid": "6665e70ac8715c9d88b431af"
+  },
+  "NombreTipoMembresia": "Silver",
+  "Descuento": 0.05
+},
+{
+  "_id": {
+    "$oid": "6665e70ac8715c9d88b431b0"
+  },
+  "NombreTipoMembresia": "Gold",
+  "Descuento": 0.1
+},
+{
+  "_id": {
+    "$oid": "6665e70ac8715c9d88b431b1"
+  },
+  "NombreTipoMembresia": "Platinum",
+  "Descuento": 0.15
+}]
